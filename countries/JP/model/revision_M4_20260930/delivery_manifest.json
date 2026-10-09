@@ -1,0 +1,16 @@
+{
+  "countries\\JP\\model\\JP_milp_formulation.md": "0dac00a9c7fd891c642787f9638a1cd2860de3edce53ae744761469382beb612",
+  "countries\\JP\\model\\JP_activation_data_spec_M4.md": "4e961aab538b0fe6bb7c6a8393153ed14b699e64f99c71eb7da436a8920618fa",
+  "countries\\JP\\model\\JP_M3_R2_closure.md": "41b0c6db405209abf2c50daee161d9b1f74963e8b1652b171ba65b318574f09a",
+  "countries\\JP\\README.md": "55734439bf21ccad9a95e3bf5c7ccd0f7b2a5b0058a2006051a1fe1af20f3fc0",
+  "countries\\JP\\research\\README.md": "2049fe3f2498c9a7ca83ee32306354c3c4be30ac31c6a2faa378062721b88b3d",
+  "countries\\JP\\research\\model_handoff.md": "2dc9febe1b6e03a82eb2fba77de6f8169208b71704cd34d04b75b9675b28a8ba",
+  "countries\\JP\\research\\research_report.md": "975ccbd82dfd8246f8b45a80511b3991883d6d6826f64db78e2ff2d60c49cf48",
+  "project\\country_status.yaml": "5fda24382a473ca2291396d5f1257034d8065241fd490fc6154bba159023940b",
+  "countries\\JP\\model\\revision_M4_20260930\\user_spec.md": "8c3ba3f5988b0bfc50f47f8da310b6c050ba65aca19e5fc1cc7340c238c55c6f",
+  "countries\\JP\\model\\revision_M4_20260930\\checks.json": "2f0bd66bc0de681c5606ec80eb8ce4da8dd12948cd78bd416fa12d8825ab0ebc",
+  "countries\\JP\\model\\revision_M4_20260930\\check_spec.py": "6e3b26c480d54c8f2237455edc18612452946476117dc1847c7eb87b90868608",
+  "countries\\JP\\model\\revision_M4_20260930\\review_final.md": "afb1c1434da56c32c16011b4ef7c0ba55802473d2016a08aa6cd4aa1c4a3f461",
+  "countries\\JP\\model\\revision_M4_20260930\\change_log.md": "6b54d2e5cd6d7e0ab4cb128fc3c31cfe322fe675dc65d60c886069502a0ccbbe",
+  "countries\\JP\\model\\revision_M4_20260930\\source_note.md": "605d54c72564d49aea48a654c2b8032a7f281985f8179809ec989678a9cb4256"
+}

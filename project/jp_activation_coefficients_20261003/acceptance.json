@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-03",
+  "status": "PASS",
+  "scope": "Candidate activation coefficient methods and source mapping only",
+  "unresolved_review_findings": {
+    "P2": 0,
+    "P1": 0,
+    "P0": 0
+  },
+  "reviewed_sha256": "d61ea7c8b9bc9dd0cdf83e18d5153cab632f584dac0a8ea248b1f19e501b0389",
+  "delivered_sha256": "634f2913a9d5f512da1aa319bd22d3315bb9d0ef4c3955bb130479fc633d0ae3",
+  "changed_lines_after_review": [
+    3
+  ],
+  "status_only_change": true,
+  "validation": "21/21",
+  "production_implementation": false,
+  "empirical_calibration": false,
+  "solver_run": false
+}

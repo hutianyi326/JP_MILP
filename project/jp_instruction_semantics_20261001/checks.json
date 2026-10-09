@@ -1,0 +1,174 @@
+{
+  "checked_at": "2026-10-01",
+  "document_sha256": "afb3edb752c01a8074369e96a280156fae0eff25dfe7f6127b284fd75396ed1b",
+  "checks": [
+    {
+      "check": "E02_page_34",
+      "passed": true,
+      "detail": "出力変化量指令"
+    },
+    {
+      "check": "E02_page_35",
+      "passed": true,
+      "detail": "数値指令"
+    },
+    {
+      "check": "E02_page_144",
+      "passed": true,
+      "detail": "接点信号"
+    },
+    {
+      "check": "E02_page_196",
+      "passed": true,
+      "detail": "５分後"
+    },
+    {
+      "check": "E02_page_248",
+      "passed": true,
+      "detail": "合算した指令"
+    },
+    {
+      "check": "E02_page_310",
+      "passed": true,
+      "detail": "指令は行わない"
+    },
+    {
+      "check": "E02_page_329",
+      "passed": true,
+      "detail": "合成した指令信号"
+    },
+    {
+      "check": "E02_page_340",
+      "passed": true,
+      "detail": "指令方法は別表３"
+    },
+    {
+      "check": "E02_page_350",
+      "passed": true,
+      "detail": "大きい方"
+    },
+    {
+      "check": "E02_page_355",
+      "passed": true,
+      "detail": "アセスメントⅡの対象外"
+    },
+    {
+      "check": "E02_page_361",
+      "passed": true,
+      "detail": "一括"
+    },
+    {
+      "check": "E02_page_363",
+      "passed": true,
+      "detail": "協議した指令方法"
+    },
+    {
+      "check": "E03_page_241",
+      "passed": true,
+      "detail": "１パルス"
+    },
+    {
+      "check": "E03_page_397",
+      "passed": true,
+      "detail": "実出力値"
+    },
+    {
+      "check": "E04_page_21",
+      "passed": true,
+      "detail": "属地TSOと協議"
+    },
+    {
+      "check": "E04_page_23",
+      "passed": true,
+      "detail": "需要抑制計画電力"
+    },
+    {
+      "check": "nine_region_rows",
+      "passed": true,
+      "detail": [
+        "北海道",
+        "东北",
+        "东京",
+        "中部",
+        "北陆",
+        "关西",
+        "中国",
+        "四国",
+        "九州"
+      ]
+    },
+    {
+      "check": "eleven_composite_rows",
+      "passed": true,
+      "detail": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "6",
+        "8",
+        "11",
+        "12",
+        "14",
+        "17",
+        "21"
+      ]
+    },
+    {
+      "check": "absolute_example",
+      "passed": true,
+      "detail": "absolute 4 MW minus baseline 2 MW = activation 2 MW"
+    },
+    {
+      "check": "relative_example",
+      "passed": true,
+      "detail": "baseline 2 MW plus relative 4 MW = power 6 MW"
+    },
+    {
+      "check": "relative_level_repeat",
+      "passed": true,
+      "detail": "relative level 1 MW repeated stays at power 3 MW; it is not a cumulative action"
+    },
+    {
+      "check": "duplicate_baseline_example",
+      "passed": true,
+      "detail": "conditional two absolute channels sharing baseline 2 MW give 5 MW"
+    },
+    {
+      "check": "energy_relative_case",
+      "passed": true,
+      "detail": {
+        "MWh": 0.20277777777777778
+      }
+    },
+    {
+      "check": "energy_absolute_case",
+      "passed": true,
+      "detail": {
+        "MWh": 0.10277777777777777
+      }
+    },
+    {
+      "check": "energy_baseline_difference",
+      "passed": true,
+      "detail": "0.1 MWh is baseline energy over 180 seconds"
+    },
+    {
+      "check": "local_links_exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "visual_pages_exist",
+      "passed": true,
+      "detail": "six pages rendered and inspected"
+    },
+    {
+      "check": "eleven_numbered_equations",
+      "passed": true,
+      "detail": "equations 1 through 11"
+    }
+  ],
+  "passed": 28,
+  "failed": 0
+}

@@ -1,0 +1,142 @@
+{
+  "scope": "Research equations, examples, document structure and FIT key coverage; not a MILP benchmark or activation calibration",
+  "generated_at": "2026-09-30T17:35:20.004243+00:00",
+  "report_sha256": "b2eeb39e69e669ab4a1cf47bd6a04d89f9cb9a95a9dc21368afbce7521145f65",
+  "script_sha256": "db717d006f850ebb1c1fcad38d601623f96b9b6a0d5825fdf8b590d2ed8e191b",
+  "input_sha256": {
+    "countries\\JP\\research\\analysis\\rrfit_forecast_usage_30min_JST_expost.csv": "56b67e005f60afd34f7494f4bc39548cbef9d878a542b34ceddb6561f44b9354"
+  },
+  "tests": [
+    {
+      "test": "FIT exact nine-area set",
+      "passed": true,
+      "areas": [
+        "中国",
+        "中部",
+        "九州",
+        "北海道",
+        "北陸",
+        "四国",
+        "東京",
+        "東北",
+        "関西"
+      ]
+    },
+    {
+      "test": "FIT exact JST endpoints, uniqueness and continuity",
+      "passed": true,
+      "start": "2025-01-01 00:00:00",
+      "last_interval_start": "2026-08-31 23:30:00",
+      "end_exclusive": "2026-09-01 00:00:00",
+      "intervals_per_area": 29184
+    },
+    {
+      "test": "P3 rounded mixture probability",
+      "passed": true,
+      "sum_probability": 1.0000000000000004
+    },
+    {
+      "test": "F2 OU stationary moment identity",
+      "passed": true,
+      "delta_hours": 0.0002777777777777778,
+      "stationary_variance": 0.0010666666666666667
+    },
+    {
+      "test": "F4 F6 droop direction and normalized ramp",
+      "passed": true
+    },
+    {
+      "test": "K1 smoothed transition row sums",
+      "passed": true,
+      "alpha": 1,
+      "row_sums": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "test": "J5 gross-energy bound (1, 1, 0.1)",
+      "passed": true,
+      "Kmax": 0.2,
+      "U": 0.3,
+      "D": 0.2
+    },
+    {
+      "test": "J5 gross-energy bound (2, 0.7, -0.15)",
+      "passed": true,
+      "Kmax": 0.14814814814814814,
+      "U": 0.14814814814814814,
+      "D": 0.29814814814814816
+    },
+    {
+      "test": "J5 gross-energy bound (0.4, 1.6, 0.1)",
+      "passed": true,
+      "Kmax": 0.08,
+      "U": 0.18,
+      "D": 0.08000000000000007
+    },
+    {
+      "test": "J2 posterior covariance identity",
+      "passed": true
+    },
+    {
+      "test": "W2 W3 primal-dual 0.0",
+      "passed": true,
+      "epsilon": 0.0,
+      "worst_profit": 5.4,
+      "dual_profit": 5.4
+    },
+    {
+      "test": "W2 W3 primal-dual 0.3",
+      "passed": true,
+      "epsilon": 0.3,
+      "worst_profit": 2.7,
+      "dual_profit": 2.7000000000000006
+    },
+    {
+      "test": "W2 W3 primal-dual 1.5",
+      "passed": true,
+      "epsilon": 1.5,
+      "worst_profit": -2.0,
+      "dual_profit": -2.0
+    },
+    {
+      "test": "M5 M6 upward response can remain charging",
+      "passed": true,
+      "charge_mw": 0.30000000000000004,
+      "SOC_change_MWh": 0.13800000000000004
+    },
+    {
+      "test": "M4 EFC uses usable energy",
+      "passed": true,
+      "usable_MWh": 0.8,
+      "nominal_MWh": 1.0,
+      "EFC": 0.08625000000000002
+    },
+    {
+      "test": "Unique equation tags",
+      "passed": true,
+      "equation_count": 45
+    },
+    {
+      "test": "Display-math delimiter pairs",
+      "passed": true
+    },
+    {
+      "test": "Complete numbered sections",
+      "passed": true
+    },
+    {
+      "test": "Local document links",
+      "passed": true,
+      "broken_links": []
+    },
+    {
+      "test": "Old snapshot unchanged",
+      "passed": true
+    }
+  ],
+  "passed": 20,
+  "failed": 0
+}

@@ -1,0 +1,14 @@
+{
+  "version": "M3",
+  "review": "PASS",
+  "implementation_approved": false,
+  "historical_backtest_approved": false,
+  "files": {
+    "model/JP_milp_formulation.md": "fb1be0f7eedc40fd8251de84148785a30aecff391677b5892d7af74ec166f546",
+    "project/japan_research/milp_M3_user_baseline_20260929.md": "49c6fab1794a313dc1947c3fdecaa995800c4d8550436336d36662409b8cf19d",
+    "project/japan_research/milp_M3_review_final.md": "06e390bbb73f2f3c74b92b6f4c1110ed2d3d2e2832330367dd2ea170e95e8b46",
+    "project/japan_research/milp_M3_checks.json": "f583861dc8f66b9da128b4f6cdb65fc01ea80b35a0e90263d1a552010afaa26e",
+    "project/japan_research/milp_review_initial/JP_milp_formulation_M3_reviewed.md": "d4cf955d132530c5aeb41f502cca2879d3bfa5d32c7014c03feff487f11fd67e",
+    "project/japan_research/milp_review_initial/JP_milp_formulation_M2_R1_before_M3.md": "90c8fdb308a84aa90562aba11cdc4452b16bec441c606572cdeb4b6f3eba1c14"
+  }
+}

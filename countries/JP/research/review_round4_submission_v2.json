@@ -1,0 +1,73 @@
+{
+  "captured_at_UTC": "2026-09-28T17:42:47.705969+00:00",
+  "files": [
+    {
+      "path": "project/japan_research/research_report.md",
+      "sha256": "2042c7b6c6ee18d61b2008c208cd883767e9f4b4a30753a9999d25785ae2b018"
+    },
+    {
+      "path": "project/japan_research/model_handoff.md",
+      "sha256": "1ee448605f11b78709a6c269abba47925ef9c48eb89a3fd11c5f35d1360e5548"
+    },
+    {
+      "path": "project/japan_research/revision_round3.md",
+      "sha256": "a925245c60ba8489c2910d6aa5cc06c3174ca7796ce6c84c91e696dce56f8cbb"
+    },
+    {
+      "path": "project/japan_research/auction_comparison_round3.md",
+      "sha256": "973ae316ab3b381a09c33941be2398d0b78bc434e3017cb4be615caca8314100"
+    },
+    {
+      "path": "project/japan_research/regional_closure_round3.md",
+      "sha256": "5cdf61c06e8434ec34e6a66078aca7ec039e4598a64b1257e1277252a739a339"
+    },
+    {
+      "path": "project/japan_research/settlement_branches.md",
+      "sha256": "12c2356808eadbbf39b64901ffbb302b7a5e3a4da59a3221b4d37d0fb5420d45"
+    },
+    {
+      "path": "project/japan_research/capacity_mechanisms_revision.md",
+      "sha256": "482b87dee3849e6a2ea95b72b2c715fe67f4e1e2e8bab9396001c10eed2ab8d7"
+    },
+    {
+      "path": "project/japan_research/validation_report.md",
+      "sha256": "2a1dad55ceb17cf63cb6cf5d4424a543ac02df20fcd6b8e0345bf2974ab76c9e"
+    },
+    {
+      "path": "project/japan_research/review_round3_brief.md",
+      "sha256": "ceebf497349c2e7d4446562ef22cef66c4d573b2e4efc69e54b22fa48089f38d"
+    },
+    {
+      "path": "countries/JP/auction_data_semantics_round3.md",
+      "sha256": "05c648ddc4914b57af2f80273b4065da26f343aedc835c06268705114a6398b1"
+    },
+    {
+      "path": "countries/JP/boundary_closure_round3.md",
+      "sha256": "a962efb633af18c0a3f93a96b92c56b1402c3eb2ba7b4a4f499b14a8d3a995a8"
+    },
+    {
+      "path": "countries/JP/capacity_closure_round3.md",
+      "sha256": "cdd24b26f0b8c89cd229287e2df42df518e11ac17f948658607bdfd200e6aff0"
+    },
+    {
+      "path": "countries/JP/history_closure_round3.md",
+      "sha256": "1580ba39da890ed901472c3b4f2798fdd01190b852efd1807134fb4217b85b34"
+    },
+    {
+      "path": "countries/JP/storage_tariff_round3.md",
+      "sha256": "2235f5e1493b71f46c6d9b204086e4754eceafeff35ae18bbc32b3f09128124e"
+    },
+    {
+      "path": "countries/JP/history_settlement_revision_20260928.md",
+      "sha256": "8a583aade823f6e8dde37761360ee3445aacc32794a416563832ab54775d8671"
+    },
+    {
+      "path": "project/japan_research/revision_round4.md",
+      "sha256": "4e81d8cd7af65349e60869fb3d95973809d5265d7f37eefac41c1f19d8cf3828"
+    },
+    {
+      "path": "project/japan_research/evidence_register.md",
+      "sha256": "fb429128c61ba9222e01949432ba0b0dabc297f6dae860f7f71ba7f4be5f979a"
+    }
+  ]
+}

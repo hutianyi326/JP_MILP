@@ -1,0 +1,21 @@
+{
+  "captured_at_UTC": "2026-09-28T18:16:10.357707+00:00",
+  "files": [
+    {
+      "path": "model/JP_milp_formulation.md",
+      "sha256": "648710f0cf3d23deb48fb71c948220fce4f1f9e9853832e6b8f25cd8f40b3156"
+    },
+    {
+      "path": "project/japan_research/milp_review_brief.md",
+      "sha256": "7a8c51b59036d6c06df3aad33955fd76c445f037fcfbdcb74674fc7f89729868"
+    },
+    {
+      "path": "project/japan_research/milp_document_checks.json",
+      "sha256": "54918347f51464ddb93af5299153ab60e24ed428ef778a8d6df3f0af4d64a899"
+    },
+    {
+      "path": "project/japan_research/review_round4_result.md",
+      "sha256": "caac8d71714c7bae210e20b9bc6928da0d893efd3821d58d9bff95bbc3f8834c"
+    }
+  ]
+}

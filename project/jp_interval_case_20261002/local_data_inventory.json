@@ -1,0 +1,2748 @@
+{
+  "scope": [
+    "data\\raw\\JP",
+    "countries\\JP",
+    "project\\jp_activation_downloads_20261001",
+    "project\\jp_activation_methods_20261001",
+    "project\\jp_instruction_semantics_20261001",
+    "project\\jp_research_consolidation_20261002"
+  ],
+  "files": 348,
+  "csv": 293,
+  "zip": 41,
+  "xlsx": 14,
+  "keyword_hits": [
+    {
+      "path": "countries\\JP\\research\\evidence\\E44_9719038ce86f.xlsx",
+      "candidate_summary": "[]"
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E45_abfd207c589b.xlsx",
+      "candidate_summary": "[]"
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E46_5eadb8c42e66.xlsx",
+      "candidate_summary": "[]"
+    }
+  ],
+  "entries": [
+    {
+      "path": "countries\\JP\\data\\raw\\capacity_round3\\2024_main_stable.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": false
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\capacity_round3\\2024_procure_battery.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": false
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\capacity_round3\\2024_procure_stable.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": false
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\capacity_round3\\2024_release_stable.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": false
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\capacity_round3\\2025_main_stable.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": false
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\capacity_round3\\2025_procure_battery.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": false
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\capacity_round3\\2026_main_stable.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": false
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\capacity_round3\\2026_procure_battery.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": false
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\capacity_round3\\2026_replace_from_battery.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": false
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\capacity_round3\\2026_replace_to_battery.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": false
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\enecho_ep002_2025_1-2.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": false
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E18_manifest.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E41_caa6c5462aa3.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20241128(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240328(20240401).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240426(20240501).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240530(20240601).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20240930(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240328(20240401).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240426(20240501).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240530(20240601).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240328(20240401).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240426(20240501).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240530(20240601).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20241016(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20240319(20240401).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20240924(20241001).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20241010(20241101).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20241021(20241101).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20241126(20241101).csv",
+        "2024_Requirement_archive/2024_Requirement_20240319(20240401).csv",
+        "2024_Requirement_archive/2024_Requirement_20240924(20241001).csv",
+        "2024_Requirement_archive/2024_Requirement_20241010(20241101).csv",
+        "2024_Requirement_archive/2024_Requirement_20241021(20241101).csv",
+        "2024_Requirement_archive/2024_Requirement_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_Requirement_20241126(20241101).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20241128(20241101).csv",
+        "2024_Requirement_archive/2024_Requirement_20241128(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaReliableRequirementTable_3sigmaCap_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaRequirementTable_3sigmaCap_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaRequirementTable_3sigmaReliableCap_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20250122(20250201).csv",
+        "2024_Requirement_archive/2024_Requirement_20250122(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaRequirementTable_3sigmaCap_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaRequirementTable_3sigmaCap_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20250212(20250301).csv",
+        "2024_Requirement_archive/2024_Requirement_20250212(20250301).csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E42_ac2e09dd8a0f.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2025_Requirement_archive/",
+        "2025_Requirement_archive/2025_3-2_(1σ-1σ)1σReliableRequirementTable_3σCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-1σ)1σReliableRequirementTable_3σReliableCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-1σ)1σRequirementTable_3σCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-1σ)1σRequirementTable_3σReliableCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-3σ)1σReliableRequirementTable_3σCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-3σ)1σReliableRequirementTable_3σReliableCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-3σ)1σRequirementTable_3σCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-3σ)1σRequirementTable_3σReliableCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(3σ-1σ)3σAdditionalRequirementTable_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(3σ-3σ)3σAdditionalRequirementTable_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(3σ-3σ)3σReliableRequirementTable_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(3σ-3σ)3σRequirementTable_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20251022(20251023).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20251022(20251023).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20251022(20251023).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250930(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20250306(20250401).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20250319(20250401).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20251009(20251101).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20251023(20251101).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20251029(20251101).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20260204(20260210).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20260309(20260314).csv",
+        "2025_Requirement_archive/2025_OffMarketDeduction_20250606(20250614).csv",
+        "2025_Requirement_archive/2025_OffMarketDeduction_20250613(20250621).csv",
+        "2025_Requirement_archive/2025_OffMarketDeduction_20250711(20250719).csv",
+        "2025_Requirement_archive/2025_OffMarketDeduction_20251009(20251101).csv",
+        "2025_Requirement_archive/2025_OffMarketDeduction_20260108(20260117).csv",
+        "2025_Requirement_archive/2025_Requirement_20250306(20250401).csv",
+        "2025_Requirement_archive/2025_Requirement_20250319(20250401).csv",
+        "2025_Requirement_archive/2025_Requirement_20250418(20250426).csv",
+        "2025_Requirement_archive/2025_Requirement_20250827(20250906).csv",
+        "2025_Requirement_archive/2025_Requirement_20251009(20251101).csv",
+        "2025_Requirement_archive/2025_Requirement_20251023(20251101).csv",
+        "2025_Requirement_archive/2025_Requirement_20251029(20251101).csv",
+        "2025_Requirement_archive/2025_Requirement_20260108(20260117).csv",
+        "2025_Requirement_archive/2025_Requirement_20260204(20260210).csv",
+        "2025_Requirement_archive/2025_Requirement_20260220(20260301).csv",
+        "2025_Requirement_archive/2025_Requirement_20260302(20260307).csv",
+        "2025_Requirement_archive/2025_Requirement_20260309(20260314).csv",
+        "2025_Requirement_archive/2025_Requirement_20260317(20260318).csv",
+        "2025_Requirement_archive/2025_Requirement_20260324(20260325).csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E43_063cf39a51e6.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2026_Requirement_archive/",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σReliableCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σReliableCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σReliableCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σReliableCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σReliableCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σReliableCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σReliableCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σReliableCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σCap_20260421(20260422).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σReliableCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σReliableCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σReliableCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σReliableCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σReliableCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σReliableCap_20260421(20260422).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σReliableCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σReliableCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σReliableCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-1σ)3σAdditionalRequirementTable_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-1σ)3σAdditionalRequirementTable_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-1σ)3σAdditionalRequirementTable_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-1σ)3σAdditionalRequirementTable_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σAdditionalRequirementTable_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σAdditionalRequirementTable_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σAdditionalRequirementTable_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σAdditionalRequirementTable_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σReliableRequirementTable_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σReliableRequirementTable_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σReliableRequirementTable_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σReliableRequirementTable_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σRequirementTable_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σRequirementTable_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σRequirementTable_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σRequirementTable_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_ReductionFactor_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_ReductionFactor_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_ReductionFactor_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_ReductionFactor_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_AdditionalRequirement_20260309(20260401).csv",
+        "2026_Requirement_archive/2026_AdditionalRequirement_20260904(20261001).csv",
+        "2026_Requirement_archive/2026_Requirement_20260309(20260401).csv",
+        "2026_Requirement_archive/2026_Requirement_20260904(20261001).csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_2024_1-1_result.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202404_1-1_result.csv",
+        "202405_1-1_result.csv",
+        "202406_1-1_result.csv",
+        "202407_1-1_result.csv",
+        "202408_1-1_result.csv",
+        "202409_1-1_result.csv",
+        "202410_1-1_result.csv",
+        "202411_1-1_result.csv",
+        "202412_1-1_result.csv",
+        "202501_1-1_result.csv",
+        "202502_1-1_result.csv",
+        "202503_1-1_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_2025_1-1_result.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2025_1-1_result/202504_1-1_result.csv",
+        "2025_1-1_result/202505_1-1_result.csv",
+        "2025_1-1_result/202506_1-1_result.csv",
+        "2025_1-1_result/202507_1-1_result.csv",
+        "2025_1-1_result/202508_1-1_result.csv",
+        "2025_1-1_result/202509_1-1_result.csv",
+        "2025_1-1_result/202510_1-1_result.csv",
+        "2025_1-1_result/202511_1-1_result.csv",
+        "2025_1-1_result/202512_1-1_result.csv",
+        "2025_1-1_result/202601_1-1_result.csv",
+        "2025_1-1_result/202602_1-1_result.csv",
+        "2025_1-1_result/202603_1-1_0301-0313_result.csv",
+        "2025_1-1_result/202603_1-1_0314-0331_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_2026_1-1_prompt.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202604_1-1_prompt.csv",
+        "202605_1-1_prompt.csv",
+        "202606_1-1_prompt.csv",
+        "202607_1-1_prompt.csv",
+        "202608_1-1_prompt.csv",
+        "202609_1-1_prompt.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_2026_1-1_result.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2026_1-1_result/",
+        "2026_1-1_result/202604_1-1_result.csv",
+        "2026_1-1_result/202605_1-1_result.csv",
+        "2026_1-1_result/202606_1-1_result.csv",
+        "2026_1-1_result/202607_1-1_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_offline_archive_inventory.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_offline_cap_effective_timeseries.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_offline_cap_scope_inventory.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_offline_cap_scope_timeseries.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2024_1-1_result\\202404_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2024_1-1_result\\202405_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2024_1-1_result\\202406_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2024_1-1_result\\202407_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2024_1-1_result\\202408_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2024_1-1_result\\202409_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2024_1-1_result\\202410_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2024_1-1_result\\202411_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2024_1-1_result\\202412_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2024_1-1_result\\202501_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2024_1-1_result\\202502_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2024_1-1_result\\202503_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202504_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202505_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202506_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202507_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202508_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202509_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202510_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202511_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202512_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202601_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202602_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202603_1-1_0301-0313_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2025_1-1_result\\2025_1-1_result\\202603_1-1_0314-0331_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2026_1-1_prompt\\202604_1-1_prompt.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2026_1-1_prompt\\202605_1-1_prompt.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2026_1-1_prompt\\202606_1-1_prompt.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2026_1-1_prompt\\202607_1-1_prompt.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2026_1-1_prompt\\202608_1-1_prompt.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2026_1-1_prompt\\202609_1-1_prompt.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2026_1-1_result\\2026_1-1_result\\202604_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2026_1-1_result\\2026_1-1_result\\202605_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2026_1-1_result\\2026_1-1_result\\202606_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\E58_unpacked\\E58_2026_1-1_result\\2026_1-1_result\\202607_1-1_result.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\sha256.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\data\\raw\\history_round3\\sources_manifest.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\organization_20260930\\before_path_edits\\project\\japan_research\\source_inventory.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\balance_check_DIAGNOSTIC.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\calendar_JST.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\data_lineage.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\daytype_statistics_DIAGNOSTIC.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\eprx_archive_member_inventory.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\eprx_awards_area_monthly.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\eprx_awards_native_blocks_expost.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\event_comparison_DIAGNOSTIC.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\field_quality.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\fuel_statistics_DIAGNOSTIC.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\fundamental_coverage.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\fundamental_statistics_DIAGNOSTIC.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\fundamentals_30min_DIAGNOSTIC.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\imbalance_30min_JST_expost.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\imbalance_statistics.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\imbalance_vintages.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\installed_mix_DIAGNOSTIC.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\intraday_30min_JST_expost.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\intraday_statistics.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\load_duration_DIAGNOSTIC.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\monthly_daily_profiles_DIAGNOSTIC.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\netload_price_bins_DIAGNOSTIC.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\price_correlation.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\price_daily.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\price_monthly.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\price_statistics.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\requirement_archive_inventory.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\requirement_template_2026_AprAug_v20260309.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\requirement_template_statistics.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\rrfit_forecast_usage_30min_JST_expost.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\rrfit_forecast_usage_monthly.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\single_bid_award_monthly_rawunit.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\analysis\\spot_30min_JST_expost.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\D09C_9a826943d797.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E41_caa6c5462aa3.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20241128(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240328(20240401).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240426(20240501).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240530(20240601).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20240930(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240328(20240401).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240426(20240501).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240530(20240601).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_ReliableRequirementTable_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240328(20240401).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240426(20240501).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240530(20240601).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240628(20240701).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240729(20240801).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240828(20240901).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20240927(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20241016(20241001).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_RequirementTable_20241127(20241201).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20240319(20240401).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20240924(20241001).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20241010(20241101).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20241021(20241101).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20241126(20241101).csv",
+        "2024_Requirement_archive/2024_Requirement_20240319(20240401).csv",
+        "2024_Requirement_archive/2024_Requirement_20240924(20241001).csv",
+        "2024_Requirement_archive/2024_Requirement_20241010(20241101).csv",
+        "2024_Requirement_archive/2024_Requirement_20241021(20241101).csv",
+        "2024_Requirement_archive/2024_Requirement_20241030(20241101).csv",
+        "2024_Requirement_archive/2024_Requirement_20241126(20241101).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20241128(20241101).csv",
+        "2024_Requirement_archive/2024_Requirement_20241128(20241101).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaReliableRequirementTable_3sigmaCap_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaRequirementTable_3sigmaCap_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaRequirementTable_3sigmaReliableCap_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20241227(20250101).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20250122(20250201).csv",
+        "2024_Requirement_archive/2024_Requirement_20250122(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaRequirementTable_3sigmaCap_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20250129(20250201).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaRequirementTable_3sigmaCap_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaGroupRequirementTable_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaReliableRequirementTable_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_3sigmaRequirementTable_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_AdditionalRequirementTable_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_GroupRequirementTable_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_3-2_ReductionFactor_20250227(20250301).csv",
+        "2024_Requirement_archive/2024_AdditionalRequirement_20250212(20250301).csv",
+        "2024_Requirement_archive/2024_Requirement_20250212(20250301).csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E42_ac2e09dd8a0f.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2025_Requirement_archive/",
+        "2025_Requirement_archive/2025_3-2_(1σ-1σ)1σReliableRequirementTable_3σCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-1σ)1σReliableRequirementTable_3σReliableCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-1σ)1σRequirementTable_3σCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-1σ)1σRequirementTable_3σReliableCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-3σ)1σReliableRequirementTable_3σCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-3σ)1σReliableRequirementTable_3σReliableCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-3σ)1σRequirementTable_3σCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(1σ-3σ)1σRequirementTable_3σReliableCap_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(3σ-1σ)3σAdditionalRequirementTable_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(3σ-3σ)3σAdditionalRequirementTable_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(3σ-3σ)3σReliableRequirementTable_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_(3σ-3σ)3σRequirementTable_20260312(20260314).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaCap_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaReliableRequirementTable_3sigmaReliableCap_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20251022(20251023).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaCap_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20251022(20251023).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_1sigmaRequirementTable_3sigmaReliableCap_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaReliableRequirementTable_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_3sigmaRequirementTable_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20251022(20251023).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_AdditionalRequirementTable_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250327(20250401).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250428(20250501).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250529(20250601).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250627(20250701).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250730(20250801).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250828(20250901).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250929(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20250930(20251001).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20251030(20251101).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20251128(20251201).csv",
+        "2025_Requirement_archive/2025_3-2_ReductionFactor_20260227(20260301).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20250306(20250401).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20250319(20250401).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20251009(20251101).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20251023(20251101).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20251029(20251101).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20260204(20260210).csv",
+        "2025_Requirement_archive/2025_AdditionalRequirement_20260309(20260314).csv",
+        "2025_Requirement_archive/2025_OffMarketDeduction_20250606(20250614).csv",
+        "2025_Requirement_archive/2025_OffMarketDeduction_20250613(20250621).csv",
+        "2025_Requirement_archive/2025_OffMarketDeduction_20250711(20250719).csv",
+        "2025_Requirement_archive/2025_OffMarketDeduction_20251009(20251101).csv",
+        "2025_Requirement_archive/2025_OffMarketDeduction_20260108(20260117).csv",
+        "2025_Requirement_archive/2025_Requirement_20250306(20250401).csv",
+        "2025_Requirement_archive/2025_Requirement_20250319(20250401).csv",
+        "2025_Requirement_archive/2025_Requirement_20250418(20250426).csv",
+        "2025_Requirement_archive/2025_Requirement_20250827(20250906).csv",
+        "2025_Requirement_archive/2025_Requirement_20251009(20251101).csv",
+        "2025_Requirement_archive/2025_Requirement_20251023(20251101).csv",
+        "2025_Requirement_archive/2025_Requirement_20251029(20251101).csv",
+        "2025_Requirement_archive/2025_Requirement_20260108(20260117).csv",
+        "2025_Requirement_archive/2025_Requirement_20260204(20260210).csv",
+        "2025_Requirement_archive/2025_Requirement_20260220(20260301).csv",
+        "2025_Requirement_archive/2025_Requirement_20260302(20260307).csv",
+        "2025_Requirement_archive/2025_Requirement_20260309(20260314).csv",
+        "2025_Requirement_archive/2025_Requirement_20260317(20260318).csv",
+        "2025_Requirement_archive/2025_Requirement_20260324(20260325).csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E43_063cf39a51e6.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2026_Requirement_archive/",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σReliableCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σReliableCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σReliableCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σReliableRequirementTable_3σReliableCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σReliableCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σReliableCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σReliableCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-1σ)1σRequirementTable_3σReliableCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σCap_20260421(20260422).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σReliableCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σReliableCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σReliableCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σReliableRequirementTable_3σReliableCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σReliableCap_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σReliableCap_20260421(20260422).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σReliableCap_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σReliableCap_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(1σ-3σ)1σRequirementTable_3σReliableCap_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-1σ)3σAdditionalRequirementTable_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-1σ)3σAdditionalRequirementTable_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-1σ)3σAdditionalRequirementTable_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-1σ)3σAdditionalRequirementTable_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σAdditionalRequirementTable_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σAdditionalRequirementTable_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σAdditionalRequirementTable_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σAdditionalRequirementTable_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σReliableRequirementTable_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σReliableRequirementTable_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σReliableRequirementTable_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σReliableRequirementTable_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σRequirementTable_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σRequirementTable_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σRequirementTable_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_(3σ-3σ)3σRequirementTable_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_3-2_ReductionFactor_20260330(20260401).csv",
+        "2026_Requirement_archive/2026_3-2_ReductionFactor_20260428(20260501).csv",
+        "2026_Requirement_archive/2026_3-2_ReductionFactor_20260528(20260601).csv",
+        "2026_Requirement_archive/2026_3-2_ReductionFactor_20260730(20260801).csv",
+        "2026_Requirement_archive/2026_AdditionalRequirement_20260309(20260401).csv",
+        "2026_Requirement_archive/2026_AdditionalRequirement_20260904(20261001).csv",
+        "2026_Requirement_archive/2026_Requirement_20260309(20260401).csv",
+        "2026_Requirement_archive/2026_Requirement_20260904(20261001).csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E44_9719038ce86f.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": true
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E45_abfd207c589b.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": true
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E46_5eadb8c42e66.xlsx",
+      "extension": ".xlsx",
+      "candidates": [],
+      "has_EDC_or_instruction_text": true
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E51_83f90ddbf34e.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E52_292a0c3513d6.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E53_f5f2c54b82fc.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E55_a718334d77e9.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E56_0698cef9be81.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\E57_0b061348f5e9.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA24C_db53d2bab623.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202405_4-0_result.csv",
+        "202404_4-0_result.csv",
+        "202406_4-0_result.csv",
+        "202408_4-0_result.csv",
+        "202409_4-0_result.csv",
+        "202407_4-0_result.csv",
+        "202410_4-0_result.csv",
+        "202411_4-0_result.csv",
+        "202412_4-0_result.csv",
+        "202501_4-0_result.csv",
+        "202502_4-0_result.csv",
+        "202503_4-0_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA24F_1c58c58ac740.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202405_1-0_result.csv",
+        "202404_1-0_result.csv",
+        "202406_1-0_result.csv",
+        "202407_1-0_result.csv",
+        "202408_1-0_result.csv",
+        "202409_1-0_result.csv",
+        "202410_1-0_result.csv",
+        "202411_1-0_result.csv",
+        "202412_1-0_result.csv",
+        "202501_1-0_result.csv",
+        "202502_1-0_result.csv",
+        "202503_1-0_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA24R_4261052d3fc5.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202404_3-2_result.csv",
+        "202405_3-2_result.csv",
+        "202406_3-2_result.csv",
+        "202407_3-2_result.csv",
+        "202408_3-2_result.csv",
+        "202409_3-2_result.csv",
+        "202410_3-2_result.csv",
+        "202411_3-2_result.csv",
+        "202412_3-2_result.csv",
+        "202501_3-2_result.csv",
+        "202502_3-2_result.csv",
+        "202503_3-2_0301-0313_result.csv",
+        "202503_3-2_0314-0331_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA24S1_fdd21ec97054.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202405_2-1_result.csv",
+        "202404_2-1_result.csv",
+        "202406_2-1_result.csv",
+        "202407_2-1_result.csv",
+        "202408_2-1_result.csv",
+        "202409_2-1_result.csv",
+        "202410_2-1_result.csv",
+        "202411_2-1_result.csv",
+        "202412_2-1_result.csv",
+        "202501_2-1_result.csv",
+        "202502_2-1_result.csv",
+        "202503_2-1_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA24S2_e1e74748e608.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202405_2-2_result.csv",
+        "202404_2-2_result.csv",
+        "202406_2-2_result.csv",
+        "202408_2-2_result.csv",
+        "202409_2-2_result.csv",
+        "202407_2-2_result.csv",
+        "202410_2-2_result.csv",
+        "202411_2-2_result.csv",
+        "202412_2-2_result.csv",
+        "202501_2-2_result.csv",
+        "202502_2-2_result.csv",
+        "202503_2-2_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA24T1_0dee40d346c2.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202405_3-1_result.csv",
+        "202404_3-1_result.csv",
+        "202406_3-1_result.csv",
+        "202408_3-1_result.csv",
+        "202409_3-1_result.csv",
+        "202407_3-1_result.csv",
+        "202410_3-1_result.csv",
+        "202411_3-1_result.csv",
+        "202412_3-1_result.csv",
+        "202501_3-1_result.csv",
+        "202502_3-1_result.csv",
+        "202503_3-1_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA25C_071f2a29467b.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2025_4-0_result/202504_4-0_result.csv",
+        "2025_4-0_result/202505_4-0_result.csv",
+        "2025_4-0_result/202506_4-0_result.csv",
+        "2025_4-0_result/202507_4-0_result.csv",
+        "2025_4-0_result/202508_4-0_result.csv",
+        "2025_4-0_result/202509_4-0_result.csv",
+        "2025_4-0_result/202510_4-0_result.csv",
+        "2025_4-0_result/202511_4-0_result.csv",
+        "2025_4-0_result/202512_4-0_result.csv",
+        "2025_4-0_result/202601_4-0_result.csv",
+        "2025_4-0_result/202602_4-0_result.csv",
+        "2025_4-0_result/202603_4-0_0301-0313_result.csv",
+        "2025_4-0_result/202603_4-0_0314-0331_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA25F_4e3a96a0ca58.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2025_1-0_result/202504_1-0_result.csv",
+        "2025_1-0_result/202505_1-0_result.csv",
+        "2025_1-0_result/202506_1-0_result.csv",
+        "2025_1-0_result/202507_1-0_result.csv",
+        "2025_1-0_result/202508_1-0_result.csv",
+        "2025_1-0_result/202509_1-0_result.csv",
+        "2025_1-0_result/202510_1-0_result.csv",
+        "2025_1-0_result/202511_1-0_result.csv",
+        "2025_1-0_result/202512_1-0_result.csv",
+        "2025_1-0_result/202601_1-0_result.csv",
+        "2025_1-0_result/202602_1-0_result.csv",
+        "2025_1-0_result/202603_1-0_0301-0313_result.csv",
+        "2025_1-0_result/202603_1-0_0314-0331_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA25R_597f787bdc79.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2025_3-2_result/202504_3-2_result.csv",
+        "2025_3-2_result/202505_3-2_result.csv",
+        "2025_3-2_result/202506_3-2_result.csv",
+        "2025_3-2_result/202507_3-2_result.csv",
+        "2025_3-2_result/202508_3-2_result.csv",
+        "2025_3-2_result/202509_3-2_result.csv",
+        "2025_3-2_result/202510_3-2_result.csv",
+        "2025_3-2_result/202511_3-2_result.csv",
+        "2025_3-2_result/202512_3-2_result.csv",
+        "2025_3-2_result/202601_3-2_result.csv",
+        "2025_3-2_result/202602_3-2_result.csv",
+        "2025_3-2_result/202603_3-2_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA25S1_c18e974ed900.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2025_2-1_result/202504_2-1_result.csv",
+        "2025_2-1_result/202505_2-1_result.csv",
+        "2025_2-1_result/202506_2-1_result.csv",
+        "2025_2-1_result/202507_2-1_result.csv",
+        "2025_2-1_result/202508_2-1_result.csv",
+        "2025_2-1_result/202509_2-1_result.csv",
+        "2025_2-1_result/202510_2-1_result.csv",
+        "2025_2-1_result/202511_2-1_result.csv",
+        "2025_2-1_result/202512_2-1_result.csv",
+        "2025_2-1_result/202601_2-1_result.csv",
+        "2025_2-1_result/202602_2-1_result.csv",
+        "2025_2-1_result/202603_2-1_0301-0313_result.csv",
+        "2025_2-1_result/202603_2-1_0314-0331_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA25S2_a160fce94110.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2025_2-2_result/202504_2-2_result.csv",
+        "2025_2-2_result/202505_2-2_result.csv",
+        "2025_2-2_result/202506_2-2_result.csv",
+        "2025_2-2_result/202507_2-2_result.csv",
+        "2025_2-2_result/202508_2-2_result.csv",
+        "2025_2-2_result/202509_2-2_result.csv",
+        "2025_2-2_result/202510_2-2_result.csv",
+        "2025_2-2_result/202511_2-2_result.csv",
+        "2025_2-2_result/202512_2-2_result.csv",
+        "2025_2-2_result/202601_2-2_result.csv",
+        "2025_2-2_result/202602_2-2_result.csv",
+        "2025_2-2_result/202603_2-2_0301-0313_result.csv",
+        "2025_2-2_result/202603_2-2_0314-0331_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA25T1_008f1abcd06c.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2025_3-1_result/202504_3-1_result.csv",
+        "2025_3-1_result/202505_3-1_result.csv",
+        "2025_3-1_result/202506_3-1_result.csv",
+        "2025_3-1_result/202507_3-1_result.csv",
+        "2025_3-1_result/202508_3-1_result.csv",
+        "2025_3-1_result/202509_3-1_result.csv",
+        "2025_3-1_result/202510_3-1_result.csv",
+        "2025_3-1_result/202511_3-1_result.csv",
+        "2025_3-1_result/202512_3-1_result.csv",
+        "2025_3-1_result/202601_3-1_result.csv",
+        "2025_3-1_result/202602_3-1_result.csv",
+        "2025_3-1_result/202603_3-1_0301-0313_result.csv",
+        "2025_3-1_result/202603_3-1_0314-0331_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA26C_0872df0abc42.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2026_4-0_result/",
+        "2026_4-0_result/202604_4-0_result.csv",
+        "2026_4-0_result/202605_4-0_result.csv",
+        "2026_4-0_result/202606_4-0_result.csv",
+        "2026_4-0_result/202607_4-0_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA26F_64c0107b1b5b.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2026_1-0_result/",
+        "2026_1-0_result/202604_1-0_result.csv",
+        "2026_1-0_result/202605_1-0_result.csv",
+        "2026_1-0_result/202606_1-0_result.csv",
+        "2026_1-0_result/202607_1-0_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA26R_5a9882f6db60.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2026_3-2_result/",
+        "2026_3-2_result/202604_3-2_result.csv",
+        "2026_3-2_result/202605_3-2_result.csv",
+        "2026_3-2_result/202606_3-2_result.csv",
+        "2026_3-2_result/202607_3-2_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA26S1_5d0171247995.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2026_2-1_result/",
+        "2026_2-1_result/202604_2-1_result.csv",
+        "2026_2-1_result/202605_2-1_result.csv",
+        "2026_2-1_result/202606_2-1_result.csv",
+        "2026_2-1_result/202607_2-1_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA26S2_f2de9c1daadf.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2026_2-2_result/",
+        "2026_2-2_result/202604_2-2_result.csv",
+        "2026_2-2_result/202605_2-2_result.csv",
+        "2026_2-2_result/202606_2-2_result.csv",
+        "2026_2-2_result/202607_2-2_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EA26T1_020e1bebf204.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "2026_3-1_result/",
+        "2026_3-1_result/202604_3-1_result.csv",
+        "2026_3-1_result/202605_3-1_result.csv",
+        "2026_3-1_result/202606_3-1_result.csv",
+        "2026_3-1_result/202607_3-1_result.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EP26C_3b283d0de43d.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202604_4-0_prompt.csv",
+        "202605_4-0_prompt.csv",
+        "202606_4-0_prompt.csv",
+        "202607_4-0_prompt.csv",
+        "202608_4-0_prompt.csv",
+        "202609_4-0_prompt.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EP26F_d19044c9a0a5.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202604_1-0_prompt.csv",
+        "202605_1-0_prompt.csv",
+        "202606_1-0_prompt.csv",
+        "202607_1-0_prompt.csv",
+        "202608_1-0_prompt.csv",
+        "202609_1-0_prompt.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EP26R_4a55bf57a401.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202604_3-2_prompt.csv",
+        "202605_3-2_prompt.csv",
+        "202606_3-2_prompt.csv",
+        "202607_3-2_prompt.csv",
+        "202608_3-2_prompt.csv",
+        "202609_3-2_prompt.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EP26S1_cf331ba10ae4.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202604_2-1_prompt.csv",
+        "202605_2-1_prompt.csv",
+        "202606_2-1_prompt.csv",
+        "202607_2-1_prompt.csv",
+        "202608_2-1_prompt.csv",
+        "202609_2-1_prompt.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EP26S2_b51e53a91113.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202604_2-2_prompt.csv",
+        "202605_2-2_prompt.csv",
+        "202606_2-2_prompt.csv",
+        "202607_2-2_prompt.csv",
+        "202608_2-2_prompt.csv",
+        "202609_2-2_prompt.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\EP26T1_c5749c38ae4d.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "202604_3-1_prompt.csv",
+        "202605_3-1_prompt.csv",
+        "202606_3-1_prompt.csv",
+        "202607_3-1_prompt.csv",
+        "202608_3-1_prompt.csv",
+        "202609_3-1_prompt.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\H02_cec37a743c96.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202501_74eed2c47823.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202502_b2b4b4586653.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202503_174739831ff7.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202504_3d689ddd008b.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202505_d7de002ade0d.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202506_787b4132afd7.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202507_72026f3e640f.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202508_950257af1997.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202509_99f57aa61b7d.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202510_f0bf756b7972.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202511_529edef6a42b.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202512_1dfb8dd16597.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202601_82bee65a9148.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202602_535cfeb1c22a.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202603_2a1cd25db762.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202604_d73012f08372.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202605_05dbb811d2d9.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202606_883cb0a543d2.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202607_76ad3891ddda.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\IB_202608_085a756e57b0.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\J08_8f5d7f796b1a.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\J09_141b6ede21a5.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\J10_f6c5ab4cee06.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\J16_70a83a9b1fe4.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\J17_370a2af00639.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\J18_8c20a02ac039.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\JS2024_e3b0c44298fc.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\JS2025_e3b0c44298fc.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\JS2026_e3b0c44298fc.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202501_be9028a67e43.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202502_350dea2fa034.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202503_d762a4d196dd.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202504_73a3f3cd312a.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202505_17a01bc268c3.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202506_59e4a527912d.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202507_21e5b19e6331.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202508_df5cfab9d14b.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202509_951c14d46a64.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202510_27f71b6e6f86.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202511_87dd6ca2ce6f.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202512_103e338bd0c3.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202601_8928c204fe34.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202602_1f1676ae4237.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202603_337331a597fb.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202604_f7b7ca9338dd.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202605_0a80d2edb798.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202606_86d31a14e7af.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202607_b1e2ceaeb07b.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS01_202608_e395cf90531d.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202501_cbea3bed46b2.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202502_e40c61b7efc8.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202503_3c357524b9f4.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202504_57e9d0ee90ef.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202505_9695ef718124.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202506_bc1de1106058.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202507_3921b03fac8c.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202508_647843028844.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202509_1c4c60673c1e.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202510_abd2cf33d1c5.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202511_486b04152934.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202512_10ff05602f96.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202601_1ff3e4fd5d2d.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202602_7e1af984359f.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202603_d73204c97ed7.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202604_3d10775c7ee2.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202605_78f725acffd6.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202606_8f6721fbb615.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202607_d52fdecb6d0f.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS02_202608_14e02b3c1d67.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202501_bbcd4c0995b2.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202502_849d762ea3e2.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202503_3948bb5f1aa9.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202504_45d310fb51ef.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202505_821636f22c31.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202506_fd12e5b2034a.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202507_065a61d9f92e.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202508_d0873e058047.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202509_20e9b6473b45.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202510_22be391ac1ad.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202511_8a46f8ee8304.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202512_b726956e4e2b.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202601_af6e103d2a18.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202602_0ed5e0b1c632.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202603_540a14c242bf.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202604_23d7a2310b7e.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202605_319f6809df7d.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202606_b923acfbb026.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202607_38fe5914dc46.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS03_202608_054a12b9d500.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS04_2024R_a7956417303b.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "eria_jukyu_202410_04.csv",
+        "eria_jukyu_202408_04.csv",
+        "eria_jukyu_202409_04.csv",
+        "eria_jukyu_202406_04.csv",
+        "eria_jukyu_202407_04.csv",
+        "eria_jukyu_202404_04.csv",
+        "eria_jukyu_202503_04.csv",
+        "eria_jukyu_202405_04.csv",
+        "eria_jukyu_202501_04.csv",
+        "eria_jukyu_202502_04.csv",
+        "eria_jukyu_202411_04.csv",
+        "eria_jukyu_202412_04.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS04_2025_8ef8369731eb.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "eria_jukyu_202509_04.csv",
+        "eria_jukyu_202507_04.csv",
+        "eria_jukyu_202508_04.csv",
+        "eria_jukyu_202505_04.csv",
+        "eria_jukyu_202506_04.csv",
+        "eria_jukyu_202602_04.csv",
+        "eria_jukyu_202504_04.csv",
+        "eria_jukyu_202603_04.csv",
+        "eria_jukyu_202512_04.csv",
+        "eria_jukyu_202601_04.csv",
+        "eria_jukyu_202510_04.csv",
+        "eria_jukyu_202511_04.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS04_2026_0ada38f7e59d.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "eria_jukyu_202608_04.csv",
+        "eria_jukyu_202606_04.csv",
+        "eria_jukyu_202607_04.csv",
+        "eria_jukyu_202604_04.csv",
+        "eria_jukyu_202605_04.csv"
+      ]
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202501_084e1ee2d3e2.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202502_44fbc81d2748.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202503_ecdd7ce6d60e.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202504_cbcdff372621.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202505_56705a7203b8.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202506_217aa52d73cc.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202507_d1cee19635e3.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202508_dfb8608d3cfd.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202509_2557dafb0404.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202510_19e8c374415b.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202511_90644fea1a16.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202512_969ad344f535.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202601_08c971534411.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202602_1c2fabf247d5.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202603_858f86b2b37b.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202604_d86b16926264.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202605_160079e3d01d.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202606_462794d9440d.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202607_bf08749ef45d.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS05_202608_f23acd975180.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202501_6ae74722a194.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202502_7557b12cc7e9.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202503_f1bda7bdef1d.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202504_14197a659133.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202505_b320f4b924a2.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202506_080ea56ca7fd.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202507_ae9c2fe4b92d.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202508_b4322942721c.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202509_38bfe5984c08.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202510_00492530c207.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202511_aaa4d143bb2f.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202512_f18b72bef29f.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202601_682671a69bee.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202602_e489e48c77e2.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202603_c334d139e771.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202604_6863f1399c3d.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202605_08edd075a0e8.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202606_3be9449d106e.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202607_96eb20b681ba.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS06_202608_219216e43d21.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202501_9e557decc7c9.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202502_dc7bc74f80c4.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202503_8fe40357f08a.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202504_cc12c21de4b1.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202505_e1869d89a9b2.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202506_01265f48932a.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202507_31e43da3db63.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202508_8c0a0aedb063.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202509_74da5fc448dc.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202510_ba58d32756ce.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202511_1c8884b62cae.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202512_9c3d2fc510bc.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202601_838b52616b04.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202602_16ec7d464dcd.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202603_5e2f55becdf5.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202604_6ae3daa30a9e.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202605_b5abe3fa906f.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202606_6459356855a5.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202607_4e547947fdf4.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS07_202608_515cb711e022.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202501_7264222ac6cd.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202502_3be3027f2427.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202503_c58d8fb0c4ab.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202504_74c6109cd1e4.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202505_60ffa3fb1c23.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202506_31e8de7068be.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202507_7110cceef95c.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202508_e1eb2d141230.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202509_57147a5d4e11.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202510_75a45de3abf0.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202511_9ac6b2b18ee9.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202512_b71122cbbbd0.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202601_94f00a5c2746.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202602_605642f9fc29.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202603_bfaf7df29ba5.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202604_7e9a7979614c.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202605_ffb4de3bc916.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202606_7853ac77fcdf.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202607_d019a79de9fa.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS08_202608_172844d65040.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202501_fcb4c0ee45d2.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202502_2f28fda07814.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202503_92818da262a7.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202504_7156eb36e35b.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202505_2ed86b3b0be4.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202506_aa942c680e00.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202507_033fcb0a8758.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202508_773294913e3c.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202509_f68480b4efe4.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202510_7f364de0c25c.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202511_c1c87fe38e08.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202512_7cc2476f339e.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202601_0b316ed048a3.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202602_0f47c7b74110.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202603_d79ed956ad70.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202604_5b4f74df3b7a.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202605_3368cd93f4ab.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202606_4411bb4f765f.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202607_16630f8ec121.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\evidence\\TS09_202608_0d152d1ad8a7.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\review_initial\\fuel_statistics_DIAGNOSTIC.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\review_initial\\fundamental_statistics_DIAGNOSTIC.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "countries\\JP\\research\\source_inventory.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "data\\raw\\JP\\activation_sources_20261001\\ics_basis_202606.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_LFC_shikoku_202604.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_LFC_shikoku_202605.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_LFC_shikoku_202606.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_LFC_shikoku_202607.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_LFC_shikoku_202608.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_2024.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "jukyu_shikoku_2024/jukyu_shikoku_202404.csv",
+        "jukyu_shikoku_2024/jukyu_shikoku_202405.csv",
+        "jukyu_shikoku_2024/jukyu_shikoku_202406.csv",
+        "jukyu_shikoku_2024/jukyu_shikoku_202407.csv",
+        "jukyu_shikoku_2024/jukyu_shikoku_202408.csv",
+        "jukyu_shikoku_2024/jukyu_shikoku_202409.csv",
+        "jukyu_shikoku_2024/jukyu_shikoku_202410.csv",
+        "jukyu_shikoku_2024/jukyu_shikoku_202411.csv",
+        "jukyu_shikoku_2024/jukyu_shikoku_202412.csv",
+        "jukyu_shikoku_2024/jukyu_shikoku_202501.csv",
+        "jukyu_shikoku_2024/jukyu_shikoku_202502.csv",
+        "jukyu_shikoku_2024/jukyu_shikoku_202503.csv"
+      ]
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_2025.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "jukyu_shikoku_2025/jukyu_shikoku_202504.csv",
+        "jukyu_shikoku_2025/jukyu_shikoku_202505.csv",
+        "jukyu_shikoku_2025/jukyu_shikoku_202506.csv",
+        "jukyu_shikoku_2025/jukyu_shikoku_202507.csv",
+        "jukyu_shikoku_2025/jukyu_shikoku_202508.csv",
+        "jukyu_shikoku_2025/jukyu_shikoku_202509.csv",
+        "jukyu_shikoku_2025/jukyu_shikoku_202510.csv",
+        "jukyu_shikoku_2025/jukyu_shikoku_202511.csv",
+        "jukyu_shikoku_2025/jukyu_shikoku_202512.csv",
+        "jukyu_shikoku_2025/jukyu_shikoku_202601.csv",
+        "jukyu_shikoku_2025/jukyu_shikoku_202602.csv",
+        "jukyu_shikoku_2025/jukyu_shikoku_202603.csv"
+      ]
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_202604.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_202605.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_202606.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_202607.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_202608.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "project\\jp_activation_downloads_20261001\\samples\\chubu_202606_1dd2bb48e097.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "project\\jp_activation_downloads_20261001\\samples\\kansai_202606_66d7037097dd.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "jukyu_kansai_202606.csv",
+        "jukyu_LFC_kansai_202606.csv"
+      ]
+    },
+    {
+      "path": "project\\jp_activation_downloads_20261001\\samples\\kyushu_jukyu_202606_259b239ae928.zip",
+      "extension": ".zip",
+      "candidates": [],
+      "members": [
+        "11120_TSO9_0_202606_20260812132500030.csv"
+      ]
+    },
+    {
+      "path": "project\\jp_activation_downloads_20261001\\samples\\kyushu_lfc_202606_4c5f53588b32.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "project\\jp_activation_downloads_20261001\\samples\\kyushu_lfc_index_4781f257e6ee.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "project\\jp_activation_downloads_20261001\\samples\\shikoku_202606_ab0c4180c7b5.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "project\\jp_activation_downloads_20261001\\samples\\tohoku_202606_32acbd9ee395.csv",
+      "extension": ".csv",
+      "candidates": []
+    },
+    {
+      "path": "project\\jp_activation_methods_20261001\\fit_proxy_diagnostics.csv",
+      "extension": ".csv",
+      "candidates": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[
+ {"id":"J03","url":"https://www.jepx.jp/js/spot_summary.js"},
+ {"id":"J04","url":"https://www.jepx.jp/electricpower/outline/pdf/tr_rules.pdf"},
+ {"id":"J05","url":"https://www.jepx.jp/electricpower/outline/pdf/tr_rules_dtl.pdf"},
+ {"id":"D01","url":"https://www.hepco.co.jp/network/con_service/public_document/supply_demand_results/index.html"},
+ {"id":"D02","url":"https://setsuden.nw.tohoku-epco.co.jp/realtime_jukyu.html"},
+ {"id":"D03","url":"https://www.tepco.co.jp/forecast/html/area_jukyu-j.html"},
+ {"id":"D04","url":"https://powergrid.chuden.co.jp/denkiyoho/"},
+ {"id":"D05","url":"https://www.rikuden.co.jp/nw/denki-yoho/results_jyukyu.html"},
+ {"id":"D06","url":"https://www.kansai-td.co.jp/denkiyoho/area-performance/index.html"},
+ {"id":"D07","url":"https://www.energia.co.jp/nw/jukyuu/eria_jukyu.html"},
+ {"id":"D08","url":"https://www.yonden.co.jp/nw/supply_demand/"},
+ {"id":"D09","url":"https://www.kyuden.co.jp/td_area_jukyu/jukyu.html"},
+ {"id":"E05","url":"https://www.eprx.or.jp/outline/docs/shouhin_ver.6_20260313.pdf"},
+ {"id":"O02","url":"https://www.occto.or.jp/various/capacity-market/jitsujukyukanren/2025_boshuyoukou_long.html"},
+ {"id":"O03","url":"https://www.occto.or.jp/assets/market-board/market/oshirase/2025/files/202509_youryou_syousaisetsumei_long.pdf"},
+ {"id":"M02","url":"https://www.enecho.meti.go.jp/statistics/electric_power/ep002/results.html"},
+ {"id":"E06","url":"https://www.eprx.or.jp/outline/meeting.html"},
+ {"id":"E07","url":"https://www.eprx.or.jp/contact/jukyuchoseishijo/faq.html"},
+ {"id":"I01","url":"https://www.tepco.co.jp/forecast/html/imbalanceprices-j.html"}
+]

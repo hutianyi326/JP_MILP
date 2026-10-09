@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-04",
+  "passed": true,
+  "checks": {
+    "section13_preserved": true,
+    "confirmed_section_present": true,
+    "state_interface_present": true,
+    "four_cases_six_orders_each": true,
+    "decision_record_exists": true
+  },
+  "examples": [
+    {
+      "baseline_mw": -2,
+      "capacity_mw": 1,
+      "A_mwh": 0.95,
+      "B_mwh": 0.01,
+      "loss_mwh": 0.050000000000000044,
+      "passed": true
+    },
+    {
+      "baseline_mw": -2,
+      "capacity_mw": 3,
+      "A_mwh": 1.045,
+      "B_mwh": 0.11869565217391304,
+      "loss_mwh": 0.06369565217391308,
+      "passed": true
+    },
+    {
+      "baseline_mw": 0.3,
+      "capacity_mw": 1,
+      "A_mwh": 0.06649999999999999,
+      "B_mwh": 0.24913043478260868,
+      "loss_mwh": 0.022630434782608684,
+      "passed": true
+    },
+    {
+      "baseline_mw": 2,
+      "capacity_mw": 1,
+      "A_mwh": 0.0,
+      "B_mwh": 1.0969565217391304,
+      "loss_mwh": 0.08695652173913038,
+      "passed": true
+    }
+  ],
+  "scope": "algebra and finite illustrative state checks; no solver, no empirical quadrature convergence, no independent review",
+  "files": [
+    {
+      "path": "countries/JP/model/JP_milp_formulation.md",
+      "sha256": "4025cf67ffdb39ed163edf0c65fca962ed836798114e36d7146e78b75ee1b20a"
+    },
+    {
+      "path": "countries/JP/model/JP_activation_data_spec_M4.md",
+      "sha256": "6610f7d189215607e3355e01b30083f9e13ca1bd1c7ff93134a726df095c2c80"
+    }
+  ]
+}

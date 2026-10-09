@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-02",
+  "scope": "ACT-REV-01 citation correction and batch-status updates; core rules/formulae/data unchanged",
+  "passed": 4,
+  "total": 4,
+  "checks": [
+    {
+      "check": "relative_links",
+      "passed": true,
+      "count": 260,
+      "missing": []
+    },
+    {
+      "check": "ACT_REV_01_exact_section",
+      "passed": true
+    },
+    {
+      "check": "explicit_batch_pass_and_scope",
+      "passed": true
+    },
+    {
+      "check": "original_review_snapshot_hashes",
+      "passed": true
+    }
+  ],
+  "files": [
+    {
+      "path": "countries\\JP\\research\\research_report.md",
+      "sha256": "78922be9070f797b142cf9646a8f6243dae7e6e7c3af7b99d22fcb2a8d075805"
+    },
+    {
+      "path": "countries\\JP\\research\\evidence_register.md",
+      "sha256": "9977c1b947845636193c33a7782a13761a0dbb3af0ed309c02e49d92c1c45534"
+    },
+    {
+      "path": "countries\\JP\\research\\README.md",
+      "sha256": "87fa56621fd3db3f32bbcb6bf95f97599c8800bc551551e0794652421f941e72"
+    },
+    {
+      "path": "countries\\JP\\research\\model_handoff.md",
+      "sha256": "68e4ec4a55be402b20851f7e9cf5f4f2d85603266a64b75a0bdb86cf90a162e9"
+    },
+    {
+      "path": "project\\jp_research_consolidation_20261002\\补充记录.md",
+      "sha256": "15da4f81f83e8edd3169f88685d276eae46a298162aae5cacf256617365848aa"
+    }
+  ],
+  "diffs": [
+    {
+      "path": "countries\\JP\\research\\research_report.md",
+      "diff": "--- research_report.md initial\n\n+++ research_report.md revised\n\n@@ -7 +7 @@\n\n-> 2026-10-02激活指令与报价组合补充：JP-05新增八部分，汇总本次对话及既有专题证据；本批次已做主线程来源、算例与引用检查，**尚未独立审核，不继承2026-09-30研究PASS，也不变更正式M4或实施门禁**。来源定位见证据登记“2026-10-02激活指令与报价组合”；遗留设备协议问题见JP-05补充第8部分。\n+> 2026-10-02激活指令与报价组合补充：JP-05新增八部分，汇总本次对话及既有专题证据；本批次经独立审核**PASS（研究汇总范围）**，结论与修订见[本批次审核](../../../project/jp_research_consolidation_20261002/review_20261002.md)；不继承2026-09-30研究PASS，也不变更正式M4或实施门禁。来源定位见证据登记“2026-10-02激活指令与报价组合”；遗留设备协议问题见JP-05补充第8部分。"
+    },
+    {
+      "path": "countries\\JP\\research\\evidence_register.md",
+      "diff": "--- evidence_register.md initial\n\n+++ evidence_register.md revised\n\n@@ -173 +173 @@\n\n-本登记服务于主报告JP-05补充1—8。规则事实、研究解释、条件算例和未知协议在正文分别标记；本批次未新增独立审核结论。下列访问日指实际既有访问，不将本次汇总日冒充全部来源的重新下载日。2026-10-02重查[EPRX发布入口](https://www.eprx.or.jp/outline/announcement.html)第43—50行，仍列2026-07-01实施规程/指南及2026-03-14实施储能指南；直接重开v18和OCCTO资料2的浏览请求失败，规则定位使用既有官方原件和已登记专题证据，不声称本次重新下载成功。\n+本登记服务于主报告JP-05补充1—8。规则事实、研究解释、条件算例和未知协议在正文分别标记；本批次已独立审核PASS（限研究汇总），见[审核记录](../../../project/jp_research_consolidation_20261002/review_20261002.md)。下列访问日指实际既有访问，不将本次汇总日冒充全部来源的重新下载日。2026-10-02重查[EPRX发布入口](https://www.eprx.or.jp/outline/announcement.html)第43—50行，仍列2026-07-01实施规程/指南及2026-03-14实施储能指南；直接重开v18和OCCTO资料2的浏览请求失败，规则定位使用既有官方原件和已登记专题证据，不声称本次重新下载成功。\n@@ -185 +185 @@\n\n-| ACT26-R6 / 设备专题A3 | 四国电力送配电《需給調整市場について》 | 整页日期未标，设备分界资料2023-12-01；访问2026-10-01 | “需給調整市場に係る専用線オンライン化工事申込”段，工事、试验、通信路线及个案费用 | [官方网页](https://www.yonden.co.jp/nw/supply_adjustment_market/) / [既有核查](../../../project/jp_instruction_semantics_20261001/储能指令方式选择与设备接入影响.md) |\n+| ACT26-R6 / 设备专题A3 | 四国电力送配电《需給調整市場について》 | 整页日期未标，设备分界资料2023-12-01；访问2026-10-01 | “専用線オンライン化工事について”段（2026-10-02审核重新访问的网页行98—113），工事、试验、原则複ルート及个案费用/工期 | [官方网页](https://www.yonden.co.jp/nw/supply_adjustment_market/) / [既有核查](../../../project/jp_instruction_semantics_20261001/储能指令方式选择与设备接入影响.md) |"
+    },
+    {
+      "path": "countries\\JP\\research\\README.md",
+      "diff": "--- README.md initial\n\n+++ README.md revised\n\n@@ -9 +9 @@\n\n-> 最新研究补充（2026-10-02）：[主报告JP-05](research_report.md)已汇总激活指令与报价组合八部分。本批次完成主线程文档检查，尚未独立审核；下文各次PASS只覆盖各自原交付，不覆盖此次补充，也不改变正式M4及实施门禁。\n+> 最新研究补充（2026-10-02）：[主报告JP-05](research_report.md)已汇总激活指令与报价组合八部分。本批次已独立审核PASS（限研究汇总），见[本批次审核](../../../project/jp_research_consolidation_20261002/review_20261002.md)；下文各次PASS仍只覆盖各自原交付，本批次不改变正式M4及实施门禁。"
+    },
+    {
+      "path": "countries\\JP\\research\\model_handoff.md",
+      "diff": "--- model_handoff.md initial\n\n+++ model_handoff.md revised\n\n@@ -5 +5 @@\n\n-> 2026-10-02新增研究交接：本页下方新增“激活指令与组合接口”内容，尚未独立审核。旧研究/数学PASS及现有批准状态不覆盖本批次接口建议；不据此启用新组合、修改正式M4或进入收益回测。\n+> 2026-10-02新增研究交接：本页下方新增“激活指令与组合接口”内容已独立审核PASS（限研究交接），见[本批次审核](../../../project/jp_research_consolidation_20261002/review_20261002.md)。该PASS不批准启用新组合、修改正式M4或进入收益回测。"
+    },
+    {
+      "path": "project\\jp_research_consolidation_20261002\\补充记录.md",
+      "diff": "--- 补充记录.md initial\n\n+++ 补充记录.md revised\n\n@@ -3 +3 @@\n\n-日期：2026-10-02。用户已确认八部分范围及目标为日本主研究报告；主线程执行本次跨专题汇总，并在该授权范围内修改研究目录。状态：文档补充完成，主线程核验结果见本目录`validation.json`；本批次尚未独立审核，不继承旧PASS，不修改国家阶段、正式MILP、生产代码或原始数据。\n+日期：2026-10-02。用户已确认八部分范围及目标为日本主研究报告；主线程执行本次跨专题汇总，并在该授权范围内修改研究目录。状态：本批次独立审核PASS（限研究汇总），[审核记录](review_20261002.md)保留初审问题及修订复核；不继承旧PASS，不修改国家阶段、正式MILP、生产代码或原始数据。`validation.json`记录初审版本检查；[修订后检查](validation_after_review.json)记录当前五份交付。\n@@ -31 +31 @@\n\n-原有专题的历史状态保留；其中激活方法条件数学规格已有独立审核，指令/工程/下载专题及此次汇总不据此自动获PASS。本次用户授权的文档补充完成，不代表研究输入已全部可用于生产回测。\n+原有专题的历史状态保留；其中激活方法条件数学规格的旧PASS不自动覆盖指令/工程/下载专题。本次汇总已另行独立审核PASS，仍不代表研究输入已全部可用于生产回测。审核员只读；主线程修复ACT-REV-01（四国网页段落定位），并更新四份研究文件的批次状态。修改前五份交付及原检查保存在review_initial目录；核心规则、公式和数据解释未改变。"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "classification": "SYNTHETIC_DEVICE_REAL_REGIONAL_DATA_NOT_PROJECT_REVENUE",
+  "package": "data\\processed\\JP\\shikoku_full_run_k1_v5",
+  "metadata": {
+    "assumption_sha256": "537f900a6d8ab905f26403ab3c5d5fa7485b50ca77e7f680d639943341c0287e",
+    "assembly_code_sha256": "00f1c5806fa06c2c755ad69854b4bdd0815059a8b9da35fa4be4bc4926a2b2ca",
+    "shared_binding_code_sha256": "ec4f8a8079074e8f0d902029b2c9d3c21639873389e12ea3c97a789e1e30e3b3",
+    "references": {
+      "lfc_reference_proxy_mw": 515.019295529194,
+      "edc_reference_proxy_mw": 2493.376,
+      "fit_halfhours": 11616,
+      "fit_scope": "FULL_FORMAL_EX_POST",
+      "is_observed_callable_capacity": false,
+      "lfc_k": 1.0
+    },
+    "source_manifest_sha256": "e050c96b4a80631725b8fce413d45e6d4f377200686be000548f97a8c03a8a47",
+    "solver_code_sha256": "4dc0c3ed00b6ee6ec16db762adb9183dd7ecb77984b79afe7c4318ccb4002b0e"
+  },
+  "lfc_k": 1.0,
+  "sensitivity_runs": false,
+  "preflight": {
+    "HV_SPOT_FCR": {
+      "intervals": 11664,
+      "blocks": 8784,
+      "spot_orders": 11664,
+      "asset_sha256": "ad9687a9f192f464904db348f6c17af43f8506507d643ab54e7202241d50a85d",
+      "input_sha256": "237ba5c1612b9111d1b22d29c082388627978feb82e7e81e9f9f6c3e21e85157",
+      "status": "READY_FOR_CONDITIONAL_SOLVE"
+    },
+    "HV_SPOT_S1_T1": {
+      "intervals": 11664,
+      "blocks": 8784,
+      "spot_orders": 11664,
+      "asset_sha256": "ad9687a9f192f464904db348f6c17af43f8506507d643ab54e7202241d50a85d",
+      "input_sha256": "7945b28fdf194285d7a79fb9d5c86d9a1cbecc84908834ebf97664c5cfd670bc",
+      "status": "READY_FOR_CONDITIONAL_SOLVE"
+    }
+  },
+  "integrations": {
+    "HV_SPOT_FCR/weekly_gate": {
+      "status": "PASS",
+      "scope": "ONE_WEEKLY_GATE_WINDOW",
+      "output": "outputs\\JP\\full_period_validation_18706f149524432e8dfa90aa19d78903",
+      "executed_intervals": 48,
+      "windows": 1,
+      "max_variables": 29153,
+      "solver_seconds": 15.44793469994329,
+      "end_soc_mwh": 20.0,
+      "solver_gaps": [
+        6.745632512551627e-12
+      ],
+      "presolve_rechecks": 0,
+      "nonzero_capacity_orders": 56
+    },
+    "HV_SPOT_FCR/march_reform": {
+      "status": "PASS",
+      "scope": "COMPLETE_BOUNDARY_ROLL",
+      "output": "outputs\\JP\\full_period_validation_e6848d9d7e6942628817e45243c896f8",
+      "executed_intervals": 144,
+      "windows": 3,
+      "max_variables": 5545,
+      "solver_seconds": 28.753410700010136,
+      "end_soc_mwh": 20.0,
+      "solver_gaps": [
+        4.9581517692620436e-11,
+        6.156038688161077e-07,
+        2.3757967749270822e-07
+      ],
+      "presolve_rechecks": 1,
+      "nonzero_capacity_orders": 59
+    },
+    "HV_SPOT_FCR/july_version": {
+      "status": "PASS",
+      "scope": "COMPLETE_BOUNDARY_ROLL",
+      "output": "outputs\\JP\\full_period_validation_75faff79a84b4a90af28bc4c52ef0c15",
+      "executed_intervals": 96,
+      "windows": 2,
+      "max_variables": 5545,
+      "solver_seconds": 1.5167447002604604,
+      "end_soc_mwh": 20.0,
+      "solver_gaps": [
+        2.1474989240484638e-07,
+        1.9543272657830343e-16
+      ],
+      "presolve_rechecks": 1,
+      "nonzero_capacity_orders": 81
+    },
+    "HV_SPOT_S1_T1/weekly_gate": {
+      "status": "PASS",
+      "scope": "ONE_WEEKLY_GATE_WINDOW",
+      "output": "outputs\\JP\\full_period_validation_ad1e7c4a1c39489f91457c0fe7e92c6d",
+      "executed_intervals": 48,
+      "windows": 1,
+      "max_variables": 25449,
+      "solver_seconds": 18.931552399881184,
+      "end_soc_mwh": 20.0,
+      "solver_gaps": [
+        0.0
+      ],
+      "presolve_rechecks": 0,
+      "nonzero_capacity_orders": 54
+    },
+    "HV_SPOT_S1_T1/march_reform": {
+      "status": "PASS",
+      "scope": "COMPLETE_BOUNDARY_ROLL",
+      "output": "outputs\\JP\\full_period_validation_df45955a955b48fd9d16fdd931f5ffea",
+      "executed_intervals": 144,
+      "windows": 3,
+      "max_variables": 4929,
+      "solver_seconds": 5.962640200043097,
+      "end_soc_mwh": 20.0,
+      "solver_gaps": [
+        0.0,
+        2.2669917273303186e-10,
+        2.4507442026931016e-07
+      ],
+      "presolve_rechecks": 0,
+      "nonzero_capacity_orders": 48
+    },
+    "HV_SPOT_S1_T1/july_version": {
+      "status": "PASS",
+      "scope": "COMPLETE_BOUNDARY_ROLL",
+      "output": "outputs\\JP\\full_period_validation_9bafdbba72a3472bbe569bdf032df11b",
+      "executed_intervals": 96,
+      "windows": 2,
+      "max_variables": 5089,
+      "solver_seconds": 1.78319129999727,
+      "end_soc_mwh": 20.0,
+      "solver_gaps": [
+        0.0,
+        2.9957270085067993e-07
+      ],
+      "presolve_rechecks": 0,
+      "nonzero_capacity_orders": 81
+    }
+  },
+  "status": "PASS"
+}

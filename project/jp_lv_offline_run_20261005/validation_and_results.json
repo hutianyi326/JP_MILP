@@ -1,0 +1,1842 @@
+{
+  "status": "PASS",
+  "scenario": "LV_FCR_OFFLINE",
+  "formal_period": "2026-01-01/2026-08-30 JST",
+  "days": 242,
+  "formal_halfhours": 11616,
+  "cash": {
+    "spot_jpy": -682935.9478113261,
+    "capacity_jpy": 108025614.83,
+    "activation_jpy": 0.0,
+    "total_jpy": 107342678.88218868,
+    "efc": 31.480690729711817,
+    "conversion_loss_mwh": 39.94489035895144,
+    "charge_mwh": 260.0578799409205,
+    "discharge_mwh": 220.11298958229497,
+    "activation_up_mwh": 227.2764436101733,
+    "activation_down_mwh": 204.1736442270393
+  },
+  "initial_soc_mwh": 4.0,
+  "end_soc_mwh": 4.0,
+  "average_committed_mw": 0.7065316804407635,
+  "bid_halfhours": 4165,
+  "source_valid_price_halfhours": 4519,
+  "annual_budget_efc": 397.8082191780822,
+  "max_gap": 0.0009322749105542718,
+  "solver_seconds": 953.169281800976,
+  "seed_seconds": 40.98535339976661,
+  "time_limited_windows": 1,
+  "time_limited_attempts": 1,
+  "max_bound_roundoff_jpy": 1.1175870895385742e-08,
+  "original_ordinary_F_proxy_total_jpy": 70394998.43359359,
+  "difference_from_ordinary_F_proxy_jpy": 36947680.44859509,
+  "classification": "EX_POST_CONDITIONAL_DAILY_ROLLING_NOT_REAL_EXECUTABLE_PROFIT_OR_STRICT_GLOBAL_UPPER_BOUND",
+  "no_source_award_policy": "NO_OBSERVED_OFFLINE_PRICE_DISABLE_NEW_OFFERS_NOT_AN_OFFICIAL_BAN",
+  "output": "outputs\\JP\\lv_offline_20261005_v2\\LV_FCR",
+  "manifest_sha256": "dae46e1e9439225d6a2bce65acec489032ffa3fb98df15c747beb1cb50b4eed3",
+  "last_transaction_sha256": "cb36fbd8a409762ea079fae3af3a896d495872ee0623d3888e7267d3a592966b",
+  "validation_code_sha256": "fffcf0d63f8e186311878fe5918d8def2cffd5697cce4052beedb66701b7c96b",
+  "solver_transitions": [
+    {
+      "previous": {
+        "scenario": "LV_FCR",
+        "runtime_sha256": "6583ce9d9f908616704858d24071fc69109f2714bbea98633642eca783ba9ef5",
+        "assumption_sha256": "537f900a6d8ab905f26403ab3c5d5fa7485b50ca77e7f680d639943341c0287e",
+        "source_metadata": {
+          "assumption_sha256": "537f900a6d8ab905f26403ab3c5d5fa7485b50ca77e7f680d639943341c0287e",
+          "assembly_code_sha256": "00f1c5806fa06c2c755ad69854b4bdd0815059a8b9da35fa4be4bc4926a2b2ca",
+          "shared_binding_code_sha256": "ec4f8a8079074e8f0d902029b2c9d3c21639873389e12ea3c97a789e1e30e3b3",
+          "references": {
+            "lfc_reference_proxy_mw": 515.019295529194,
+            "edc_reference_proxy_mw": 2493.376,
+            "fit_halfhours": 11616,
+            "fit_scope": "FULL_FORMAL_EX_POST",
+            "is_observed_callable_capacity": false,
+            "lfc_k": 1.0
+          },
+          "source_manifest_sha256": "e050c96b4a80631725b8fce413d45e6d4f377200686be000548f97a8c03a8a47",
+          "solver_code_sha256": "4dc0c3ed00b6ee6ec16db762adb9183dd7ecb77984b79afe7c4318ccb4002b0e",
+          "ev_offline_binding": {
+            "package_manifest": {
+              "version": "EV_OFFLINE_1_1_SOURCE_FINAL_PRIORITY_V1",
+              "market_product": "F_OFFLINE",
+              "area": "四国",
+              "timezone": "Asia/Tokyo",
+              "formal_start": "2026-01-01T00:00:00+09:00",
+              "formal_end_exclusive": "2026-08-31T00:00:00+09:00",
+              "observation_halfhours": 48,
+              "no_trade_policy": "DISABLE_NEW_OFFER_WITHOUT_OBSERVED_SOURCE_OFFLINE_PRICE; NOT_PROOF_OF_NO_MARKET_OPPORTUNITY",
+              "missing_policy": "Positive source award without valid price or absent timestamp: NOT_READY; no ordinary F fallback",
+              "price_policy": "Final total source-region average first, prompt source-region average only if final absent; aggregate historical proxy",
+              "source_manifest": "data\\raw\\JP\\ev_offline_20261005\\source_manifest_20261005T121855565892Z.json",
+              "source_manifest_sha256": "88fb40d2a41edd9e9166d89601cac23a60cbe0e2ba958f002260194a07102259",
+              "build_code_sha256": "3b41838dcfc4b726688eeb5b158f8ddf92ba32800043b9adf940997884d8a144",
+              "files": {
+                "coverage_and_monthly_prices.json": "4760d8233f6788a830caae3c3e4b369f45c6e3aa91da44ea90c40634f7d02009",
+                "offline_30min.csv": "733aa8024903410e068f727df1acb3bf330c313d8cb9346357808eec8819901e",
+                "offline_30min.json": "278ea42d5c1581e283d863b92b00d8aaaf696187d382952e669bea0f198f0613",
+                "offline_native_blocks.csv": "da0178ac06596f81c30e8b73b4440136da8748206c730e57466d9f625610a335",
+                "offline_native_blocks.json": "e8acebd5739a0bd0974f872ad951c73b328e1f609d49b80f885a6fb71c5c8e82"
+              }
+            },
+            "package_manifest_sha256": "af1ed0b9444a987a43a9e4beffddf7cf6e7d5cd76bd619744fbb5d56048b677b",
+            "binding_code_sha256": "ad009d95186715c04ebad34771942d8f6e8818a364299f552d1e9a730eda084b"
+          }
+        },
+        "solver_code_sha256": "17a108754b12f05128b096818d97177459df3be9d11db25ba1ed3efd78b1a1ce",
+        "runner_sha256": "7cc7c2e9650baa9ead5dfc2d82ea33da1f4156293616ea5fbda94e229e2fb99b",
+        "execution_backend": "highspy",
+        "binding_sha256": "ec4f8a8079074e8f0d902029b2c9d3c21639873389e12ea3c97a789e1e30e3b3",
+        "numerical_state_helper_sha256": "b682d76010788618e3171e5a1a79a1baca41db519e55f4f395377334876e1b08"
+      },
+      "current": {
+        "scenario": "LV_FCR",
+        "runtime_sha256": "6583ce9d9f908616704858d24071fc69109f2714bbea98633642eca783ba9ef5",
+        "assumption_sha256": "537f900a6d8ab905f26403ab3c5d5fa7485b50ca77e7f680d639943341c0287e",
+        "source_metadata": {
+          "assumption_sha256": "537f900a6d8ab905f26403ab3c5d5fa7485b50ca77e7f680d639943341c0287e",
+          "assembly_code_sha256": "00f1c5806fa06c2c755ad69854b4bdd0815059a8b9da35fa4be4bc4926a2b2ca",
+          "shared_binding_code_sha256": "ec4f8a8079074e8f0d902029b2c9d3c21639873389e12ea3c97a789e1e30e3b3",
+          "references": {
+            "lfc_reference_proxy_mw": 515.019295529194,
+            "edc_reference_proxy_mw": 2493.376,
+            "fit_halfhours": 11616,
+            "fit_scope": "FULL_FORMAL_EX_POST",
+            "is_observed_callable_capacity": false,
+            "lfc_k": 1.0
+          },
+          "source_manifest_sha256": "e050c96b4a80631725b8fce413d45e6d4f377200686be000548f97a8c03a8a47",
+          "solver_code_sha256": "4dc0c3ed00b6ee6ec16db762adb9183dd7ecb77984b79afe7c4318ccb4002b0e",
+          "ev_offline_binding": {
+            "package_manifest": {
+              "version": "EV_OFFLINE_1_1_SOURCE_FINAL_PRIORITY_V1",
+              "market_product": "F_OFFLINE",
+              "area": "四国",
+              "timezone": "Asia/Tokyo",
+              "formal_start": "2026-01-01T00:00:00+09:00",
+              "formal_end_exclusive": "2026-08-31T00:00:00+09:00",
+              "observation_halfhours": 48,
+              "no_trade_policy": "DISABLE_NEW_OFFER_WITHOUT_OBSERVED_SOURCE_OFFLINE_PRICE; NOT_PROOF_OF_NO_MARKET_OPPORTUNITY",
+              "missing_policy": "Positive source award without valid price or absent timestamp: NOT_READY; no ordinary F fallback",
+              "price_policy": "Final total source-region average first, prompt source-region average only if final absent; aggregate historical proxy",
+              "source_manifest": "data\\raw\\JP\\ev_offline_20261005\\source_manifest_20261005T121855565892Z.json",
+              "source_manifest_sha256": "88fb40d2a41edd9e9166d89601cac23a60cbe0e2ba958f002260194a07102259",
+              "build_code_sha256": "3b41838dcfc4b726688eeb5b158f8ddf92ba32800043b9adf940997884d8a144",
+              "files": {
+                "coverage_and_monthly_prices.json": "4760d8233f6788a830caae3c3e4b369f45c6e3aa91da44ea90c40634f7d02009",
+                "offline_30min.csv": "733aa8024903410e068f727df1acb3bf330c313d8cb9346357808eec8819901e",
+                "offline_30min.json": "278ea42d5c1581e283d863b92b00d8aaaf696187d382952e669bea0f198f0613",
+                "offline_native_blocks.csv": "da0178ac06596f81c30e8b73b4440136da8748206c730e57466d9f625610a335",
+                "offline_native_blocks.json": "e8acebd5739a0bd0974f872ad951c73b328e1f609d49b80f885a6fb71c5c8e82"
+              }
+            },
+            "package_manifest_sha256": "af1ed0b9444a987a43a9e4beffddf7cf6e7d5cd76bd619744fbb5d56048b677b",
+            "binding_code_sha256": "ad009d95186715c04ebad34771942d8f6e8818a364299f552d1e9a730eda084b"
+          }
+        },
+        "solver_code_sha256": "17a108754b12f05128b096818d97177459df3be9d11db25ba1ed3efd78b1a1ce",
+        "runner_sha256": "7cc7c2e9650baa9ead5dfc2d82ea33da1f4156293616ea5fbda94e229e2fb99b",
+        "execution_backend": "scip",
+        "binding_sha256": "ec4f8a8079074e8f0d902029b2c9d3c21639873389e12ea3c97a789e1e30e3b3",
+        "numerical_state_helper_sha256": "b682d76010788618e3171e5a1a79a1baca41db519e55f4f395377334876e1b08"
+      },
+      "scope": "Equivalent numerical backend continuation; existing transactions immutable"
+    }
+  ],
+  "window_audits": [
+    {
+      "day": "2026-01-01",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "7933590e1dce9f919e015c02af152741f5b3fe13ce5446b1da9247043d8e2332"
+    },
+    {
+      "day": "2026-01-02",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "3c05ae9fb08a21a02bc58c5e72c33355def4a0f9d5c78eeed7743acf355f9194"
+    },
+    {
+      "day": "2026-01-03",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "3cae93fd35ba3e9d0f9779a40adedb61a6d4b365f6347a82841ae7538d8c9eac"
+    },
+    {
+      "day": "2026-01-04",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "b34b0496aac31b0091ad775dbaa9d68dff5f3df543346213e9ff99b5ffcca529"
+    },
+    {
+      "day": "2026-01-05",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "ba9d5a2b85c2e378f983a4a52088f18700e26b610600fb5224ece9d874eea257"
+    },
+    {
+      "day": "2026-01-06",
+      "physical_audit": "PASS",
+      "gap": 6.752617217156155e-16,
+      "service_chains": 432,
+      "input_sha256": "93958e5cc64d1e665c3f9117fbb306a39bb62458d99dec3ec4e1468d55f84c55"
+    },
+    {
+      "day": "2026-01-07",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 432,
+      "input_sha256": "de4db5090f92aa8a56ccecc50ad99744eb3acc8d0197a41ec743f6f3bd16c8a7"
+    },
+    {
+      "day": "2026-01-08",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 432,
+      "input_sha256": "8d512fac15acfc38ab9fbd1840f1f3c40d85ac94e5aea69a86c7c0fb06223256"
+    },
+    {
+      "day": "2026-01-09",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 432,
+      "input_sha256": "0381d364593ad6ebe13a0b7ef9bafa09c5f4aa81e9aed3f9d14708c178b743c3"
+    },
+    {
+      "day": "2026-01-10",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 432,
+      "input_sha256": "c340cfd3684c31b08c309ce806ab683227ac903b319ca4e54d361971ad8f20be"
+    },
+    {
+      "day": "2026-01-11",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 372,
+      "input_sha256": "1dff874f50b1c07b05f9fb84979280edb59f8d803a27c234fd9bcddd7b98a242"
+    },
+    {
+      "day": "2026-01-12",
+      "physical_audit": "PASS",
+      "gap": 1.5566801813610182e-16,
+      "service_chains": 312,
+      "input_sha256": "4b3af7b513bd6c55842fff2bf8b54c1ed2ab999539cee06b6ac8b1a40955f169"
+    },
+    {
+      "day": "2026-01-13",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 756,
+      "input_sha256": "ebac8b6d42bb482309032c9afae0b3c1027c384a9bd746a87db6e0706296ecea"
+    },
+    {
+      "day": "2026-01-14",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 696,
+      "input_sha256": "264e93891d1b312e18215d88112f4b6c3243105b8559ac397255311b70fb0551"
+    },
+    {
+      "day": "2026-01-15",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 636,
+      "input_sha256": "2e9d5a5c469fee625d58ec9fdd0f2ba5f485aa4c28c18fde5d24edf609c9d754"
+    },
+    {
+      "day": "2026-01-16",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 576,
+      "input_sha256": "0d1555ffe761defc6810d758791e5a6e056a1098f836572eade251cc96f1db7a"
+    },
+    {
+      "day": "2026-01-17",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 504,
+      "input_sha256": "66513e656fb2e77e28ef78b1bb0b3a748efc6c84b2025b2c818273deb1093a5c"
+    },
+    {
+      "day": "2026-01-18",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 432,
+      "input_sha256": "35166ef3929f11e7de58f928f808761bbb8488660a265cfef8f06db26dc8c7d7"
+    },
+    {
+      "day": "2026-01-19",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 360,
+      "input_sha256": "475cc2f61b8a299726bb77b7189c73b5a3cd321e3306e674e9001233f33ea746"
+    },
+    {
+      "day": "2026-01-20",
+      "physical_audit": "PASS",
+      "gap": 2.401352629646369e-16,
+      "service_chains": 840,
+      "input_sha256": "882975349b60bafb22dac48b63591a59bef452fc480ca0f558c0d70c15dc76d5"
+    },
+    {
+      "day": "2026-01-21",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 768,
+      "input_sha256": "776c5c6df91d6d56917c02c4a35d8370ac62a0d0530be058cdf8e774533c2eea"
+    },
+    {
+      "day": "2026-01-22",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 696,
+      "input_sha256": "6b3935d61ba9576c221dd013cfecbc266c01a50bbac39d7242f2b91635d5ee16"
+    },
+    {
+      "day": "2026-01-23",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 624,
+      "input_sha256": "48b62e2edb707342b50b18188a69c2fcd993fc07bbb27049fe3dbaedee1e308f"
+    },
+    {
+      "day": "2026-01-24",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 552,
+      "input_sha256": "37b87f0589af3738ca155a5fa60624e2d5d61d9079ec1701e64b8c88ee2b4fcc"
+    },
+    {
+      "day": "2026-01-25",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 468,
+      "input_sha256": "084586f8904a696552652f7b20ad26411b850436df2c43447d8a779af33ccfeb"
+    },
+    {
+      "day": "2026-01-26",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 384,
+      "input_sha256": "0b334eb077045870c192edf9b8b92f8291f7bc1df2d7ec11a80062f5049e5517"
+    },
+    {
+      "day": "2026-01-27",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 624,
+      "input_sha256": "ded4f8f941e98b0a7ba4847736df6fe07a8663aad8435dd7ab0637578e06fa86"
+    },
+    {
+      "day": "2026-01-28",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 540,
+      "input_sha256": "e4bf34ab6b8880f053e57bc58f82de67eb2f0479e6fdf5afe70e092b2b14b0cb"
+    },
+    {
+      "day": "2026-01-29",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 468,
+      "input_sha256": "17503c74ce3adc380f3ec3518b674154fff054cb1735e0bd07913447d533ce96"
+    },
+    {
+      "day": "2026-01-30",
+      "physical_audit": "PASS",
+      "gap": 1.2663928229538748e-16,
+      "service_chains": 396,
+      "input_sha256": "09dc9818f03f5d4a833145a278ee1328965526efb0d3ccfe21b14fbeb4204b29"
+    },
+    {
+      "day": "2026-01-31",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 324,
+      "input_sha256": "69d4b7ba6ab926747f34580ce428eeb4f7a74768131831332fdba80be81583fb"
+    },
+    {
+      "day": "2026-02-01",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 264,
+      "input_sha256": "b6a20dcd72d0df267641657b7c9bb29199163d6340acc477441c716510c3405e"
+    },
+    {
+      "day": "2026-02-02",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 204,
+      "input_sha256": "022d2a7a3b7314668c901166237c88b7abd8ac1b0bae76ed87d3aba34f4fd04d"
+    },
+    {
+      "day": "2026-02-03",
+      "physical_audit": "PASS",
+      "gap": 7.860149410986446e-08,
+      "service_chains": 756,
+      "input_sha256": "43e61b039479e1a894e9eec3d522ece887c2fa418bd3ed462b2a756e24a17a03"
+    },
+    {
+      "day": "2026-02-04",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 756,
+      "input_sha256": "dbe034a618ee25eaa6d585a0373e8869891d95e8753b2515ef7d647f9a592332"
+    },
+    {
+      "day": "2026-02-05",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 696,
+      "input_sha256": "00631edcecbb1c7098eca48c9f410588695d1de38ec5ac55fc7c8180ec39ec5e"
+    },
+    {
+      "day": "2026-02-06",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 636,
+      "input_sha256": "153c5d81ebcc8be1e775f06374c36845156a3066e5deda1bb9c2a91d840d3131"
+    },
+    {
+      "day": "2026-02-07",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 576,
+      "input_sha256": "2b235e810c5c40165c37418e262ae18c1d2b3802ae04161d42329cdef8e7861e"
+    },
+    {
+      "day": "2026-02-08",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 504,
+      "input_sha256": "8b6090ad64df7bd5299e9138fd01ce0cf3a326292f1dcab70c8e58fbbf76cedb"
+    },
+    {
+      "day": "2026-02-09",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 420,
+      "input_sha256": "b8384c81a8127487d0bb06e3e5dfa2d0a87121d7531350b12f9811643e12abab"
+    },
+    {
+      "day": "2026-02-10",
+      "physical_audit": "PASS",
+      "gap": 3.342323839454958e-16,
+      "service_chains": 924,
+      "input_sha256": "2539cf721566cca3398b13cd249e77ecda698aba01132e34673cc3643d0188aa"
+    },
+    {
+      "day": "2026-02-11",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 840,
+      "input_sha256": "a15a8938ca5e5a28c9c567a0e563cd7874070ecc55b60bf9541d353002237d8c"
+    },
+    {
+      "day": "2026-02-12",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 756,
+      "input_sha256": "a25472ac665f2089f9b9b75f0565d010398daf2b2905a564b56c7c6d3d2e5904"
+    },
+    {
+      "day": "2026-02-13",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 672,
+      "input_sha256": "997c79be1117b40b6c8b0145a65527bf1d0a920301d6512fd5642b4e33621e20"
+    },
+    {
+      "day": "2026-02-14",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 588,
+      "input_sha256": "1f78b4dd4b7bc5a0ad15877e80b5a3568f06deea32ce6d30a5b5ec8631c77ac5"
+    },
+    {
+      "day": "2026-02-15",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 504,
+      "input_sha256": "b1f38663c0489cdfa819b43fdca8eb8115efb43811e19d44b71d1b0ffbef742b"
+    },
+    {
+      "day": "2026-02-16",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 420,
+      "input_sha256": "e7eb8b12142e3fd577cfb862ea8bfbc3544dff4c54637730d601010359684d3e"
+    },
+    {
+      "day": "2026-02-17",
+      "physical_audit": "PASS",
+      "gap": 3.5716656480012254e-16,
+      "service_chains": 840,
+      "input_sha256": "4e7327b4f4666800c73b8d63a8e4efe0c78ffa1ac7424b48f88db22e2f69aab8"
+    },
+    {
+      "day": "2026-02-18",
+      "physical_audit": "PASS",
+      "gap": 1.3174403401728857e-16,
+      "service_chains": 756,
+      "input_sha256": "5a6f4fface3c2e201a6d8090b280bac6827e5c36dc2400d8b5adb85e369c1bb5"
+    },
+    {
+      "day": "2026-02-19",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 672,
+      "input_sha256": "182ebb46d9e33ddf1f65d8d562563514afab88cef1d7449c73834811d32ee764"
+    },
+    {
+      "day": "2026-02-20",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 588,
+      "input_sha256": "7bb4467bdd9355311d3d291cd4ada8de1557ffeaa9ee7ecb90876785741113b3"
+    },
+    {
+      "day": "2026-02-21",
+      "physical_audit": "PASS",
+      "gap": 1.936469948611359e-16,
+      "service_chains": 504,
+      "input_sha256": "ca20d60095166648b785a64ff1fad1a7e5bfd42f9c820426473da071b45ca009"
+    },
+    {
+      "day": "2026-02-22",
+      "physical_audit": "PASS",
+      "gap": 1.130964165476292e-16,
+      "service_chains": 432,
+      "input_sha256": "0670bb92c7e23cb127d602b900d49802f6dafb7b5f1dd506bd0843423efae35d"
+    },
+    {
+      "day": "2026-02-23",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 360,
+      "input_sha256": "078a627b69153d71d28c43857ced24fc9a9a1e7640fa385ef18b9e2406755d6a"
+    },
+    {
+      "day": "2026-02-24",
+      "physical_audit": "PASS",
+      "gap": 5.06290173726513e-16,
+      "service_chains": 768,
+      "input_sha256": "e61222c4db1cef82a338f358dcde4f3013f6ccc282e161ebdf38659ee3b3cdb5"
+    },
+    {
+      "day": "2026-02-25",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 696,
+      "input_sha256": "ecf6c725f233d83192f0be051dc818127d7fc67c0c3187c65e17c844237dde2c"
+    },
+    {
+      "day": "2026-02-26",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 624,
+      "input_sha256": "e273baf1158eb9eb87b9dcc48f969b0fac384d42bd76889b605b9d7a3def026d"
+    },
+    {
+      "day": "2026-02-27",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 552,
+      "input_sha256": "188f02fda5d8fae499c2ac085385736e0ae81f849f58d518b7ea9127234b5a6f"
+    },
+    {
+      "day": "2026-02-28",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 480,
+      "input_sha256": "125367af6501e58a28e3da3a0ee7796e7c44d39e6b05d58eb954567e040272ca"
+    },
+    {
+      "day": "2026-03-01",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 408,
+      "input_sha256": "231590c9ddd64792ecd9c4adc41e424a5dea890b903a5713460d6ad29995030e"
+    },
+    {
+      "day": "2026-03-02",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 336,
+      "input_sha256": "4e3fe4916fcf7725a3d863593236101bdc7acfbf40aafb321b65644ee815942a"
+    },
+    {
+      "day": "2026-03-03",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 864,
+      "input_sha256": "a598ce987e610cf150d8d91e82a8d739c6cf887d1a0f968c01b8bf4d834f9499"
+    },
+    {
+      "day": "2026-03-04",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 792,
+      "input_sha256": "4c5082ca5e555c946b102d98c71581ee3269800752b1eb8b283bc0e34c7e535f"
+    },
+    {
+      "day": "2026-03-05",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 732,
+      "input_sha256": "d8b859867cd155695a4bcbe1901cd88f534bd3b4737d0aaf2743925bd527965b"
+    },
+    {
+      "day": "2026-03-06",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 660,
+      "input_sha256": "bf111e85e77865de705a226e50e8bb6562a6991b4e421f6eb891a0adcb3268bf"
+    },
+    {
+      "day": "2026-03-07",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 588,
+      "input_sha256": "40a92a9ca4cf4fa39722be09b6f98a591ac00e32f11c1acdf199681e3b1d1ba2"
+    },
+    {
+      "day": "2026-03-08",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 504,
+      "input_sha256": "3c2dc81c7471f2cefaf0b102c3610368d508ae78ccf215fabd93bb3d85b3b581"
+    },
+    {
+      "day": "2026-03-09",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 420,
+      "input_sha256": "5cfb211c657a8ff7b02cad37f20a11d0b48a34fc509c0516bcca577dcf42f126"
+    },
+    {
+      "day": "2026-03-10",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 336,
+      "input_sha256": "fa308650074e50457f25e08aac069db7753829f62c04959f91e144dcc7d9d64e"
+    },
+    {
+      "day": "2026-03-11",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 252,
+      "input_sha256": "7610706fa9aac4fc4c45397068bd9fb893c3f60c1bdd55c98b6c71df34ef93b7"
+    },
+    {
+      "day": "2026-03-12",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 168,
+      "input_sha256": "9dfd8c4fef44dcd0cfd27b368c0de5fcc46824a2cc5b5cf0edbb5ed4af8a0db1"
+    },
+    {
+      "day": "2026-03-13",
+      "physical_audit": "PASS",
+      "gap": 2.9032175533989633e-16,
+      "service_chains": 120,
+      "input_sha256": "607a164d7889eb6c0bc2b895b4a3481fb7a2e4a86046d4a543a429b46e90d25d"
+    },
+    {
+      "day": "2026-03-14",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 78,
+      "input_sha256": "9ba65ffd68bf3df685a1934e6819efa0565e5e0fc4d6bc922ddb1754f46a6a5a"
+    },
+    {
+      "day": "2026-03-15",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 94,
+      "input_sha256": "b438a170bd7de39430e011ea7f636c426be00acd692aea5a90fde3c3d2565b47"
+    },
+    {
+      "day": "2026-03-16",
+      "physical_audit": "PASS",
+      "gap": 2.8466350446517394e-07,
+      "service_chains": 120,
+      "input_sha256": "2b0bfb1247817f93614d021efc9e309012b1bc334ee5cdf5ae6fbd0235a660a7"
+    },
+    {
+      "day": "2026-03-17",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 68,
+      "input_sha256": "7f7408ce6d4b61833e50e5b64768c162b834e4f48f126ac73981863d89631898"
+    },
+    {
+      "day": "2026-03-18",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "ac2e4c284c129caf988ef1ada233ac03eb57fc907be77e7951e43ca2db105c54"
+    },
+    {
+      "day": "2026-03-19",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 32,
+      "input_sha256": "2d1cd80fe940fc19cf70a958c78a7f7728334817523698fad95082a12819bcf1"
+    },
+    {
+      "day": "2026-03-20",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 124,
+      "input_sha256": "1295eca61511e3ace6145aa92f64c354042c51de7839c637334bf126d79898a6"
+    },
+    {
+      "day": "2026-03-21",
+      "physical_audit": "PASS",
+      "gap": 6.400006630037088e-16,
+      "service_chains": 176,
+      "input_sha256": "c04eb39798add92943dbb0bfadc249ae3fa587fabf4b8400d14950b974488645"
+    },
+    {
+      "day": "2026-03-22",
+      "physical_audit": "PASS",
+      "gap": 1.173977827573425e-16,
+      "service_chains": 152,
+      "input_sha256": "fe53fda5954e453e9892234cc23e6c192693c001e301585332a8b675a7416c7c"
+    },
+    {
+      "day": "2026-03-23",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 68,
+      "input_sha256": "e418259f83b9602798c2e5d58d474f6b7ceba5702169e07f60e21ba704316b81"
+    },
+    {
+      "day": "2026-03-24",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "c27b128fec599ab2a968f885b326bc6883c641ed40c05903030135b95c4fc3da"
+    },
+    {
+      "day": "2026-03-25",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "05f920e06feef8817f1675483eb4d2114d77d9b67b2af46516984413c2e3945b"
+    },
+    {
+      "day": "2026-03-26",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "495f80cbee239e0a907d8ff4550effb253c88fe9fc3de1836398a78f5a0a5181"
+    },
+    {
+      "day": "2026-03-27",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "7a48e6cbab7c3c0fc49c19bf7bca71189790007134251e97fe03c9617347388d"
+    },
+    {
+      "day": "2026-03-28",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "7a7b088fd4a8a0354db7c6c6c1561df98f32900521af56a59e6f509264f7a773"
+    },
+    {
+      "day": "2026-03-29",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "c03ce9a772ca52d18aaaa29cbf80d5f3a68c52a6b9246fdb3dc56c8797449ac6"
+    },
+    {
+      "day": "2026-03-30",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "cd02994fecd001e11cda8f2a9ea098f8254ccfba642362c9cb197550bc54c81a"
+    },
+    {
+      "day": "2026-03-31",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "7efb1ff7807e05316eecd9792232f93baa659b597f2eb9a513402d298c710d87"
+    },
+    {
+      "day": "2026-04-01",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "e4e6403fa47d1b39a48f5554a9df3a732711ea51237cbcff056ef1a199a49df9"
+    },
+    {
+      "day": "2026-04-02",
+      "physical_audit": "PASS",
+      "gap": 7.285415604549991e-16,
+      "service_chains": 16,
+      "input_sha256": "f2c878cb98b9e131c6d6105a4afa488fb9c1011f36dde3d125b4e43e46ff05aa"
+    },
+    {
+      "day": "2026-04-03",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 16,
+      "input_sha256": "de4fc63757ecaf54f995fb4124e437bed3f7bb78e9d0013ee2e4b75e7049e4be"
+    },
+    {
+      "day": "2026-04-04",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 2,
+      "input_sha256": "89bfd9286565f32b150082d90aedd7be83732fe71ad26030ce68e914e17a8b5b"
+    },
+    {
+      "day": "2026-04-05",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 2,
+      "input_sha256": "b06cd26b0de47e71d3b50cb85f2dc6edb43adbc4c3319db491866c00b39baf36"
+    },
+    {
+      "day": "2026-04-06",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 12,
+      "input_sha256": "634dbf936dd6af6c3b525b260a8de07789b2518110fa64dfdcc84f2e9369f99a"
+    },
+    {
+      "day": "2026-04-07",
+      "physical_audit": "PASS",
+      "gap": 4.293874665761659e-07,
+      "service_chains": 42,
+      "input_sha256": "cd6b3ed367fd3c8983fc41d7113148eef8d56a8c03525c836a3d928e0f551d16"
+    },
+    {
+      "day": "2026-04-08",
+      "physical_audit": "PASS",
+      "gap": 1.1403248892045707e-13,
+      "service_chains": 64,
+      "input_sha256": "eba3154e90e074ae402996726227a58e18c7e2904eee738fa972fe2a9f57e32d"
+    },
+    {
+      "day": "2026-04-09",
+      "physical_audit": "PASS",
+      "gap": 4.05061629917443e-07,
+      "service_chains": 78,
+      "input_sha256": "97ff96510cd78aff2c43933ecbdd16ebcf8de841b0e8007033c84a7028d08b90"
+    },
+    {
+      "day": "2026-04-10",
+      "physical_audit": "PASS",
+      "gap": 7.353916488677936e-16,
+      "service_chains": 66,
+      "input_sha256": "13cd3b937e57a73b0365acb4be440ae550acee08772998622da53793b114c2ad"
+    },
+    {
+      "day": "2026-04-11",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 66,
+      "input_sha256": "e5d8db5a6def4c8a106127c84371b3c4c578039b6128d36e40a49a5e0aaa2f66"
+    },
+    {
+      "day": "2026-04-12",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 82,
+      "input_sha256": "4fa84f6238b465cb7d56fe54e197d2d15435d8b42e600e480f513e40f8a4e933"
+    },
+    {
+      "day": "2026-04-13",
+      "physical_audit": "PASS",
+      "gap": 1.6783458824594342e-16,
+      "service_chains": 84,
+      "input_sha256": "012fdb53791e9cd2c0a0d68f3adca03bd09d50c84717744788a8db3d090cbf35"
+    },
+    {
+      "day": "2026-04-14",
+      "physical_audit": "PASS",
+      "gap": 1.5345548512011779e-16,
+      "service_chains": 74,
+      "input_sha256": "fd5449458575aa4df8111b75acafb757e5e9c76a22828b0d7b1904c944640d5c"
+    },
+    {
+      "day": "2026-04-15",
+      "physical_audit": "PASS",
+      "gap": 3.573429689096478e-07,
+      "service_chains": 64,
+      "input_sha256": "5b27d5dbca170934944ec1063bf7a58c3c41aab0a48e43ec697d224a29be131b"
+    },
+    {
+      "day": "2026-04-16",
+      "physical_audit": "PASS",
+      "gap": 6.571243518342246e-16,
+      "service_chains": 68,
+      "input_sha256": "cb5819976e7541dda09ae16e2beee9381c2d2bb7cc8f056ab5c3972719b745a5"
+    },
+    {
+      "day": "2026-04-17",
+      "physical_audit": "PASS",
+      "gap": 1.2572998222138458e-15,
+      "service_chains": 70,
+      "input_sha256": "58b464007ef3bffb6670cfb92e01bf57bcd84486445151389b4f69cd6a4cec1f"
+    },
+    {
+      "day": "2026-04-18",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 76,
+      "input_sha256": "94e1fce34ba611a29b523707e9a26990293af07cd3c62ddbf2dded562e639672"
+    },
+    {
+      "day": "2026-04-19",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 72,
+      "input_sha256": "e66636c4317a6b091fb1fc37e4976bd8a5d7d6d6a6c9196c8733654108cf8c48"
+    },
+    {
+      "day": "2026-04-20",
+      "physical_audit": "PASS",
+      "gap": 6.757651900214708e-16,
+      "service_chains": 68,
+      "input_sha256": "2eaca06fab3fc3d676bfd8d06ca68367cfbf9286eec6e8599e23b89a1794e5b7"
+    },
+    {
+      "day": "2026-04-21",
+      "physical_audit": "PASS",
+      "gap": 8.804770295495993e-07,
+      "service_chains": 56,
+      "input_sha256": "6bab21d8edfab3ea050db500a3dd2c46b51c1c1debf99d9f6da46e3d1c0ef757"
+    },
+    {
+      "day": "2026-04-22",
+      "physical_audit": "PASS",
+      "gap": 8.476612141730122e-15,
+      "service_chains": 42,
+      "input_sha256": "17540043ec839ee1df4a58e2136b76f18e7a5eca8509311cc09ed5a56e712ff8"
+    },
+    {
+      "day": "2026-04-23",
+      "physical_audit": "PASS",
+      "gap": 1.0764889416365099e-06,
+      "service_chains": 98,
+      "input_sha256": "53247bb6b1fd7329b1372aeb6b6032798ed66592a4deb02d5533df5db5075f80"
+    },
+    {
+      "day": "2026-04-24",
+      "physical_audit": "PASS",
+      "gap": 2.1173242308324515e-16,
+      "service_chains": 140,
+      "input_sha256": "f1e076ec3490fdb9a1293c4c2a314fc94277c6bca6fb9fe84879487b1eb6d84d"
+    },
+    {
+      "day": "2026-04-25",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 100,
+      "input_sha256": "165a382ee27b769601ddfd746ee25939099a2ef9a95b7dd0bdd1bc194e0221c9"
+    },
+    {
+      "day": "2026-04-26",
+      "physical_audit": "PASS",
+      "gap": 1.3882960445493819e-16,
+      "service_chains": 108,
+      "input_sha256": "0b5dbaf3173c8055c6c9f2e7d7e04b1369f0e452348c89695f126d4f9bb6a775"
+    },
+    {
+      "day": "2026-04-27",
+      "physical_audit": "PASS",
+      "gap": 6.791207175389852e-07,
+      "service_chains": 142,
+      "input_sha256": "80a22a179f9dd349a52113dac466181d44d563ab6fc73a3722f44fb6da8c42b4"
+    },
+    {
+      "day": "2026-04-28",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 96,
+      "input_sha256": "f31903c18ba53b81d2187b047ddc0380d04245d1b4453c69b2a7ab2450800ae8"
+    },
+    {
+      "day": "2026-04-29",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 44,
+      "input_sha256": "c666e73ff02c6599b90c7b7c5c097ab768586f5ca7c9a3e0aec981f131f270b6"
+    },
+    {
+      "day": "2026-04-30",
+      "physical_audit": "PASS",
+      "gap": 4.2515980123035073e-16,
+      "service_chains": 72,
+      "input_sha256": "81396dcf34ab7adf6e609eec1b74d8cb248c0c7989010dd60bf9e9c17d4469e4"
+    },
+    {
+      "day": "2026-05-01",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 126,
+      "input_sha256": "545d3db68b29808019648fde4c460b8e9462578d3ff6e0b8605c62ad41832832"
+    },
+    {
+      "day": "2026-05-02",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 132,
+      "input_sha256": "b23ded3427f6fde0962e8c9702647b6f2d11b7e4413e64394bf0104c61710585"
+    },
+    {
+      "day": "2026-05-03",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 106,
+      "input_sha256": "3dd63f18542330e8eeaef14681d0e2f0c7e542033406145d148c6f244dad17ce"
+    },
+    {
+      "day": "2026-05-04",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 114,
+      "input_sha256": "b126a6ef7999ce183456304d6b1afdfc1ad3f8666bdfbc0b9574cb1dbaa5c860"
+    },
+    {
+      "day": "2026-05-05",
+      "physical_audit": "PASS",
+      "gap": 2.4327804594080453e-16,
+      "service_chains": 148,
+      "input_sha256": "b142f567a202fd98cbbbdd66fe792b7b51be979bdc9e8c75c1c3a07deb079841"
+    },
+    {
+      "day": "2026-05-06",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 100,
+      "input_sha256": "081c1683a487416c9b477cb8811c42310f1f9d994186cb34ae60a33f7fbf1957"
+    },
+    {
+      "day": "2026-05-07",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 50,
+      "input_sha256": "60c889736d6d68e15b185d0699bcb6969219f68bb0888c8619da2476b8c90ad8"
+    },
+    {
+      "day": "2026-05-08",
+      "physical_audit": "PASS",
+      "gap": 4.0819682518138706e-16,
+      "service_chains": 62,
+      "input_sha256": "e8c7d91c0ec089526f154c55ba6791c6d9c8dbff5e2b6c66e786549d939d7d43"
+    },
+    {
+      "day": "2026-05-09",
+      "physical_audit": "PASS",
+      "gap": 2.2174719920440724e-16,
+      "service_chains": 38,
+      "input_sha256": "64efaac190432031bd6c4c75a3fdaf37789dee372f811bcdc36e82d2fc9a8c0d"
+    },
+    {
+      "day": "2026-05-10",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 34,
+      "input_sha256": "04a858c7744c3a491f15eccb289d3ae4e3fc8049593c64ec3c4b00f6864f5c5a"
+    },
+    {
+      "day": "2026-05-11",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 44,
+      "input_sha256": "2873317e55782f7b52cc79f1892bb94a03613eb76dc2bf9f7553ede5e2d064b4"
+    },
+    {
+      "day": "2026-05-12",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 38,
+      "input_sha256": "31eca7bd705744cc3fc56a064e978bac8c6280d31ce4117bfbdc0870821e3905"
+    },
+    {
+      "day": "2026-05-13",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 22,
+      "input_sha256": "a28efb999948a1243ab947c62100c731acce01770de82fc557b433159c1445c6"
+    },
+    {
+      "day": "2026-05-14",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 2,
+      "input_sha256": "86fe46d227faf32131f9988c4dd78cef3b4e189eb7a82f3c0a460119c805bc7f"
+    },
+    {
+      "day": "2026-05-15",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 26,
+      "input_sha256": "83da2d8c47528406bb2f25040a91731a132ec0c1f3243e7aa3aff8b0fe979281"
+    },
+    {
+      "day": "2026-05-16",
+      "physical_audit": "PASS",
+      "gap": 4.864739026525024e-07,
+      "service_chains": 74,
+      "input_sha256": "9359fd9bb057bb5c4535ffa14788e96da5b6ba4ec84c36948409fdda82cfee2e"
+    },
+    {
+      "day": "2026-05-17",
+      "physical_audit": "PASS",
+      "gap": 2.0986739269240852e-16,
+      "service_chains": 88,
+      "input_sha256": "9bd771fb852bc78e419dbcef5eeec39973d77eae7268f08a5d03874fd6a832c6"
+    },
+    {
+      "day": "2026-05-18",
+      "physical_audit": "PASS",
+      "gap": 2.006210474610722e-16,
+      "service_chains": 90,
+      "input_sha256": "0c540f6f27331277a45e9312b2f6d3cbeb69adda6235ab0beb2d1e81c268336d"
+    },
+    {
+      "day": "2026-05-19",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 86,
+      "input_sha256": "8cf2b79a29c29f3d68dbe21c90017658682c468964a1cac95036268b3ea1d980"
+    },
+    {
+      "day": "2026-05-20",
+      "physical_audit": "PASS",
+      "gap": 2.7598963997603065e-07,
+      "service_chains": 64,
+      "input_sha256": "3bfcb55ed61881c6089a41da447a9cc0bf39e1123c1b86370ea17de5d3c34149"
+    },
+    {
+      "day": "2026-05-21",
+      "physical_audit": "PASS",
+      "gap": 1.4300405069877468e-16,
+      "service_chains": 32,
+      "input_sha256": "6dd67339651ef5cb244a4a0d7e2f60e113dfb37b309591f51ff822dfd5d6423c"
+    },
+    {
+      "day": "2026-05-22",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 8,
+      "input_sha256": "f81d3c8f0eec0baa57e891cc27a23d3c1b482d6c050894d9bf59112804ac2ef9"
+    },
+    {
+      "day": "2026-05-23",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 6,
+      "input_sha256": "30372e4086c731a6f78d404deed5ed0991431087d6381b4b41ca58f13a9713c2"
+    },
+    {
+      "day": "2026-05-24",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 44,
+      "input_sha256": "b80f043359aa49f51ac02cb0b20ed1bed34427d3e7b5b1a85d0f92e2ccd8e0d7"
+    },
+    {
+      "day": "2026-05-25",
+      "physical_audit": "PASS",
+      "gap": 2.823885251507091e-16,
+      "service_chains": 124,
+      "input_sha256": "46ba8529573f1f3e0854e5451f086dc0755a40fc99775b90515f24c9ad9c9b3c"
+    },
+    {
+      "day": "2026-05-26",
+      "physical_audit": "PASS",
+      "gap": 4.1075854483727546e-16,
+      "service_chains": 170,
+      "input_sha256": "24d898a5176b949759c274257ad471b147fdc08849a62cf915648b6164b905ea"
+    },
+    {
+      "day": "2026-05-27",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 154,
+      "input_sha256": "94b0bc0b5cd42c90e17db77263c21a56d97f6138633ad0d9b2607c78d5f88681"
+    },
+    {
+      "day": "2026-05-28",
+      "physical_audit": "PASS",
+      "gap": 3.073167378663797e-16,
+      "service_chains": 112,
+      "input_sha256": "8cd56ef8158148974f87620fe31a5d55e9c002faa2a8b77cf4b57f88e109a945"
+    },
+    {
+      "day": "2026-05-29",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 100,
+      "input_sha256": "1354f71991c4f57f647f27e83bf9765e8701282a553677ef50e012fbe34e72e8"
+    },
+    {
+      "day": "2026-05-30",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 82,
+      "input_sha256": "1a7e65d5344afb2a1008fd0b11ff3c1b1fd56800c6cc0684b65ac5cec1755253"
+    },
+    {
+      "day": "2026-05-31",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 30,
+      "input_sha256": "18794e0f7e369944e0c19365703dd01a3fe4879c1c1a9c17a6ee683358d8344e"
+    },
+    {
+      "day": "2026-06-01",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 2,
+      "input_sha256": "1df47c8dfc9aa57b8c390ebdbe77a207300d4e0e27c29a953e0f825aaa53cf8a"
+    },
+    {
+      "day": "2026-06-02",
+      "physical_audit": "PASS",
+      "gap": 5.826438638030855e-16,
+      "service_chains": 8,
+      "input_sha256": "e81225c59b9250efbffe60b91ef1a9191bf6445d700ca62d93015dc5b3396522"
+    },
+    {
+      "day": "2026-06-03",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 8,
+      "input_sha256": "c671542977250b81a19db635877f9897c4da241177edba03d363a80581021eba"
+    },
+    {
+      "day": "2026-06-04",
+      "physical_audit": "PASS",
+      "gap": 2.24516131162613e-16,
+      "service_chains": 38,
+      "input_sha256": "06cda10bb1a4409acd9e9bb5ea283decb7435b70ad049f7d02949f482e746dde"
+    },
+    {
+      "day": "2026-06-05",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 46,
+      "input_sha256": "e04ec7b2afaaa7158a71d97f7de8bced13c156340813d86f386955f8a8609b4d"
+    },
+    {
+      "day": "2026-06-06",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 8,
+      "input_sha256": "8a27e8cbfd45f3328371190568cdbe05d3cecf0d2d20cb3103881e0dd261ddb9"
+    },
+    {
+      "day": "2026-06-07",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 6,
+      "input_sha256": "2f5a1ccc94809b4b59c4fa2da40e1c9c67a1f5c0e0308ae1aafa12fe36a922d8"
+    },
+    {
+      "day": "2026-06-08",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 6,
+      "input_sha256": "0a54124f71475dc9069cb09efb2051abe2e249063ea7f6c5aa92448ed32fa295"
+    },
+    {
+      "day": "2026-06-09",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 6,
+      "input_sha256": "9944c448cced05b714055abf01edb3dee2638b92cfc898bf02f4f60ffdf97d83"
+    },
+    {
+      "day": "2026-06-10",
+      "physical_audit": "PASS",
+      "gap": 4.2577196322527477e-07,
+      "service_chains": 34,
+      "input_sha256": "ede3628bfb629683fbdd1d423132636aecea740b48d35a757f84cf20c1488fb2"
+    },
+    {
+      "day": "2026-06-11",
+      "physical_audit": "PASS",
+      "gap": 3.568183607709789e-16,
+      "service_chains": 52,
+      "input_sha256": "69c2779a95d7cc54998c9e0372e76d05472135e188072e883af1d30bb5283690"
+    },
+    {
+      "day": "2026-06-12",
+      "physical_audit": "PASS",
+      "gap": 4.167567315215636e-16,
+      "service_chains": 60,
+      "input_sha256": "77a25cc63d0a7327368fa0f112c661f45bc3fa4d974913f23077e3dc1dca0c9c"
+    },
+    {
+      "day": "2026-06-13",
+      "physical_audit": "PASS",
+      "gap": 2.9769636046255254e-16,
+      "service_chains": 42,
+      "input_sha256": "98df41e3cdd1b3282e4faed9c51f3a25d3f3862b401dd64e1350c52202fd97a7"
+    },
+    {
+      "day": "2026-06-14",
+      "physical_audit": "PASS",
+      "gap": 5.076373657040071e-16,
+      "service_chains": 12,
+      "input_sha256": "6025f5f0d7127155c1f9793138bae6852592817421ada48734197159a716a2eb"
+    },
+    {
+      "day": "2026-06-15",
+      "physical_audit": "PASS",
+      "gap": 3.4926301434572774e-07,
+      "service_chains": 26,
+      "input_sha256": "5f4d4cf4a868cc49059febb409e53771fe35244dbf325d4587a5330ed483dcac"
+    },
+    {
+      "day": "2026-06-16",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 20,
+      "input_sha256": "72968ba1184ac4d5f969d4a58944bc0dd17393aec5a80109791090478587f7d0"
+    },
+    {
+      "day": "2026-06-17",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "608c13fbddf535016bed19dbbbe7d170e975bc091caf0ad5f97256b799c0338d"
+    },
+    {
+      "day": "2026-06-18",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "b08d1e69ec1e149d5b33e7186a539650d3c7aff54b49a3e2e3c516654181f80f"
+    },
+    {
+      "day": "2026-06-19",
+      "physical_audit": "PASS",
+      "gap": 5.266495273916765e-15,
+      "service_chains": 2,
+      "input_sha256": "e993866edcc8c3a01550a6c049f1df2633ed7b72253be4aafde099ce4469d2ba"
+    },
+    {
+      "day": "2026-06-20",
+      "physical_audit": "PASS",
+      "gap": 5.779284613130578e-07,
+      "service_chains": 60,
+      "input_sha256": "3bd9253bbc2e2ff2907e20a354986b065c162b902b178b324659af60a654f2b9"
+    },
+    {
+      "day": "2026-06-21",
+      "physical_audit": "PASS",
+      "gap": 3.2358842811367525e-16,
+      "service_chains": 92,
+      "input_sha256": "8c1b2e386656646bf714bc4199710a5a141f8505da4557d3fb01e9a2f603dbbb"
+    },
+    {
+      "day": "2026-06-22",
+      "physical_audit": "PASS",
+      "gap": 3.2451272270200344e-16,
+      "service_chains": 46,
+      "input_sha256": "29b9dc7c57caa9954aed90fd1bffec2bd8bb56fd3ce7bb33157a253ca621cebb"
+    },
+    {
+      "day": "2026-06-23",
+      "physical_audit": "PASS",
+      "gap": 9.654085286577318e-16,
+      "service_chains": 14,
+      "input_sha256": "87efeb78f7beccb6e4458ebb89fda2eaf46b3e6fc25e275c02ba0d2c487c0760"
+    },
+    {
+      "day": "2026-06-24",
+      "physical_audit": "PASS",
+      "gap": 3.603067320284863e-15,
+      "service_chains": 26,
+      "input_sha256": "15871c785e3fc8028e8ec3574f9c632313167504ff01dc951d67d62460573696"
+    },
+    {
+      "day": "2026-06-25",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 50,
+      "input_sha256": "caa410cb1fd1b0184f6cef95ce39771c87fb26a790cc648f394d5af601eb8b3e"
+    },
+    {
+      "day": "2026-06-26",
+      "physical_audit": "PASS",
+      "gap": 5.655173175105005e-09,
+      "service_chains": 72,
+      "input_sha256": "5a068f5e23c43f9945ed1fb5cb9d390662baf43b2dd424df59932c91be35005a"
+    },
+    {
+      "day": "2026-06-27",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 78,
+      "input_sha256": "0ac84a835b9b1e7fe526a5fee2283223a1d4f4d1a0bd9a98f4fd954a114eda7d"
+    },
+    {
+      "day": "2026-06-28",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 46,
+      "input_sha256": "299c18e8e84883d52011bcb3d3bf9509ef101a82cb872db51224888b812699a6"
+    },
+    {
+      "day": "2026-06-29",
+      "physical_audit": "PASS",
+      "gap": 4.643577807022409e-15,
+      "service_chains": 28,
+      "input_sha256": "101f4cc70d28e3d5309a5aee151b8293b39f1e7fd43300efd9d65d500e02dd71"
+    },
+    {
+      "day": "2026-06-30",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 16,
+      "input_sha256": "edcb834c52d160d74245a32f5b3ea00accc485db45f384229b28cea1bc61d46a"
+    },
+    {
+      "day": "2026-07-01",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 2,
+      "input_sha256": "19fde49f3935985dbd44746e47421be68a0533c992cac13bd2766b4c2c1c2448"
+    },
+    {
+      "day": "2026-07-02",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "c7926186bd2d6e31a182c19782d32193bedc546277edede555a4b899c147dbf3"
+    },
+    {
+      "day": "2026-07-03",
+      "physical_audit": "PASS",
+      "gap": 1.4493327323477553e-06,
+      "service_chains": 26,
+      "input_sha256": "611d154aa77690f989452c4c410eb85ff440bbcc658684e9449f6b725586c535"
+    },
+    {
+      "day": "2026-07-04",
+      "physical_audit": "PASS",
+      "gap": 1.083545163363241e-15,
+      "service_chains": 106,
+      "input_sha256": "29a741b4f1f8a435987b58f9aef0807503e631c3c7bea3a3e0c3000449db7978"
+    },
+    {
+      "day": "2026-07-05",
+      "physical_audit": "PASS",
+      "gap": 3.6679204370202273e-16,
+      "service_chains": 108,
+      "input_sha256": "57448b0dc29347f720b5098ca52290d3f6ee8202e3359d9305d80198b167c865"
+    },
+    {
+      "day": "2026-07-06",
+      "physical_audit": "PASS",
+      "gap": 9.115721170036984e-16,
+      "service_chains": 50,
+      "input_sha256": "b8c4ae6f2b91ec3aea4956a281429518ac8520f14fc93a3dbd89ac03c9ebabf7"
+    },
+    {
+      "day": "2026-07-07",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 22,
+      "input_sha256": "d324438803e4e45e71a6af20b8ea0f3be603d4a177398d388d0c3e6431416b72"
+    },
+    {
+      "day": "2026-07-08",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "3d61ffec18f1e813fd6fdec6e37611744a63ff17a2594bf12a5bbb94323d7be2"
+    },
+    {
+      "day": "2026-07-09",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 12,
+      "input_sha256": "00af3ca5b548af88666b7286f07900353918e6f83dbb206a43e74bef38b046c5"
+    },
+    {
+      "day": "2026-07-10",
+      "physical_audit": "PASS",
+      "gap": 5.779467707016108e-16,
+      "service_chains": 36,
+      "input_sha256": "be42f804ab7e3842c8b59e9452c956736d9c89be78cb0fecfdf10f33fd5f2b1a"
+    },
+    {
+      "day": "2026-07-11",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 44,
+      "input_sha256": "53e7755cd8ca5c803e26832eb075498fc18b2e4b705d47e8c8bc78c39281a184"
+    },
+    {
+      "day": "2026-07-12",
+      "physical_audit": "PASS",
+      "gap": 8.928368617144698e-16,
+      "service_chains": 40,
+      "input_sha256": "37952d33506ef744f2769915469f2a70ff7eb5c0fdbe41bb391ef1fae3ae62e3"
+    },
+    {
+      "day": "2026-07-13",
+      "physical_audit": "PASS",
+      "gap": 4.621442595466496e-16,
+      "service_chains": 24,
+      "input_sha256": "a900dedf4d4611ca2d4147070f5853f1e011317c5d31d7be08aa1faf13e44922"
+    },
+    {
+      "day": "2026-07-14",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 16,
+      "input_sha256": "93cfe86fc2b2fbca3f553848f7d273e6bc4fbf66624ca594c2e84fab4c08a087"
+    },
+    {
+      "day": "2026-07-15",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 28,
+      "input_sha256": "8e639a781d391adca03b8c81f3ec4439ba25fc69ebf88ceb299bfddf62f61365"
+    },
+    {
+      "day": "2026-07-16",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 16,
+      "input_sha256": "ade169add55c9fec69e6d42d9a45019c8f7f9860defc9c1fc7daa791728dc2b2"
+    },
+    {
+      "day": "2026-07-17",
+      "physical_audit": "PASS",
+      "gap": 2.2903887499601676e-15,
+      "service_chains": 6,
+      "input_sha256": "5c066165949a5267721afe916f7cea3dfce1231f457da71d3d1986c02eb0e56e"
+    },
+    {
+      "day": "2026-07-18",
+      "physical_audit": "PASS",
+      "gap": 3.608768317730327e-15,
+      "service_chains": 14,
+      "input_sha256": "a2a937800f5759e53178fbb6aac9b4eecf6c0e56f6c4bf26f6a59701b20820ed"
+    },
+    {
+      "day": "2026-07-19",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 24,
+      "input_sha256": "302a0e99d1fd2c9efcc442d00c9e81954268fb436321e2fc306eca8528635fe8"
+    },
+    {
+      "day": "2026-07-20",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 20,
+      "input_sha256": "b8b9c8caad7f1132c09d8f8d4f25539fe7af41484eec01f303ad39485b6a739c"
+    },
+    {
+      "day": "2026-07-21",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 6,
+      "input_sha256": "9e261244d657924f742179372cb4a76e1c449bbdfee59460eb241962e1d99649"
+    },
+    {
+      "day": "2026-07-22",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 12,
+      "input_sha256": "a5574aa379bf7a0e4c46adb9a98ae15c229285a4d7915bcaeff00addf946a032"
+    },
+    {
+      "day": "2026-07-23",
+      "physical_audit": "PASS",
+      "gap": 1.7186018782315675e-15,
+      "service_chains": 28,
+      "input_sha256": "1bdec9e4f9ca7a438fb0133518c4c1889dc11f399e2b2d7ac93f8b4a8bc0ac98"
+    },
+    {
+      "day": "2026-07-24",
+      "physical_audit": "PASS",
+      "gap": 3.6371671886256983e-16,
+      "service_chains": 22,
+      "input_sha256": "a7c99494b0ec19b938cd500190250eaebe89457ddab5639b1c299bfa5b862953"
+    },
+    {
+      "day": "2026-07-25",
+      "physical_audit": "PASS",
+      "gap": 1.2556392297062183e-15,
+      "service_chains": 22,
+      "input_sha256": "c43e1043fcab52927ffa5ec4e304d1d2b6df6c34333b6af547ba989251c4d34e"
+    },
+    {
+      "day": "2026-07-26",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 40,
+      "input_sha256": "4af4c33f85179425117ce6fb73f8b5e2f79d2c5c65ed91dfb5f362831e55807d"
+    },
+    {
+      "day": "2026-07-27",
+      "physical_audit": "PASS",
+      "gap": 1.3498650723639586e-16,
+      "service_chains": 56,
+      "input_sha256": "7af55e55423b86de8fa7b0246e1c09e380825a7dcb23135d565ecf8d70976117"
+    },
+    {
+      "day": "2026-07-28",
+      "physical_audit": "PASS",
+      "gap": 1.7681168613317362e-15,
+      "service_chains": 50,
+      "input_sha256": "b30b450994fa31f4fed0312ad29aec85a9ff66bcf76f1e06248cb0009832f270"
+    },
+    {
+      "day": "2026-07-29",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 18,
+      "input_sha256": "faae15d63a7541395e8febaf8bb8e34dbe7032329e9781311a17e5793f1729e7"
+    },
+    {
+      "day": "2026-07-30",
+      "physical_audit": "PASS",
+      "gap": 3.9674356783582053e-10,
+      "service_chains": 22,
+      "input_sha256": "13eea7846e8d3c084d2bcd33af6ea16ab800b557759e2c220be1ba3b05767736"
+    },
+    {
+      "day": "2026-07-31",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 24,
+      "input_sha256": "3c334ae6e4986d552e1b8922808d46c9f082e8b0f55bd23d8cb99f8aa4fcb2a3"
+    },
+    {
+      "day": "2026-08-01",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 4,
+      "input_sha256": "3ce70237317aec9d844a2485dd21e47d17ce5ad8d977bb15bbd8035fc4bd04ff"
+    },
+    {
+      "day": "2026-08-02",
+      "physical_audit": "PASS",
+      "gap": 2.865482592142996e-14,
+      "service_chains": 6,
+      "input_sha256": "3d71625f984dd3b9c61cc2eeed565641035e8c04c9c695c0a2ff1b7b00e7349b"
+    },
+    {
+      "day": "2026-08-03",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 6,
+      "input_sha256": "26ae024853ace6ace4d39357ef5a66ae374dd28ddfecdcb19587d269be63159c"
+    },
+    {
+      "day": "2026-08-04",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 4,
+      "input_sha256": "149a1845c4e55b3d03cbc9d83f2cbd6320fb8e6123fc48edf08141cbf2baee21"
+    },
+    {
+      "day": "2026-08-05",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 4,
+      "input_sha256": "57dc43a6550b5d91a202ad63f0d00c303aafdf345dc5ee1227c645b2009d47dd"
+    },
+    {
+      "day": "2026-08-06",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 0,
+      "input_sha256": "8c2068667fe480512f2453c70cdb639ee78536a9ce189e5ae2e9b60a73f5427d"
+    },
+    {
+      "day": "2026-08-07",
+      "physical_audit": "PASS",
+      "gap": 3.515649209861005e-14,
+      "service_chains": 4,
+      "input_sha256": "589c908a32640c83f4d27bc9c4da109e0e90409b06b13b1d2e7a4788401ceed3"
+    },
+    {
+      "day": "2026-08-08",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 4,
+      "input_sha256": "7888daa0dd4118d7df45e8814219be019dd93a2465d553cf22799efb04ea58ae"
+    },
+    {
+      "day": "2026-08-09",
+      "physical_audit": "PASS",
+      "gap": 1.4220760921868342e-15,
+      "service_chains": 12,
+      "input_sha256": "2568c0dfd4dccb7d2975e308442fdc5149a9edb8c3a1a3c41782797fc469734b"
+    },
+    {
+      "day": "2026-08-10",
+      "physical_audit": "PASS",
+      "gap": 3.7199607467694795e-16,
+      "service_chains": 14,
+      "input_sha256": "413ae1ee860fdc23f305594bf4a5f787ff72a825cbc3d421c19d7a737b2dbac3"
+    },
+    {
+      "day": "2026-08-11",
+      "physical_audit": "PASS",
+      "gap": 1.0371711571339433e-15,
+      "service_chains": 26,
+      "input_sha256": "832ea2a736958e5a61b37ad439c387222f027c0d64599277ce5b470ed0c16405"
+    },
+    {
+      "day": "2026-08-12",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 24,
+      "input_sha256": "bbb59d51e2b39cf5d67b025f23ab2f192663d68f84ff00e4174533449f071c43"
+    },
+    {
+      "day": "2026-08-13",
+      "physical_audit": "PASS",
+      "gap": 9.613059325423828e-15,
+      "service_chains": 4,
+      "input_sha256": "963d815f993ed777e95b6014b75326c4532a849545138084a2b121703dd15cd1"
+    },
+    {
+      "day": "2026-08-14",
+      "physical_audit": "PASS",
+      "gap": 1.3101043234854572e-15,
+      "service_chains": 10,
+      "input_sha256": "2fb4fac36456c2c574a483c7a4f5ca73200ed74f6382df33f7466955f6c0c7de"
+    },
+    {
+      "day": "2026-08-15",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 24,
+      "input_sha256": "6359968495839d2e86e83acc1a65ffc7eafaaeeb68b4393b69907475ad82b9de"
+    },
+    {
+      "day": "2026-08-16",
+      "physical_audit": "PASS",
+      "gap": 2.757084923060816e-16,
+      "service_chains": 24,
+      "input_sha256": "8a5146f8802ab9d50b7b1fd6f7ada1a5c6c2679becfbf8d981b1064dd4adb61b"
+    },
+    {
+      "day": "2026-08-17",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 8,
+      "input_sha256": "35bea06ef9e4a2e401350b165ab527733e01d62d920b8e0bfda3b208dbc9360f"
+    },
+    {
+      "day": "2026-08-18",
+      "physical_audit": "PASS",
+      "gap": 9.262611782045405e-16,
+      "service_chains": 2,
+      "input_sha256": "724ce66fb314b1d55f50267d811b3b0ed3c647c1b8224cbaa43721f4e9fff8df"
+    },
+    {
+      "day": "2026-08-19",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 2,
+      "input_sha256": "50c0465fef86414f62448268871017a30fd295a60cfb3ba5b1917fd56a9b61f7"
+    },
+    {
+      "day": "2026-08-20",
+      "physical_audit": "PASS",
+      "gap": 3.9821959996491784e-16,
+      "service_chains": 20,
+      "input_sha256": "8ca8aae169997c70cdc1e96975061b2ff42083882745090a0aa5ee10a51bd423"
+    },
+    {
+      "day": "2026-08-21",
+      "physical_audit": "PASS",
+      "gap": 1.2064552122568466e-15,
+      "service_chains": 32,
+      "input_sha256": "bbc297331a998785ef0798466b1a0957768affd3317f22a6bc81f215fa67a0b2"
+    },
+    {
+      "day": "2026-08-22",
+      "physical_audit": "PASS",
+      "gap": 8.195683360832876e-16,
+      "service_chains": 26,
+      "input_sha256": "483b4227a8d5613edd282b8cef38cad8145cab21d72bded3cab61d5e1e1c352f"
+    },
+    {
+      "day": "2026-08-23",
+      "physical_audit": "PASS",
+      "gap": 1.0617640881763904e-15,
+      "service_chains": 22,
+      "input_sha256": "c1929622256181d4201f086a8d198f94991aa9c27456f2de1817bc11e20c8a49"
+    },
+    {
+      "day": "2026-08-24",
+      "physical_audit": "PASS",
+      "gap": 6.876205377265575e-07,
+      "service_chains": 34,
+      "input_sha256": "35e3e95a62efbe8bc6adc02d5085eec2f7ee611068b0602a4ca969047fe6685e"
+    },
+    {
+      "day": "2026-08-25",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 46,
+      "input_sha256": "70f0025ac0e742925526c7ca240396288d097ca76d120fff3680669ccf4ed645"
+    },
+    {
+      "day": "2026-08-26",
+      "physical_audit": "PASS",
+      "gap": 0.0009322749105542718,
+      "service_chains": 44,
+      "input_sha256": "445149e21b583a3e3cdd9415557298e91110562a233760975b4d61ad0322bf10"
+    },
+    {
+      "day": "2026-08-27",
+      "physical_audit": "PASS",
+      "gap": 9.420657047714464e-08,
+      "service_chains": 58,
+      "input_sha256": "b07562d5502f6a202fb79fa64193dac8df84507d42c2e2aede2bde92ed61f231"
+    },
+    {
+      "day": "2026-08-28",
+      "physical_audit": "PASS",
+      "gap": 5.114028732846414e-09,
+      "service_chains": 64,
+      "input_sha256": "5599dd485a723dd39f03f4b3c5d61f0b67c01adaed0f07901f744cd18c9aab88"
+    },
+    {
+      "day": "2026-08-29",
+      "physical_audit": "PASS",
+      "gap": 0.0,
+      "service_chains": 46,
+      "input_sha256": "2f302cd3c71c5bdf1ac8f52e569271402218f4e24955338681cddf56c015779f"
+    },
+    {
+      "day": "2026-08-30",
+      "physical_audit": "PASS",
+      "gap": 1.0470398290927237e-06,
+      "service_chains": 52,
+      "input_sha256": "e0fb5da4d7edaded99137337ce9d741ad2c4e078c075cc16830225d3f8a348c4"
+    }
+  ]
+}

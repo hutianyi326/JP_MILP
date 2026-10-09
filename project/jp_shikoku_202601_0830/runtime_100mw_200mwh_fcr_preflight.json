@@ -1,0 +1,8 @@
+{
+  "intervals": 11664,
+  "blocks": 8784,
+  "spot_orders": 11664,
+  "asset_sha256": "7ee0618ced5d1ab8184f3ba1dac9198dd7b7cfc5ad1d0bfd502a23167ae50c79",
+  "input_sha256": "c2c7c1053a6331585caf0bed2963ef5b062ddb3ae95ad1be4ba4c998e5cf2755",
+  "status": "READY_FOR_CONDITIONAL_SOLVE"
+}

@@ -1,0 +1,1049 @@
+[
+  {
+    "id": "kyushu_lfc",
+    "url": "https://www.kyuden.co.jp/td_power_usages/lfc_list.html",
+    "final_url": "https://www.kyuden.co.jp/td_power_usages/lfc_list.html",
+    "path": "samples\\kyushu_lfc_d0974728beaa.html",
+    "sha256": "d0974728beaab7ccfd4396d47a6b0049d5b91788b9ec1d4c7fe28aa6bab64416",
+    "bytes": 2094,
+    "access_utc": "2026-10-01T14:35:22.508581+00:00",
+    "download_links": []
+  },
+  {
+    "id": "kyushu_jukyu",
+    "url": "https://www.kyuden.co.jp/td_power_usages/jukyuchosei_list.html",
+    "final_url": "https://www.kyuden.co.jp/td_power_usages/jukyuchosei_list.html",
+    "path": "samples\\kyushu_jukyu_6b5afe76a580.html",
+    "sha256": "6b5afe76a580f563d5aa7775ca22dfd35ef616db7d8124cd129b3ab38add745c",
+    "bytes": 22806,
+    "access_utc": "2026-10-01T14:35:23.204770+00:00",
+    "download_links": [
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202607.zip?a=20261001232632",
+        "label": "2026年7月\n                 （82KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202606.zip?a=20261001232632",
+        "label": "2026年6月\n                 （76KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202605.zip?a=20261001232632",
+        "label": "2026年5月\n                 （73KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202604.zip?a=20261001232632",
+        "label": "2026年4月\n                 （74KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202603.zip?a=20261001232632",
+        "label": "2026年3月\n                 （75KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202602.zip?a=20261001232632",
+        "label": "2026年2月\n                 （69KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202601.zip?a=20261001232632",
+        "label": "2026年1月\n                 （79KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202512.zip?a=20261001232632",
+        "label": "2025年12月\n                 （79KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202511.zip?a=20261001232632",
+        "label": "2025年11月\n                 （76KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202510.zip?a=20261001232632",
+        "label": "2025年10月\n                 （79KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202509.zip?a=20261001232632",
+        "label": "2025年9月\n                 （76KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202508.zip?a=20261001232632",
+        "label": "2025年8月\n                 （80KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202507.zip?a=20261001232632",
+        "label": "2025年7月\n                 （79KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202506.zip?a=20261001232632",
+        "label": "2025年6月\n                 （75KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202505.zip?a=20261001232632",
+        "label": "2025年5月\n                 （74KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202504.zip?a=20261001232632",
+        "label": "2025年4月\n                 （74KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202503.zip?a=20261001232632",
+        "label": "2025年3月\n                 （73KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202502.zip?a=20261001232632",
+        "label": "2025年2月\n                 （64KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202501.zip?a=20261001232632",
+        "label": "2025年1月\n                 （79KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202412.zip?a=20261001232632",
+        "label": "2024年12月\n                 （79KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202411.zip?a=20261001232632",
+        "label": "2024年11月\n                 （77KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202410.zip?a=20261001232632",
+        "label": "2024年10月\n                 （80KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202409.zip?a=20261001232632",
+        "label": "2024年9月\n                 （77KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202408.zip?a=20261001232632",
+        "label": "2024年8月\n                 （80KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202407.zip?a=20261001232632",
+        "label": "2024年7月\n                 （79KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202406.zip?a=20261001232632",
+        "label": "2024年6月\n                 （76KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202405.zip?a=20261001232632",
+        "label": "2024年5月\n                 （70KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202404.zip?a=20261001232632",
+        "label": "2024年4月\n                 （71KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202403.zip?a=20261001232632",
+        "label": "2024年3月\n                 （72KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202402.zip?a=20261001232632",
+        "label": "2024年2月\n                 （72KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202401.zip?a=20261001232632",
+        "label": "2024年1月\n                 （78KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202312.zip?a=20261001232632",
+        "label": "2023年12月\n                 （77KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202311.zip?a=20261001232632",
+        "label": "2023年11月\n                 （76KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202310.zip?a=20261001232632",
+        "label": "2023年10月\n                 （74KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202309.zip?a=20261001232632",
+        "label": "2023年9月\n                 （75KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202308.zip?a=20261001232632",
+        "label": "2023年8月\n                 （78KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202307.zip?a=20261001232632",
+        "label": "2023年7月\n                 （81KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202306.zip?a=20261001232632",
+        "label": "2023年6月\n                 （72KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202305.zip?a=20261001232632",
+        "label": "2023年5月\n                 （70KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202304.zip?a=20261001232632",
+        "label": "2023年4月\n                 （68KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202303.zip?a=20261001232632",
+        "label": "2023年3月\n                 （70KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202302.zip?a=20261001232632",
+        "label": "2023年2月\n                 （69KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202301.zip?a=20261001232632",
+        "label": "2023年1月\n                 （79KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202212.zip?a=20261001232632",
+        "label": "2022年12月\n                 （81KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202211.zip?a=20261001232632",
+        "label": "2022年11月\n                 （74KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202210.zip?a=20261001232632",
+        "label": "2022年10月\n                 （74KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202209.zip?a=20261001232632",
+        "label": "2022年9月\n                 （75KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202208.zip?a=20261001232632",
+        "label": "2022年8月\n                 （77KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202207.zip?a=20261001232632",
+        "label": "2022年7月\n                 （77KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202206.zip?a=20261001232632",
+        "label": "2022年6月\n                 （75KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202205.zip?a=20261001232632",
+        "label": "2022年5月\n                 （71KB）"
+      },
+      {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202204.zip?a=20261001232632",
+        "label": "2022年4月\n                 （65KB）"
+      }
+    ]
+  },
+  {
+    "id": "tokyo",
+    "url": "https://www.tepco.co.jp/forecast/html/adjust-j.html",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "chubu",
+    "url": "https://powergrid.chuden.co.jp/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/",
+    "final_url": "https://powergrid.chuden.co.jp/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/",
+    "path": "samples\\chubu_61e415e8e318.html",
+    "sha256": "61e415e8e318ba51cfcdb1fefb398255f84bf8964d50f452d3194a891af32e1b",
+    "bytes": 85606,
+    "access_utc": "2026-10-01T14:35:24.723272+00:00",
+    "download_links": [
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202608.csv",
+        "label": "2026年8月[CSV：220KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202607.csv",
+        "label": "2026年7月[CSV：222KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202606.csv",
+        "label": "2026年6月[CSV：213KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202605.csv",
+        "label": "2026年5月[CSV：215KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202604.csv",
+        "label": "2026年4月[CSV：208KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202603.csv",
+        "label": "2026年3月[CSV：211KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202602.csv",
+        "label": "2026年2月[CSV：195KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202601.csv",
+        "label": "2026年1月[CSV：215KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202512.csv",
+        "label": "2025年12月[CSV：214KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202511.csv",
+        "label": "2025年11月[CSV：209KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202510.csv",
+        "label": "2025年10月[CSV：213KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202509.csv",
+        "label": "2025年9月[CSV：210KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202508.csv",
+        "label": "2025年8月[CSV：218KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202507.csv",
+        "label": "2025年7月[CSV：218KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202506.csv",
+        "label": "2025年6月[CSV：205KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202505.csv",
+        "label": "2025年5月[CSV：210KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202504.csv",
+        "label": "2025年4月[CSV：206KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202503.csv",
+        "label": "2025年3月[CSV：213KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202502.csv",
+        "label": "2025年2月[CSV：198KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202501.csv",
+        "label": "2025年1月[CSV：218KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202412.csv",
+        "label": "2024年12月[CSV：218KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202411.csv",
+        "label": "2024年11月[CSV：211KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202410.csv",
+        "label": "2024年10月[CSV：214KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202409.csv",
+        "label": "2024年9月[CSV：209KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202408.csv",
+        "label": "2024年8月[CSV：219KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202407.csv",
+        "label": "2024年7月[CSV：220KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202406.csv",
+        "label": "2024年6月[CSV：206KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202405.csv",
+        "label": "2024年5月[CSV：207KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202404.csv",
+        "label": "2024年4月[CSV：202KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202403.csv",
+        "label": "2024年3月[CSV：201KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202402.csv",
+        "label": "2024年2月[CSV：186KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202401.csv",
+        "label": "2024年1月[CSV：204KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202312.csv",
+        "label": "2023年12月[CSV：210KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202311.csv",
+        "label": "2023年11月[CSV：208KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202310.csv",
+        "label": "2023年10月[CSV：215KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202309.csv",
+        "label": "2023年9月[CSV：207KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202308.csv",
+        "label": "2023年8月[CSV：212KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202307.csv",
+        "label": "2023年7月[CSV：209KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202306.csv",
+        "label": "2023年6月[CSV：200KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202305.csv",
+        "label": "2023年5月[CSV：203KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202304.csv",
+        "label": "2023年4月[CSV：198KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202303.csv",
+        "label": "2023年3月[CSV：204KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202302.csv",
+        "label": "2023年2月[CSV：182KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202301.csv",
+        "label": "2023年1月[CSV：210KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202212.csv",
+        "label": "2022年12月[CSV：213KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202211.csv",
+        "label": "2022年11月[CSV：204KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202210.csv",
+        "label": "2022年10月[CSV：212KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202209.csv",
+        "label": "2022年9月[CSV：205KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202208.csv",
+        "label": "2022年8月[CSV：213KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202207.csv",
+        "label": "2022年7月[CSV：212KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202206.csv",
+        "label": "2022年6月[CSV：204KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202205.csv",
+        "label": "2022年5月[CSV：205KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_chubu_202204.csv",
+        "label": "2022年4月[CSV：197KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/202309.zip",
+        "label": "2023年9月[ZIP：4KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/202208.zip",
+        "label": "2022年8月[ZIP：3KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/202206.zip",
+        "label": "2022年6月[ZIP：2KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_LFC_chubu_202608.csv",
+        "label": "2026年8月[CSV：180KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_LFC_chubu_202607.csv",
+        "label": "2026年7月[CSV：181KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_LFC_chubu_202606.csv",
+        "label": "2026年6月[CSV：176KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_LFC_chubu_202605.csv",
+        "label": "2026年5月[CSV：180KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_LFC_chubu_202604.csv",
+        "label": "2026年4月[CSV：77KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jpex/__icsFiles/afieldfile/2023/09/29/2022fy.zip",
+        "label": "2022年度[ZIP：77 KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jpex/__icsFiles/afieldfile/2024/04/01/2023fy.zip",
+        "label": "2023年度[ZIP：162 KB]"
+      },
+      {
+        "url": "https://powergrid.chuden.co.jp/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jpex/__icsFiles/afieldfile/2024/04/15/jukyu_240415.zip",
+        "label": "2024年4月[ZIP：7 KB]"
+      }
+    ]
+  },
+  {
+    "id": "tohoku",
+    "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/",
+    "final_url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/",
+    "path": "samples\\tohoku_5da085083208.html",
+    "sha256": "5da0850832088448edf51d6b16760220b4d85bbc35410fdaa13ecdc074203039",
+    "bytes": 13462,
+    "access_utc": "2026-10-01T14:35:23.889316+00:00",
+    "download_links": [
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202204.csv",
+        "label": "jukyu_tohoku_202204"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202205.csv",
+        "label": "jukyu_tohoku_202205"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202206.csv",
+        "label": "jukyu_tohoku_202206"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202207.csv",
+        "label": "jukyu_tohoku_202207"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202208.csv",
+        "label": "jukyu_tohoku_202208"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202209.csv",
+        "label": "jukyu_tohoku_202209"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202210.csv",
+        "label": "jukyu_tohoku_202210"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202211.csv",
+        "label": "jukyu_tohoku_202211"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202212.csv",
+        "label": "jukyu_tohoku_202212"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202301.csv",
+        "label": "jukyu_tohoku_202301"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202302.csv",
+        "label": "jukyu_tohoku_202302"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202303.csv",
+        "label": "jukyu_tohoku_202303"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202304.csv",
+        "label": "jukyu_tohoku_202304"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202305.csv",
+        "label": "jukyu_tohoku_202305"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202306.csv",
+        "label": "jukyu_tohoku_202306"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202307.csv",
+        "label": "jukyu_tohoku_202307"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202308.csv",
+        "label": "jukyu_tohoku_202308"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202309.csv",
+        "label": "jukyu_tohoku_202309"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202310.csv",
+        "label": "jukyu_tohoku_202310"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202311.csv",
+        "label": "jukyu_tohoku_202311"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202312.csv",
+        "label": "jukyu_tohoku_202312"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202401.csv",
+        "label": "jukyu_tohoku_202401"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202402.csv",
+        "label": "jukyu_tohoku_202402"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202403.csv",
+        "label": "jukyu_tohoku_202403"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202404.csv",
+        "label": "jukyu_tohoku_202404"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202405.csv",
+        "label": "jukyu_tohoku_202405"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202406.csv",
+        "label": "jukyu_tohoku_202406"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202407.csv",
+        "label": "jukyu_tohoku_202407"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202408.csv",
+        "label": "jukyu_tohoku_202408"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202409.csv",
+        "label": "jukyu_tohoku_202409"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202410.csv",
+        "label": "jukyu_tohoku_202410"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202411.csv",
+        "label": "jukyu_tohoku_202411"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202412.csv",
+        "label": "jukyu_tohoku_202412"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202501.csv",
+        "label": "jukyu_tohoku_202501"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202502.csv",
+        "label": "jukyu_tohoku_202502"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202503.csv",
+        "label": "jukyu_tohoku_202503"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202504.csv",
+        "label": "jukyu_tohoku_202504"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202505.csv",
+        "label": "jukyu_tohoku_202505"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202506.csv",
+        "label": "jukyu_tohoku_202506"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202507.csv",
+        "label": "jukyu_tohoku_202507"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202508.csv",
+        "label": "jukyu_tohoku_202508"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202509.csv",
+        "label": "jukyu_tohoku_202509"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202510.csv",
+        "label": "jukyu_tohoku_202510"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202511.csv",
+        "label": "jukyu_tohoku_202511"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202512.csv",
+        "label": "jukyu_tohoku_202512"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202601.csv",
+        "label": "jukyu_tohoku_202601"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202602.csv",
+        "label": "jukyu_tohoku_202602"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202603.csv",
+        "label": "jukyu_tohoku_202603"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202604.csv",
+        "label": "jukyu_tohoku_202604"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202605.csv",
+        "label": "jukyu_tohoku_202605"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202606.csv",
+        "label": "jukyu_tohoku_202606"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202607.csv",
+        "label": "jukyu_tohoku_202607"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/supplydemand/jukyu_tohoku_202608.csv",
+        "label": "jukyu_tohoku_202608"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/lfc/jukyu_LFC_tohoku_202601.csv",
+        "label": "jukyu_LFC_tohoku_202601"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/lfc/jukyu_LFC_tohoku_202602.csv",
+        "label": "jukyu_LFC_tohoku_202602"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/lfc/jukyu_LFC_tohoku_202603.csv",
+        "label": "jukyu_LFC_tohoku_202603"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/lfc/jukyu_LFC_tohoku_202604.csv",
+        "label": "jukyu_LFC_tohoku_202604"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/lfc/jukyu_LFC_tohoku_202605.csv",
+        "label": "jukyu_LFC_tohoku_202605"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/lfc/jukyu_LFC_tohoku_202606.csv",
+        "label": "jukyu_LFC_tohoku_202606"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/lfc/jukyu_LFC_tohoku_202607.csv",
+        "label": "jukyu_LFC_tohoku_202607"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/lfc/jukyu_LFC_tohoku_202608.csv",
+        "label": "jukyu_LFC_tohoku_202608"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/data/yousui_tso_unyou_tohoku_2024.csv",
+        "label": "yousui_tso_unyou_tohoku_2024"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/activate/202206271330_dengen1'kw.csv",
+        "label": "202206271330_dengen1’kw"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/activate/202206291300_dengen1'kw.csv",
+        "label": "202206291300_dengen1’kw"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/activate/202206301300_dengen1'kw.csv",
+        "label": "202206301300_dengen1’kw"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/activate/202208011230_dengen1'kw.csv",
+        "label": "202208011230_dengen1’kw"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/activate/202208021000_dengen1'kw.csv",
+        "label": "202208021000_dengen1’kw"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/activate/202301251430_dengen1'kw.csv",
+        "label": "202301251430_dengen1’kw"
+      },
+      {
+        "url": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/activate/202302101300_dengen1'kw.csv",
+        "label": "202302101300_dengen1’kw"
+      }
+    ]
+  },
+  {
+    "id": "hokuriku",
+    "url": "https://www.rikuden.co.jp/nw_jyukyudata/jukyutyousei.html",
+    "final_url": "https://www.rikuden.co.jp/nw_jyukyudata/jukyutyousei.html",
+    "path": "samples\\hokuriku_d62d1b5c0ed4.html",
+    "sha256": "d62d1b5c0ed43813fd6b425181fd6934e5794e1233465b9727287b70a03d5c6e",
+    "bytes": 21358,
+    "access_utc": "2026-10-01T14:35:23.772859+00:00",
+    "download_links": [
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202604.csv",
+        "label": "2026年4月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202605.csv",
+        "label": "2026年5月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202606.csv",
+        "label": "2026年6月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202607.csv",
+        "label": "2026年7月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202608.csv",
+        "label": "2026年8月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202504.csv",
+        "label": "2025年4月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202505.csv",
+        "label": "2025年5月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202506.csv",
+        "label": "2025年6月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202507.csv",
+        "label": "2025年7月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202508.csv",
+        "label": "2025年8月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202509.csv",
+        "label": "2025年9月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202510.csv",
+        "label": "2025年10月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202511.csv",
+        "label": "2025年11月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202512.csv",
+        "label": "2025年12月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202601.csv",
+        "label": "2026年1月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202602.csv",
+        "label": "2026年2月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_hokuriku_202603.csv",
+        "label": "2026年3月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202404_jyukyu_hokuriku.csv",
+        "label": "2024年4月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202405_jyukyu_hokuriku.csv",
+        "label": "2024年5月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202406_jyukyu_hokuriku.csv",
+        "label": "2024年6月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202407_jyukyu_hokuriku.csv",
+        "label": "2024年7月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202408_jyukyu_hokuriku.csv",
+        "label": "2024年8月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202409_jyukyu_hokuriku.csv",
+        "label": "2024年9月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202410_jyukyu_hokuriku.csv",
+        "label": "2024年10月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202411_jyukyu_hokuriku.csv",
+        "label": "2024年11月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202412_jyukyu_hokuriku.csv",
+        "label": "2024年12月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202501_jyukyu_hokuriku.csv",
+        "label": "2025年1月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202502_jyukyu_hokuriku.csv",
+        "label": "2025年2月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202503_jyukyu_hokuriku.csv",
+        "label": "2025年3月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202304_jyukyu_hokuriku_02.csv",
+        "label": "2023年4月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202305_jyukyu_hokuriku_02.csv",
+        "label": "2023年5月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202306_jyukyu_hokuriku_02.csv",
+        "label": "2023年6月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202307_jyukyu_hokuriku_02.csv",
+        "label": "2023年7月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202308_jyukyu_hokuriku_02.csv",
+        "label": "2023年8月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202309_jyukyu_hokuriku_03.csv",
+        "label": "2023年9月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202309281259_dengen1dashkW_02.csv",
+        "label": "2023年9月(電源1'発動情報)"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202310_jyukyu_hokuriku.csv",
+        "label": "2023年10月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202311_jyukyu_hokuriku.csv",
+        "label": "2023年11月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202312_jyukyu_hokuriku.csv",
+        "label": "2023年12月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202401_jyukyu_hokuriku.csv",
+        "label": "2024年1月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202402_jyukyu_hokuriku.csv",
+        "label": "2024年2月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202403_jyukyu_hokuriku.csv",
+        "label": "2024年3月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202204_jyukyu_hokuriku_04.csv",
+        "label": "2022年4月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202205_jyukyu_hokuriku_04.csv",
+        "label": "2022年5月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202206_jyukyu_hokuriku_04.csv",
+        "label": "2022年6月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202207_jyukyu_hokuriku_04.csv",
+        "label": "2022年7月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202208_jyukyu_hokuriku_02.csv",
+        "label": "2022年8月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202209_jyukyu_hokuriku_02.csv",
+        "label": "2022年9月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202210_jyukyu_hokuriku_02.csv",
+        "label": "2022年10月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202211_jyukyu_hokuriku_02.csv",
+        "label": "2022年11月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202212_jyukyu_hokuriku_02.csv",
+        "label": "2022年12月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202301_jyukyu_hokuriku_02.csv",
+        "label": "2023年1月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202302_jyukyu_hokuriku_02.csv",
+        "label": "2023年2月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/202303_jyukyu_hokuriku_02.csv",
+        "label": "2023年3月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_LFC_hokuriku_202604.csv",
+        "label": "2026年4月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_LFC_hokuriku_202605.csv",
+        "label": "2026年5月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_LFC_hokuriku_202606.csv",
+        "label": "2026年6月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_LFC_hokuriku_202607.csv",
+        "label": "2026年7月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_LFC_hokuriku_202608.csv",
+        "label": "2026年8月"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/2026suiryokuTSO_hokuriku.csv",
+        "label": "2026年度"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/2025suiryokuTSO_hokuriku.csv",
+        "label": "2025年度"
+      },
+      {
+        "url": "https://www.rikuden.co.jp/nw_jyukyudata/attach/2024suiryokuTSO_hokuriku.csv",
+        "label": "2024年度"
+      }
+    ]
+  }
+]

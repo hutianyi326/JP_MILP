@@ -1,0 +1,185 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<script src="/nw/shared/inc/gtm.js"></script>
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta name="copyright" content="Hokuriku Electric Power Transmission & Distribution Company. All Rights Reserved.">
+<meta name="author" content="Hokuriku Electric Power Transmission & Distribution Company">
+<title>北陸エリア需給実績｜北陸エリアでんき予報｜北陸電力送配電株式会社</title>
+<link rel="icon" href="/nw/favicon.ico">
+<link rel="stylesheet" href="common/css/import_common.css" type="text/css" media="all">
+<link rel="stylesheet" href="common/css/hTop.css" type="text/css" media="all">
+<link rel="stylesheet" href="common/css/hatomblock.css" type="text/css" media="all">
+<link rel="alternate" title="RSS（プレスリリース）" href="/nw/press_nw.rdf" type="application/rss+xml">
+<link rel="alternate" title="RSS（TOPICS）" href="/nw/topics_nw.rdf" type="application/rss+xml">
+<script type="text/javascript" src="common/js/ua.js"></script>
+<script type="text/javascript" src="common/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="common/js/jquery.tile.js"></script>
+<script type="text/javascript" src="common/js/jquery.corner.js"></script>
+<script type="text/javascript" src="common/js/top.js"></script>
+<script type="text/javascript" src="common/js/heightLine.js"></script>
+<script type="text/javascript" src="common/js/smartRollover.js"></script>
+<script type="text/javascript" src="common/js/pastCsvDLJukyu.js"></script>
+<script type="text/javascript">
+  var _dtMin = new Date('2024/04');
+  var _dtMax = new Date('2026/08');
+</script>
+</head>
+<body onload="setYearList(document.frmDL.year);">
+<script src="/nw/shared/inc/gtmn.js"></script>
+<!-- ■■■■■　ヘッダー　開始　■■■■■ -->
+<div><a name="PageTop"></a></div>
+<div id="AreaHeader">
+  <h1 id="AreaHeader1"><a href="/nw/index.html"><img src="common/img/main_logo.gif" alt="北陸電力送配電" width="267" height="84"></a></h1>
+  <ul id="AreaHeader2">
+    <li id="NaviS1"><a href="/nw_toiawase/index.html">お問い合わせ</a></li>
+    <li id="NaviS2"><a href="/nw_info/sitemap.html">サイトマップ</a></li>
+    <li id="NaviS3"><a href="/nw_info/link.html">リンク集</a></li>
+    <li id="NaviS4"><a href="/nw_english/index.html">English</a></li>
+  </ul>
+  <div id="AreaHeader3">
+    <form action="/nw/search.html" method="get" name="Search">
+      <fieldset>
+        <legend>サイト内検索</legend>
+        <table  border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><input id="SerchKeyword" name="mtssq" type="text" class="formIinput" value="" size="15"></td>
+            <td><input name="submit" type="image" src="common/img/gnavi_search_button.gif" alt="検索" width="40" height="17" border="0"></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </div>
+</div>
+<hr class="divider">
+<!-- ■■■■■　ヘッダー　終了　■■■■■ -->
+<!-- ■■■■■　コンテンツ　開始　■■■■■ -->
+<div id="wrapper">
+ <!-- Flash メニュー エリア start -->
+ <!-- Flash メニュー エリア end -->
+
+<!-- コンテンツヘッダ -->
+  <div id="pan">
+    <p><a href="/nw/index.html">北陸電力送配電TOP</a><span>&nbsp;&gt;&nbsp;<a href="index.html">北陸エリアでんき予報</a></span><span>&nbsp;&gt;&nbsp;北陸エリア需給実績</span></p>
+  </div>
+  <div id="head_column">
+  <h2><img src="common/img/ttl_rikuden.jpg" alt="北陸エリアでんき予報" width="444" height="68"></h2>
+  <ul id="pnav_menu">
+   <li><a href="./"><img src="common/img/btn_pnav01_on.gif" alt="北陸エリアでんき予報" width="111" height="100"></a></li>
+   <li><a href="katei.html"><img src="common/img/btn_pnav03_off.gif" alt="家庭でできる電気の効率的なご使用方法" width="110" height="100"></a></li>
+   <li><a href="hojin.html"><img src="common/img/btn_pnav04_off.gif" alt="オフィスでできる電気の効率的なご使用方法" width="110" height="100"></a></li>
+  </ul>
+ </div>
+
+<!-- 北陸エリア需給実績 -->
+<div id="w_forecast_p2" class="block">
+  <h2>北陸エリア需給実績</h2>
+  <p class="UpdateDay">更新日時：9月28日23時20分</p>
+
+  <p class="result_jyukyu">経済産業省　資源エネルギー庁の「系統情報の公表の考え方」に基づき、北陸エリアの需給実績を公開いたします。</p>
+  <div id="download" class="block">
+    <div class="content">
+      <div id="electric_power" class="electric_power">
+        <div class="sub_title">
+          <h4>データダウンロード</h4>
+          <p class="border"><img src="img/subtitle_bg.png" width="100%" height="100%" alt=""></p>
+        </div>
+        <ul class="btn-area">
+          <li>
+            <a href="csv/eria_jukyu_202609_05.csv"><img src="common/img/btn_dl_current_month_off.png" alt="当月の需給実績ダウンロード"></a>
+          </li>
+        </ul>
+        <div id="old">
+          <p>日付を指定してダウンロードしてください</p>
+          <div id="download-form">
+            <form name="frmDL">
+              <select name="year" id="year" onChange="selectYear();">
+                <option value="0" selected>-</option>
+              </select>年
+              <select name="month" id="month" onChange="selectMonth();">
+                <option value="0" selected>-</option>
+              </select>月
+              <ul class="btn-area">
+                <li>
+                  <a href="#" onclick="return downloadPastCsv();"><img src="common/img/btn_dl_past_month_off.png" alt="過去実績ダウンロード"></a>
+                </li>
+                <li>
+                  <a href="https://www.rikuden.co.jp/nw_jyukyudata/area_jisseki.html">
+                    <img src="common/img/btn_link_past_month_off.png" width="390" height="60" alt="2024年3月以前はこちら"></a>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+        <br><br>
+        <div class="sub_title">
+          <h4>エリア需給実績グラフ</h4>
+          <p class="border"><img src="img/subtitle_bg.png" width="100%" height="100%" alt=""></p>
+        </div>
+        <div id="supply-demand">
+          <div id="GraphBoxCore">
+            <div id="graph">
+              <p id="leftBar"><img src="img/graph_num01_jyukyu.png" width="40" height="359" alt=""></p>
+              <div id="mainArea"><img src="img_graph/graph_jyukyu.png" width="627" height="314" alt=""></div>
+              <p id="underBar"><img src="img/graph_num02_jyukyu.png" width="660" height="25" alt=""></p>
+            </div>
+            <ul id="GraphWord">
+              <li><img src="img/legend_01.png" alt="①原子力" width="129" height="13"></li>
+              <li><img src="img/legend_02.png" alt="②地熱" width="129" height="13"></li>
+              <li><img src="img/legend_03.png" alt="③水力" width="129" height="13"></li>
+              <li><img src="img/legend_04.png" alt="④火力(LNG)" width="129" height="13"></li>
+              <li><img src="img/legend_05.png" alt="⑤火力(石炭)" width="129" height="13"></li>
+              <li><img src="img/legend_06.png" alt="⑥火力(石油)" width="129" height="13"></li>
+              <li><img src="img/legend_07.png" alt="⑦火力(その他)" width="129" height="13"></li>
+              <li><img src="img/legend_08.png" alt="⑧バイオマス" width="129" height="13"></li>
+              <li><img src="img/legend_09.png" alt="⑨風力" width="129" height="13"></li>
+              <li><img src="img/legend_10.png" alt="⑩太陽光" width="129" height="13"></li>
+              <li><img src="img/legend_11.png" alt="⑪揚水(発電)" width="129" height="13"></li>
+              <li><img src="img/legend_12.png" alt="⑫蓄電池(放電)" width="129" height="13"></li>
+              <li><img src="img/legend_13.png" alt="⑬連系線受電" width="129" height="13"></li>
+              <li><img src="img/legend_14.png" alt="⑭その他" width="129" height="13"></li>
+              <li><img src="img/legend_15.png" alt="エリア需要" width="129" height="13"></li>
+            </ul>
+            <div class="graph_attention">
+              <p>※供給力合計とエリア需要との差分は、「連系線送電」、「揚水動力」、「蓄電池充電」の合計です。</p>
+              <p>※需給実績の30分値につきましては、kW値を30分平均した値を基に公開しております。</p>
+            </div>
+          </div>
+        </div>
+        <div class="disclaimer_box">
+          <div class="disclaimer">
+            <p>取扱い</p>
+            <ul><li>・各項目は速報値であり、推計実績を含んでいます。</li><li>・毎30分データは原則、実需給後1時間以内に公表いたします。</li><li>・実績情報は伝送異常や通信作業によるデータ欠落等がある場合があります。</li><li>・公表値は、過去にさかのぼり修正させていただく場合があります。</li><li>・過去の公表値を修正する場合、修正前の実績の提供はいたしませんので、予めご了承ください。</li><li>・CSVデータの仕様については、予告なく変更することがあります。</li><li>・四捨五入の関係で合計が合わない場合があります。</li><li>・グラフは当日分のみで過去分は掲載いたしません。</li></ul>
+          </div>
+          <br>
+          <div class="disclaimer">
+            <p>免責事項</p>
+            <ul><li>・当社は、本サービスの利用者が、本サービスに依拠して行った行動等により被ったいかなる損失又は損害についても責任を負いかねます。</li><li>・本サービスは、メンテナンス等で予告なく 停止する場合があります。</li><li>・本サービスの内容は、予告なく変更する場合があります。</li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- コンテンツフッター -->
+<a href="index.html"><img src="common/img/btn_today_use_p2_off.gif" alt="本日予報、電力使用状況" width="466" height="68"></a>
+<p class="toPageTop"><a href="#PageTop">ページの先頭へ</a></p>
+
+</div><!-- / #wrapper -->
+<!-- ■■■■■　コンテンツ　終了　■■■■■ -->
+<!-- ■■■■■　フッター　開始　■■■■■ -->
+<hr class="divider">
+<div id="AreaFooter">
+  <ul id="AreaFooter1">
+    <li id="NaviF1"><a href="/nw_info/accessibility.html">アクセシビリティ－</a></li>
+    <li id="NaviF2"><a href="/nw_info/privacy.html">プライバシーポリシー</a></li>
+    <li id="NaviF3"><a href="/nw_info/termofuse.html">ご利用条件</a></li>
+  </ul>
+  <p id="copyright"><span>Copyright &copy; Hokuriku Electric Power Transmission & Distribution Company. All Rights Reserved.</span></p>
+</div>
+<!-- ■■■■■　フッター　終了　■■■■■ -->
+</body>
+</html>

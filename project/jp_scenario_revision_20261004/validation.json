@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-04",
+  "scope": "document consistency and illustrative max linearization only; no solver or independent review",
+  "passed": true,
+  "checks": {
+    "section13_unchanged": true,
+    "scenario_LV_FCR": true,
+    "scenario_HV_SPOT_FCR": true,
+    "scenario_HV_SPOT_S1_T1": true,
+    "user_clarifications_recorded": true,
+    "joint_response_not_assumed_calibrated": true,
+    "no_automatic_EDC_reallocation": true,
+    "no_scope_optimality_claim": true,
+    "review_scope_bounded": true,
+    "LV_physics_retained": true,
+    "exact_max_formulation_examples": true,
+    "new_local_link_targets_exist": true
+  },
+  "max_linearization_capacity_pairs": 25,
+  "new_local_links": [
+    {
+      "file": "countries/JP/model/JP_milp_formulation.md",
+      "target": "../../../project/jp_scenario_revision_20261004/user_scope.md",
+      "exists": true
+    },
+    {
+      "file": "countries/JP/model/JP_milp_formulation.md",
+      "target": "../research/model_handoff.md",
+      "exists": true
+    },
+    {
+      "file": "countries/JP/model/JP_milp_formulation.md",
+      "target": "../../../project/jp_scenario_revision_20261004/change_log.md",
+      "exists": true
+    },
+    {
+      "file": "countries/JP/model/JP_activation_data_spec_M4.md",
+      "target": "JP_milp_formulation.md#14-2026-10-04用户确认的固定测算场景",
+      "exists": true
+    },
+    {
+      "file": "countries/JP/model/JP_activation_data_spec_M4.md",
+      "target": "../../../project/jp_scenario_revision_20261004/user_scope.md",
+      "exists": true
+    },
+    {
+      "file": "project/jp_scenario_revision_20261004/change_log.md",
+      "target": "../../countries/JP/research/evidence_register.md",
+      "exists": true
+    },
+    {
+      "file": "project/jp_scenario_revision_20261004/change_log.md",
+      "target": "../../countries/JP/model/JP_milp_formulation.md",
+      "exists": true
+    },
+    {
+      "file": "project/jp_scenario_revision_20261004/change_log.md",
+      "target": "user_scope.md",
+      "exists": true
+    },
+    {
+      "file": "project/jp_scenario_revision_20261004/change_log.md",
+      "target": "validate.py",
+      "exists": true
+    },
+    {
+      "file": "project/jp_scenario_revision_20261004/change_log.md",
+      "target": "validation.json",
+      "exists": true
+    }
+  ],
+  "hashes": [
+    {
+      "path": "countries/JP/model/JP_milp_formulation.md",
+      "before_sha256": "634f2913a9d5f512da1aa319bd22d3315bb9d0ef4c3955bb130479fc633d0ae3",
+      "after_sha256": "da2f2b2a0a4c195f1089f6e594d27c6acb8e9ceb58ce987d7d352315f2f4f4e5"
+    },
+    {
+      "path": "countries/JP/model/JP_activation_data_spec_M4.md",
+      "before_sha256": "4e961aab538b0fe6bb7c6a8393153ed14b699e64f99c71eb7da436a8920618fa",
+      "after_sha256": "b140a1a9c6701121b04df643a889e3d171be020c4ed2777739e4d05f8926008d"
+    },
+    {
+      "path": "countries/JP/README.md",
+      "before_sha256": "55734439bf21ccad9a95e3bf5c7ccd0f7b2a5b0058a2006051a1fe1af20f3fc0",
+      "after_sha256": "6df231a8f8d1a1b5424f90818a9d27b8ea76f8676505cebc741260ff1cc62eac"
+    },
+    {
+      "path": "countries/JP/research/model_handoff.md",
+      "before_sha256": "68e4ec4a55be402b20851f7e9cf5f4f2d85603266a64b75a0bdb86cf90a162e9",
+      "after_sha256": "803bf5961595d5144a7712cc718d5576d03d9c3ce517d8d811780b23012b6c10"
+    },
+    {
+      "path": "countries/JP/research/README.md",
+      "before_sha256": "87fa56621fd3db3f32bbcb6bf95f97599c8800bc551551e0794652421f941e72",
+      "after_sha256": "bef7d4fe46ccce5baa1d92586f0bcdfbf32f330e1b9f01a7069a2e08df2abe81"
+    }
+  ]
+}

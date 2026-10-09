@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "path": "outputs\\JP\\shikoku_lv_offline_2mw_8mwh_20260101_0830_20261005_reviewed.zip",
+  "bytes": 926349,
+  "files": 45,
+  "sha256": "bbd0f61037f0a585c639dfaffcf018577badb77d444aee90995780b0b7da7086",
+  "CRC": "PASS",
+  "duplicate_names": false
+}

@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-03",
+  "scope": "New section 13 and integration boundary; no solver/backtest or empirical calibration",
+  "document": "countries\\JP\\model\\JP_milp_formulation.md",
+  "document_sha256": "634f2913a9d5f512da1aa319bd22d3315bb9d0ef4c3955bb130479fc633d0ae3",
+  "checks": {
+    "lfc_original_hash": true,
+    "regional_original_hash": true,
+    "ics_original_hash": true,
+    "lfc_date_slot": true,
+    "lfc_source_numbers": true,
+    "regional_date_slot": true,
+    "regional_source_numbers": true,
+    "ics_source_numbers": true,
+    "lfc_normal_expected_values": true,
+    "lfc_normal_net_identity": true,
+    "proxy_scales": true,
+    "frequency_integral_1": true,
+    "frequency_integral_2": true,
+    "frequency_integral_3": true,
+    "zero_variance_limit": true,
+    "net_to_gross_identity": true,
+    "hour_capacity_weighted_alpha": true,
+    "M4_baseline_equations_preserved": true,
+    "display_math_delimiters_balanced": true,
+    "no_lost_qquad_escape": true,
+    "local_links_exist": true
+  },
+  "passed": 21,
+  "total": 21,
+  "raw_evidence": [
+    {
+      "id": "lfc",
+      "path": "project/jp_activation_downloads_20261001/samples/kyushu_lfc_202606_4c5f53588b32.csv",
+      "sha256": "4c5f53588b3228fa25e69d33fd1598f0c50aa61343279d39ef7e02c96b8d1ee8"
+    },
+    {
+      "id": "regional",
+      "path": "project/jp_activation_downloads_20261001/samples/kyushu_jukyu_202606_259b239ae928.zip",
+      "sha256": "259b239ae928a27aae0524b37a3240cb25d8b1375019110752fdd6d092cb99a1"
+    },
+    {
+      "id": "ics",
+      "path": "data/raw/JP/activation_sources_20261001/ics_basis_202606.csv",
+      "sha256": "474f609911d7595a41381e9257e6f633ef6903edce48ee93bec9f3f9d1cef3ef"
+    }
+  ],
+  "normal_example": {
+    "up_mwh": 5.528658650769268,
+    "down_mwh": 11.028658650769268,
+    "net_mwh": -5.5
+  },
+  "frequency_numerical_checks": [
+    {
+      "mean": 0.03,
+      "sd": 0.0275,
+      "deadband": 0.01,
+      "span": 0.1,
+      "closed_up": 0.008932088173805232,
+      "numeric_up": 0.008932088150326482,
+      "closed_down": 0.23736446925240978,
+      "numeric_down": 0.2373644692555804
+    },
+    {
+      "mean": -0.02,
+      "sd": 0.04,
+      "deadband": 0.005,
+      "span": 0.2,
+      "closed_up": 0.12283367651443539,
+      "numeric_up": 0.12283367654542258,
+      "closed_down": 0.03238400226734572,
+      "numeric_down": 0.03238400229469246
+    },
+    {
+      "mean": 0,
+      "sd": 0.02,
+      "deadband": 0,
+      "span": 0.08,
+      "closed_up": 0.09973378378575007,
+      "numeric_up": 0.09973378382729263,
+      "closed_down": 0.09973378378575007,
+      "numeric_down": 0.09973378382729263
+    }
+  ],
+  "local_links": [
+    {
+      "target": "revision_M4_20260930/review_final.md",
+      "exists": true
+    },
+    {
+      "target": "../../../project/jp_activation_coefficients_20261003/review.md",
+      "exists": true
+    },
+    {
+      "target": "revision_M4_20260930/user_spec.md",
+      "exists": true
+    },
+    {
+      "target": "revision_M4_20260930/change_log.md",
+      "exists": true
+    },
+    {
+      "target": "../../ES/MILP/research/spain_milp_mathematical_spec_2026-09-16.md",
+      "exists": true
+    },
+    {
+      "target": "JP_activation_data_spec_M4.md",
+      "exists": true
+    },
+    {
+      "target": "revision_M4_20260930/checks.json",
+      "exists": true
+    },
+    {
+      "target": "../research/evidence_register.md",
+      "exists": true
+    },
+    {
+      "target": "../../../project/jp_activation_downloads_20261001/samples/kyushu_lfc_202606_4c5f53588b32.csv",
+      "exists": true
+    },
+    {
+      "target": "../../../project/jp_activation_downloads_20261001/samples/kyushu_jukyu_202606_259b239ae928.zip",
+      "exists": true
+    },
+    {
+      "target": "../../../data/raw/JP/activation_sources_20261001/ics_basis_202606.csv",
+      "exists": true
+    },
+    {
+      "target": "../research/evidence/IB_202606_883cb0a543d2.csv",
+      "exists": true
+    },
+    {
+      "target": "../../../project/jp_interval_case_20261002/interval_evidence.json",
+      "exists": true
+    },
+    {
+      "target": "../../../project/jp_interval_case_20261002/local_data_inventory.json",
+      "exists": true
+    },
+    {
+      "target": "../../../project/jp_activation_downloads_20261001/日本历史LFC和EDC数据下载入口核查.md",
+      "exists": true
+    },
+    {
+      "target": "../../../project/jp_activation_methods_20261001/日本EPRX激活推算方法研究.md",
+      "exists": true
+    },
+    {
+      "target": "../../../project/jp_activation_coefficients_20261003/validation.json",
+      "exists": true
+    },
+    {
+      "target": "../../../project/jp_activation_coefficients_20261003/review.md",
+      "exists": true
+    }
+  ],
+  "limits": [
+    "No empirical normality test",
+    "No identified product shares or reference capacity",
+    "No intra-interval path feasibility",
+    "No JP MILP solver run"
+  ]
+}

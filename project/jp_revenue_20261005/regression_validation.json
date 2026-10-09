@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "tests": 40,
+  "command": "python -m unittest tests.test_jp_equal_menu tests.test_jp_revenue_run tests.test_jp_milp tests.test_jp_historical tests.test_jp_solver_retry project.jp_first_run_inputs_20261004.test_assembly -q",
+  "python": "3.12.14",
+  "scipy": "1.15.3",
+  "numpy": "2.4.6",
+  "highspy": "1.15.1",
+  "pyscipopt": "6.2.1",
+  "scope": "40 regression tests PASS; full-period ledgers independently accepted for all three scenarios"
+}

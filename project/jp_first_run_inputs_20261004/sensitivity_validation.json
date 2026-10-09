@@ -1,0 +1,114 @@
+{
+  "frequency_kappa_0.5": {
+    "rows": 1488,
+    "assumption_sha256": "d371131e1135e58bcd0d621a73648508c584cfa291439c28f546f1b4033bb967",
+    "lfc_reference_proxy_mw": 519.0431696826533,
+    "edc_reference_proxy_mw": 1491.244,
+    "max_abs_edc_center": 0.2277903548983265,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "frequency_kappa_1.5": {
+    "rows": 1488,
+    "assumption_sha256": "5af6f032195174db02c4c541efe3c08a4f3b0435d9034f3fb9e1a63f9e546bd7",
+    "lfc_reference_proxy_mw": 519.0431696826533,
+    "edc_reference_proxy_mw": 1491.244,
+    "max_abs_edc_center": 0.2277903548983265,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "frequency_bins_21": {
+    "rows": 1488,
+    "assumption_sha256": "ea289affc2e22ad896ab8cd7164706cf11ef27c370e30786276bf52509cd9b12",
+    "lfc_reference_proxy_mw": 519.0431696826533,
+    "edc_reference_proxy_mw": 1491.244,
+    "max_abs_edc_center": 0.2277903548983265,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "frequency_bins_41": {
+    "rows": 1488,
+    "assumption_sha256": "715d7ac8fde3a808905342b6ee29bdf1ee5e34c4577af6520eb6664c71b66d3d",
+    "lfc_reference_proxy_mw": 519.0431696826533,
+    "edc_reference_proxy_mw": 1491.244,
+    "max_abs_edc_center": 0.2277903548983265,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "lfc_kappa_0.5": {
+    "rows": 1488,
+    "assumption_sha256": "fd47e32b7bd18c98b4144b55c24df58f277872d49160917937d48dbabac48df1",
+    "lfc_reference_proxy_mw": 519.0431696826533,
+    "edc_reference_proxy_mw": 1491.244,
+    "max_abs_edc_center": 0.2277903548983265,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "lfc_kappa_1.5": {
+    "rows": 1488,
+    "assumption_sha256": "49331a7e3ff2859593f7bed70237221d1ba8ed6cdecc46e2ee1fba8060934a42",
+    "lfc_reference_proxy_mw": 519.0431696826533,
+    "edc_reference_proxy_mw": 1491.244,
+    "max_abs_edc_center": 0.2277903548983265,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "reference_scale_0.75": {
+    "rows": 1488,
+    "assumption_sha256": "4790ac283ce5c3ffef9b9a2f3b218cd6faf3cb27a34f7c5437c77cce446cf878",
+    "lfc_reference_proxy_mw": 389.28237726199,
+    "edc_reference_proxy_mw": 1118.433,
+    "max_abs_edc_center": 0.3037204731977686,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "reference_scale_1.25": {
+    "rows": 1488,
+    "assumption_sha256": "3d72305bb8eb4aa128d5db9678500fe75f2f6be2e1aa86a44bbca8fa75cbdd63",
+    "lfc_reference_proxy_mw": 648.8039621033167,
+    "edc_reference_proxy_mw": 1864.0549999999998,
+    "max_abs_edc_center": 0.1822322839186612,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "edc_product_share_0.5": {
+    "rows": 1488,
+    "assumption_sha256": "afee8ae5ce6075074b246a394774c16763c2a9b32baf7b0cd0cecb8d3fd698c9",
+    "lfc_reference_proxy_mw": 519.0431696826533,
+    "edc_reference_proxy_mw": 1491.244,
+    "max_abs_edc_center": 0.11389517744916325,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "edc_product_share_1.5": {
+    "rows": 1488,
+    "assumption_sha256": "041a4bf5739202bbb3bba843dc5634274658d8d6c2f6b01a8cba27fd286c9110",
+    "lfc_reference_proxy_mw": 519.0431696826533,
+    "edc_reference_proxy_mw": 1491.244,
+    "max_abs_edc_center": 0.3416855323474897,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "capacity_price_0.8": {
+    "rows": 1488,
+    "assumption_sha256": "9ecaf7f3a188a5a58516bc9cd2164802c7a115ac8b46133ba1685281f0e81aa0",
+    "lfc_reference_proxy_mw": 519.0431696826533,
+    "edc_reference_proxy_mw": 1491.244,
+    "max_abs_edc_center": 0.2277903548983265,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "activation_price_0.8": {
+    "rows": 1488,
+    "assumption_sha256": "c97303453a4150c60c351ac61a594324ac8d1a498b0079defdb58c2ffa090ccc",
+    "lfc_reference_proxy_mw": 519.0431696826533,
+    "edc_reference_proxy_mw": 1491.244,
+    "max_abs_edc_center": 0.2277903548983265,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "capacity_price_1.2": {
+    "rows": 1488,
+    "assumption_sha256": "c4ae9924fa9c086c057193b65c9b4002d82066022e97f5d7628a1e5e705d9c71",
+    "lfc_reference_proxy_mw": 519.0431696826533,
+    "edc_reference_proxy_mw": 1491.244,
+    "max_abs_edc_center": 0.2277903548983265,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  },
+  "activation_price_1.2": {
+    "rows": 1488,
+    "assumption_sha256": "b1dd0138a6c6c2e93a40274950b6b5ca8506eb2aa8c55f35cd409099b4b52033",
+    "lfc_reference_proxy_mw": 519.0431696826533,
+    "edc_reference_proxy_mw": 1491.244,
+    "max_abs_edc_center": 0.2277903548983265,
+    "status": "REGIONAL_CHECKS_PASS_NOT_SOLVED"
+  }
+}

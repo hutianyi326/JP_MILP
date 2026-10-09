@@ -1,0 +1,7 @@
+{
+  "path": "data/processed/JP/shikoku_20260101_20260830_expost_v1.zip",
+  "bytes": 3775452,
+  "sha256": "fb7809c209f78c5075a031b677314e0b1f5c2863415d99f41310c5749ddb3155",
+  "zip_integrity": "PASS",
+  "runnable_model_input": false
+}

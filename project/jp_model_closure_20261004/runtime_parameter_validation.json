@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-04",
+  "passed": true,
+  "checks": {
+    "all_station_inputs_null": true,
+    "no_station_default_values": true,
+    "not_design_blocker": true,
+    "not_sizing_decision": true,
+    "formulas_preserved": true,
+    "LV_zero_activation_cash_unchanged": true,
+    "asset_version_binding": true
+  },
+  "station_parameter_rows": 18,
+  "scope": "documentation and parameter configuration checks, no solver test",
+  "main_sha256": "ea526ff14a6c913537eed9f8e738e78c0032a8ff67c97432eed045cc7eeda46a"
+}

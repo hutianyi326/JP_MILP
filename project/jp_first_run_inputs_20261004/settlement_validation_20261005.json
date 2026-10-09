@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "fcr_csv_rows": 1488,
+  "fcr_prices_not_applicable": true,
+  "regional_physical_and_composite_proxy_unchanged": true,
+  "source_hashes_unchanged": true,
+  "sensitivity_variants": [
+    {
+      "name": "frequency_kappa_0.5",
+      "halfhours": 1488,
+      "assumption_sha256": "13d979f885a3bd99ca3bc0bd5fe9fc001776fca9e16f011bc331bdd652afc964",
+      "status": "PASS"
+    },
+    {
+      "name": "frequency_kappa_1.5",
+      "halfhours": 1488,
+      "assumption_sha256": "0a1fda9f7ea7d33c3909ee16ae61b1a5e6f8e009f0efc5ebea3d3d58fe6d5e3e",
+      "status": "PASS"
+    },
+    {
+      "name": "frequency_bins_21",
+      "halfhours": 1488,
+      "assumption_sha256": "af53ed37a4b13cfd803b7ef7c424b76506fa9d1a6f50fa564b6d7348b00e5ba9",
+      "status": "PASS"
+    },
+    {
+      "name": "frequency_bins_41",
+      "halfhours": 1488,
+      "assumption_sha256": "4a1c5c9f139d196ee69df1123971cbe8294300f0bd9bf5d740c2d2dd5f7aa038",
+      "status": "PASS"
+    },
+    {
+      "name": "lfc_kappa_0.5",
+      "halfhours": 1488,
+      "assumption_sha256": "64ede9ddf8dac89cf1d593f8519175ae8bf5f23b40580f58c3859afc5246f2fd",
+      "status": "PASS"
+    },
+    {
+      "name": "lfc_kappa_1.5",
+      "halfhours": 1488,
+      "assumption_sha256": "ae172f4cd299cfb4309935cb076c301be4b74be30fd727c870cddf9898a06157",
+      "status": "PASS"
+    },
+    {
+      "name": "reference_scale_0.75",
+      "halfhours": 1488,
+      "assumption_sha256": "5968fed67ee647f26d5344b5dac79a0bfb1fb6ba97c6260d958873728a1379d2",
+      "status": "PASS"
+    },
+    {
+      "name": "reference_scale_1.25",
+      "halfhours": 1488,
+      "assumption_sha256": "44e2f7222867c911e2662f310c8dca51796ac057f81833430deac3fc02b728a2",
+      "status": "PASS"
+    },
+    {
+      "name": "edc_product_share_0.5",
+      "halfhours": 1488,
+      "assumption_sha256": "e99e9598a5253a7ed3dbed26ea90a1df900500e670e097ef374b21df6154ced5",
+      "status": "PASS"
+    },
+    {
+      "name": "edc_product_share_1.5",
+      "halfhours": 1488,
+      "assumption_sha256": "6fd8ebb255123a61f643f32dda786eba9b393d69fa94cf67ea122f1c76c53906",
+      "status": "PASS"
+    },
+    {
+      "name": "capacity_price_0.8",
+      "halfhours": 1488,
+      "assumption_sha256": "2d640e6f0b37080bc4e1f905ff176276dd1993b6388f30a26c2daee5138114e2",
+      "status": "PASS"
+    },
+    {
+      "name": "activation_price_0.8",
+      "halfhours": 1488,
+      "assumption_sha256": "0e00db56295e2ac22c287714f59f49ac59b33dc7be618015690c4d6f4a5f2f55",
+      "status": "PASS"
+    },
+    {
+      "name": "capacity_price_1.2",
+      "halfhours": 1488,
+      "assumption_sha256": "f365daf27b1e56f2e893f459e7484f14f315b6fbd915b3bfb37d94306325de75",
+      "status": "PASS"
+    },
+    {
+      "name": "activation_price_1.2",
+      "halfhours": 1488,
+      "assumption_sha256": "320ba0061a974f7e89f9c5d3edeef263cffe4fc97e87abd17567e64f69f5a0c9",
+      "status": "PASS"
+    }
+  ],
+  "tests_passed": 28,
+  "formal_station_solve_performed": false
+}

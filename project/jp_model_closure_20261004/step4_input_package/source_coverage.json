@@ -1,0 +1,590 @@
+{
+  "inspection_date": "2026-10-04",
+  "timezone": "Asia/Tokyo",
+  "sample_start": "2026-06-01T00:00:00+09:00",
+  "sample_end_exclusive": "2026-07-01T00:00:00+09:00",
+  "expected_intervals": 1440,
+  "sources": {
+    "lfc": {
+      "path": "project/jp_activation_downloads_20261001/samples/kyushu_lfc_202606_4c5f53588b32.csv",
+      "sha256": "4c5f53588b3228fa25e69d33fd1598f0c50aa61343279d39ef7e02c96b8d1ee8",
+      "encoding": "cp932",
+      "source_rows_including_headers": 1489,
+      "groups": {
+        "all": {
+          "rows_in_june": 1440,
+          "unique_intervals": 1440,
+          "duplicate_keys": 0,
+          "expected_intervals": 1440,
+          "missing_intervals": 0,
+          "numeric_complete_intervals": 1440,
+          "missing_or_invalid_numeric_fields": {},
+          "field_issues": [],
+          "observation_day_july1_unique_intervals": 0,
+          "first_source_line": 2,
+          "last_source_line": 1441
+        }
+      },
+      "source_metadata": {
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/lfc/jukyu_LFC_kyushu_202606.csv"
+      },
+      "field_mapping": {
+        "frequency_mean_hz": {
+          "column_1based": 5,
+          "source_header": "周波数偏差_30分平均値（Hz）"
+        },
+        "frequency_upper_equivalent_hz": {
+          "column_1based": 6,
+          "source_header": "周波数偏差_+2σ相当値（Hz）"
+        },
+        "frequency_lower_equivalent_hz": {
+          "column_1based": 7,
+          "source_header": "周波数偏差_-2σ相当値（Hz）"
+        },
+        "lfc_mean_mw": {
+          "column_1based": 17,
+          "source_header": "既LFC動作量_30分平均値（MW）"
+        },
+        "lfc_upper_equivalent_mw": {
+          "column_1based": 18,
+          "source_header": "既LFC動作量_+2σ相当値（MW）"
+        },
+        "lfc_lower_equivalent_mw": {
+          "column_1based": 19,
+          "source_header": "既LFC動作量_-2σ相当値（MW）"
+        }
+      },
+      "outside_date_counts": {},
+      "blank_padding_rows": 48,
+      "upper_lower_inversions": 0
+    },
+    "edc_related": {
+      "path": "project/jp_activation_downloads_20261001/samples/kyushu_jukyu_202606_259b239ae928.zip",
+      "sha256": "259b239ae928a27aae0524b37a3240cb25d8b1375019110752fdd6d092cb99a1",
+      "encoding": "cp932",
+      "source_rows_including_headers": 1441,
+      "groups": {
+        "all": {
+          "rows_in_june": 1440,
+          "unique_intervals": 1440,
+          "duplicate_keys": 0,
+          "expected_intervals": 1440,
+          "missing_intervals": 0,
+          "numeric_complete_intervals": 1440,
+          "missing_or_invalid_numeric_fields": {},
+          "field_issues": [],
+          "observation_day_july1_unique_intervals": 0,
+          "first_source_line": 2,
+          "last_source_line": 1441
+        }
+      },
+      "source_metadata": {
+        "member": "11120_TSO9_0_202606_20260812132500030.csv",
+        "url": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202606.zip"
+      },
+      "field_mapping": {
+        "own_area_own_mo_kwh": {
+          "column_1based": 8,
+          "source_header": "自エリア対応_自MO_エリア内稼働量(kWh)"
+        },
+        "forecast_error_other_kwh": {
+          "column_1based": 11,
+          "source_header": "想定誤差他エリア内稼働量(kWh)"
+        },
+        "other_area_exchange_kwh": {
+          "column_1based": 9,
+          "source_header": "他エリア対応_自MO_エリア外送受電量(kWh)"
+        }
+      }
+    },
+    "ics": {
+      "path": "data/raw/JP/activation_sources_20261001/ics_basis_202606.csv",
+      "sha256": "474f609911d7595a41381e9257e6f633ef6903edce48ee93bec9f3f9d1cef3ef",
+      "encoding": "cp932",
+      "source_rows_including_headers": 1445,
+      "groups": {
+        "all": {
+          "rows_in_june": 1440,
+          "unique_intervals": 1440,
+          "duplicate_keys": 0,
+          "expected_intervals": 1440,
+          "missing_intervals": 0,
+          "numeric_complete_intervals": 1424,
+          "missing_or_invalid_numeric_fields": {
+            "kyushu_imbalance_kwh": 12,
+            "kyushu_surplus_shortage": 16
+          },
+          "field_issues": [
+            {
+              "date": "20260607",
+              "slot": 32,
+              "source_line": 324,
+              "field": "kyushu_imbalance_kwh",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 32,
+              "source_line": 324,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 33,
+              "source_line": 325,
+              "field": "kyushu_imbalance_kwh",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 33,
+              "source_line": 325,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 34,
+              "source_line": 326,
+              "field": "kyushu_imbalance_kwh",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 34,
+              "source_line": 326,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 35,
+              "source_line": 327,
+              "field": "kyushu_imbalance_kwh",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 35,
+              "source_line": 327,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 36,
+              "source_line": 328,
+              "field": "kyushu_imbalance_kwh",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 36,
+              "source_line": 328,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 37,
+              "source_line": 329,
+              "field": "kyushu_imbalance_kwh",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 37,
+              "source_line": 329,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 38,
+              "source_line": 330,
+              "field": "kyushu_imbalance_kwh",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 38,
+              "source_line": 330,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 39,
+              "source_line": 331,
+              "field": "kyushu_imbalance_kwh",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 39,
+              "source_line": 331,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 40,
+              "source_line": 332,
+              "field": "kyushu_imbalance_kwh",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 40,
+              "source_line": 332,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 41,
+              "source_line": 333,
+              "field": "kyushu_imbalance_kwh",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 41,
+              "source_line": 333,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 42,
+              "source_line": 334,
+              "field": "kyushu_imbalance_kwh",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 42,
+              "source_line": 334,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 43,
+              "source_line": 335,
+              "field": "kyushu_imbalance_kwh",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260607",
+              "slot": 43,
+              "source_line": 335,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "",
+              "status": "missing"
+            },
+            {
+              "date": "20260614",
+              "slot": 40,
+              "source_line": 668,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "-",
+              "status": "marker_requires_semantic_mapping"
+            },
+            {
+              "date": "20260614",
+              "slot": 42,
+              "source_line": 670,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "-",
+              "status": "marker_requires_semantic_mapping"
+            },
+            {
+              "date": "20260624",
+              "slot": 2,
+              "source_line": 1110,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "-",
+              "status": "marker_requires_semantic_mapping"
+            },
+            {
+              "date": "20260626",
+              "slot": 14,
+              "source_line": 1218,
+              "field": "kyushu_surplus_shortage",
+              "raw_value": "-",
+              "status": "marker_requires_semantic_mapping"
+            }
+          ],
+          "observation_day_july1_unique_intervals": 0,
+          "first_source_line": 5,
+          "last_source_line": 1444
+        }
+      },
+      "source_metadata": {
+        "url": "https://www.imbalanceprices-cs.jp/api/1.0/imb/basis/202606"
+      },
+      "field_mapping": {
+        "kyushu_imbalance_kwh": {
+          "column_1based": 22,
+          "source_header": ""
+        },
+        "kyushu_surplus_shortage": {
+          "column_1based": 40,
+          "source_header": ""
+        },
+        "kyushu_partition": {
+          "column_1based": 58,
+          "source_header": ""
+        }
+      }
+    },
+    "spot": {
+      "path": "countries/JP/research/analysis/spot_30min_JST_expost.csv",
+      "sha256": "40fcec1d723eb1c0ed0443ed37c58998e093af47f178f5ec4df16e5e047b53e4",
+      "encoding": "utf-8-sig",
+      "source_rows_including_headers": 29185,
+      "groups": {
+        "all": {
+          "rows_in_june": 1440,
+          "unique_intervals": 1440,
+          "duplicate_keys": 0,
+          "expected_intervals": 1440,
+          "missing_intervals": 0,
+          "numeric_complete_intervals": 1440,
+          "missing_or_invalid_numeric_fields": {},
+          "field_issues": [],
+          "observation_day_july1_unique_intervals": 48,
+          "first_source_line": 24770,
+          "last_source_line": 26209
+        }
+      },
+      "source_metadata": {},
+      "field_mapping": {
+        "九州": {
+          "column_1based": 11,
+          "source_header": "九州"
+        }
+      }
+    },
+    "capacity": {
+      "path": "countries/JP/research/analysis/eprx_awards_native_blocks_expost.csv",
+      "sha256": "bc338540944ca10bcd5a6cb71c9e9387af96555b11f5901c9800800a7303f1d1",
+      "encoding": "utf-8-sig",
+      "source_rows_including_headers": 763417,
+      "groups": {
+        "F": {
+          "rows_in_june": 1440,
+          "unique_intervals": 1440,
+          "duplicate_keys": 0,
+          "expected_intervals": 1440,
+          "missing_intervals": 0,
+          "numeric_complete_intervals": 1440,
+          "missing_or_invalid_numeric_fields": {},
+          "field_issues": [],
+          "observation_day_july1_unique_intervals": 48,
+          "first_source_line": 65602,
+          "last_source_line": 78553,
+          "durations_h": [
+            "0.5"
+          ],
+          "qualities": {
+            "final": 1440
+          },
+          "sources": [
+            "EA26F"
+          ],
+          "source_award_positive_price_numeric_rows": 1436,
+          "tso_award_positive_price_numeric_rows": 1438,
+          "price_role": "aggregate_proxy_candidate_not_site_settlement"
+        },
+        "S1": {
+          "rows_in_june": 1440,
+          "unique_intervals": 1440,
+          "duplicate_keys": 0,
+          "expected_intervals": 1440,
+          "missing_intervals": 0,
+          "numeric_complete_intervals": 1440,
+          "missing_or_invalid_numeric_fields": {},
+          "field_issues": [],
+          "observation_day_july1_unique_intervals": 48,
+          "first_source_line": 170938,
+          "last_source_line": 183889,
+          "durations_h": [
+            "0.5"
+          ],
+          "qualities": {
+            "final": 1440
+          },
+          "sources": [
+            "EA26S1"
+          ],
+          "source_award_positive_price_numeric_rows": 1433,
+          "tso_award_positive_price_numeric_rows": 1433,
+          "price_role": "aggregate_proxy_candidate_not_site_settlement"
+        },
+        "S2": {
+          "rows_in_june": 1440,
+          "unique_intervals": 1440,
+          "duplicate_keys": 0,
+          "expected_intervals": 1440,
+          "missing_intervals": 0,
+          "numeric_complete_intervals": 1440,
+          "missing_or_invalid_numeric_fields": {},
+          "field_issues": [],
+          "observation_day_july1_unique_intervals": 48,
+          "first_source_line": 276274,
+          "last_source_line": 289225,
+          "durations_h": [
+            "0.5"
+          ],
+          "qualities": {
+            "final": 1440
+          },
+          "sources": [
+            "EA26S2"
+          ],
+          "source_award_positive_price_numeric_rows": 1433,
+          "tso_award_positive_price_numeric_rows": 1434,
+          "price_role": "aggregate_proxy_candidate_not_site_settlement"
+        },
+        "T1": {
+          "rows_in_june": 1440,
+          "unique_intervals": 1440,
+          "duplicate_keys": 0,
+          "expected_intervals": 1440,
+          "missing_intervals": 0,
+          "numeric_complete_intervals": 1440,
+          "missing_or_invalid_numeric_fields": {},
+          "field_issues": [],
+          "observation_day_july1_unique_intervals": 48,
+          "first_source_line": 381610,
+          "last_source_line": 394561,
+          "durations_h": [
+            "0.5"
+          ],
+          "qualities": {
+            "final": 1440
+          },
+          "sources": [
+            "EA26T1"
+          ],
+          "source_award_positive_price_numeric_rows": 1433,
+          "tso_award_positive_price_numeric_rows": 1434,
+          "price_role": "aggregate_proxy_candidate_not_site_settlement"
+        },
+        "R": {
+          "rows_in_june": 1440,
+          "unique_intervals": 1440,
+          "duplicate_keys": 0,
+          "expected_intervals": 1440,
+          "missing_intervals": 0,
+          "numeric_complete_intervals": 1440,
+          "missing_or_invalid_numeric_fields": {},
+          "field_issues": [],
+          "observation_day_july1_unique_intervals": 48,
+          "first_source_line": 618346,
+          "last_source_line": 631297,
+          "durations_h": [
+            "0.5"
+          ],
+          "qualities": {
+            "final": 1440
+          },
+          "sources": [
+            "EA26R"
+          ],
+          "source_award_positive_price_numeric_rows": 622,
+          "tso_award_positive_price_numeric_rows": 787,
+          "price_role": "aggregate_proxy_candidate_not_site_settlement"
+        },
+        "C": {
+          "rows_in_june": 1440,
+          "unique_intervals": 1440,
+          "duplicate_keys": 0,
+          "expected_intervals": 1440,
+          "missing_intervals": 0,
+          "numeric_complete_intervals": 1440,
+          "missing_or_invalid_numeric_fields": {},
+          "field_issues": [],
+          "observation_day_july1_unique_intervals": 48,
+          "first_source_line": 723682,
+          "last_source_line": 736633,
+          "durations_h": [
+            "0.5"
+          ],
+          "qualities": {
+            "final": 1440
+          },
+          "sources": [
+            "EA26C"
+          ],
+          "source_award_positive_price_numeric_rows": 1436,
+          "tso_award_positive_price_numeric_rows": 1438,
+          "price_role": "aggregate_proxy_candidate_not_site_settlement"
+        }
+      },
+      "source_metadata": {},
+      "field_mapping": {
+        "avg_price_source_JPY_kW_30min": {
+          "column_1based": 15,
+          "source_header": "avg_price_source_JPY_kW_30min"
+        },
+        "avg_price_TSO_JPY_kW_30min": {
+          "column_1based": 18,
+          "source_header": "avg_price_TSO_JPY_kW_30min"
+        },
+        "award_source_MW": {
+          "column_1based": 10,
+          "source_header": "award_source_MW"
+        },
+        "award_TSO_MW": {
+          "column_1based": 19,
+          "source_header": "award_TSO_MW"
+        },
+        "duration_h": {
+          "column_1based": 4,
+          "source_header": "duration_h"
+        }
+      }
+    }
+  },
+  "common_numeric_core_intervals": 1424,
+  "common_with_F_C_numeric_rows": 1424,
+  "raw_and_existing_processed_files_unchanged": true,
+  "scope": "keys and finite numeric availability; not pool equivalence, calibration, eligibility, payment certification or solver readiness",
+  "full_profit_ready": false,
+  "gaps": [
+    "device_efficiency_soc_aux_control_parameters",
+    "directional_reference_capacity_mapping",
+    "product_allocation_and_response_parameters",
+    "verified_full_inner_bid_candidates_and_domains",
+    "mode_specific_prices_and_activation_payment_mapping",
+    "nonzero_edc_variation_and_coupling",
+    "observation_day_activation_inputs"
+  ]
+}

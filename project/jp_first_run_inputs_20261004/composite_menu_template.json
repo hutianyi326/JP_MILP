@@ -1,0 +1,46 @@
+{
+  "asset_version": null,
+  "evidence": null,
+  "full_inner_scope": "FULL_CAPABILITY_NOT_MERELY_DELIVERABLE",
+  "bid_rules": {
+    "s": {
+      "grid_mw": 0.001,
+      "minimum_mw": 0.0,
+      "maximum_mw": null
+    },
+    "t": {
+      "grid_mw": 0.001,
+      "minimum_mw": 0.0,
+      "maximum_mw": null
+    },
+    "common": {
+      "grid_mw": 0.001,
+      "minimum_mw": 1.0,
+      "maximum_mw": null
+    }
+  },
+  "candidates": [
+    {
+      "id": null,
+      "s": null,
+      "t": null,
+      "common": null,
+      "asset_version": null,
+      "full_inner_validation_id": null,
+      "domain_validation_id": null,
+      "domain": [
+        {
+          "sense": ">=",
+          "rhs": null,
+          "terms": [
+            {
+              "interval": "*",
+              "variable": "soc_lower",
+              "coefficient": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

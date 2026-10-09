@@ -1,0 +1,8 @@
+numpy==2.4.6
+scipy==1.15.3
+highspy==1.15.1
+pyscipopt==6.2.1
+requests
+pandas
+openpyxl
+beautifulsoup4

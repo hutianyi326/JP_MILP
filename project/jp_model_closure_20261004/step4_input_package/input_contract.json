@@ -1,0 +1,833 @@
+{
+  "version": "2026-10-04_runtime_asset_inputs",
+  "status": "schema_and_inventory_only",
+  "timezone": "Asia/Tokyo",
+  "resolution_minutes": 30,
+  "power_unit": "MW",
+  "energy_unit": "MWh",
+  "currency": "JPY",
+  "quality_status_values": [
+    "available",
+    "missing",
+    "missing_assumption",
+    "not_applicable",
+    "confirmed_zero",
+    "marker_requires_semantic_mapping",
+    "proxy",
+    "deferred_runtime_input"
+  ],
+  "tables": [
+    {
+      "logical_file": "market_prices.csv",
+      "primary_key": [
+        "interval_start_jst",
+        "area_id",
+        "product_or_mode",
+        "price_role",
+        "source_revision"
+      ],
+      "note": "市场价格及适用结算调整；综合行情仅作代理",
+      "fields": [
+        {
+          "name": "interval_start_jst",
+          "type": "datetime",
+          "unit": "Asia/Tokyo",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "area_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "product_or_mode",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "price_role",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "price_value",
+          "type": "number",
+          "unit": "declared_price_unit",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "price_unit",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "source_revision",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "source_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "adjustment_branch_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "quality_status",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        }
+      ]
+    },
+    {
+      "logical_file": "settlement_mapping.csv",
+      "primary_key": [
+        "mapping_id",
+        "valid_from_jst",
+        "direction"
+      ],
+      "note": "付款映射须明确适用合同/资源；不自动将物理毛量视为付费量",
+      "fields": [
+        {
+          "name": "mapping_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "valid_from_jst",
+          "type": "datetime",
+          "unit": "Asia/Tokyo",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "valid_to_jst",
+          "type": "datetime",
+          "unit": "Asia/Tokyo",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "scenario_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "resource_mode",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "contract_branch",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "direction",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "recognition_rule_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "price_reference_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "cash_sign",
+          "type": "number",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "chi",
+          "type": "number",
+          "unit": "0_or_1",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "evidence_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "quality_status",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        }
+      ]
+    },
+    {
+      "logical_file": "regional_statistics.csv",
+      "primary_key": [
+        "interval_start_jst",
+        "area_id",
+        "metric",
+        "source_revision"
+      ],
+      "note": "保留原始标记；净量、毛量、分位相当值不混淆",
+      "fields": [
+        {
+          "name": "interval_start_jst",
+          "type": "datetime",
+          "unit": "Asia/Tokyo",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "area_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "metric",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "raw_value",
+          "type": "string",
+          "unit": "raw_unit",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "numeric_value",
+          "type": "number",
+          "unit": "unit",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "raw_unit",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "unit",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "source_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "source_column_1based",
+          "type": "integer",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "source_revision",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "quality_status",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        }
+      ]
+    },
+    {
+      "logical_file": "reference_capacity.csv",
+      "primary_key": [
+        "interval_start_jst",
+        "area_id",
+        "reference_pool_id",
+        "product",
+        "direction"
+      ],
+      "note": "分子分母须匹配；采购量不能自动当双方向可调用能力",
+      "fields": [
+        {
+          "name": "interval_start_jst",
+          "type": "datetime",
+          "unit": "Asia/Tokyo",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "area_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "reference_pool_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "product",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "direction",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "reference_mw",
+          "type": "number",
+          "unit": "MW",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "numerator_coverage_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "capacity_basis",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "source_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "quality_status",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        }
+      ]
+    },
+    {
+      "logical_file": "asset_config.csv",
+      "primary_key": [
+        "asset_id",
+        "parameter",
+        "version"
+      ],
+      "note": "名义MW/MWh与可用SOC区间分开；效率不暗用ES参数",
+      "fields": [
+        {
+          "name": "asset_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "parameter",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "value",
+          "type": "number",
+          "unit": "unit",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "unit",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "basis",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "evidence_or_assumption_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "version",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "quality_status",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        }
+      ]
+    },
+    {
+      "logical_file": "bid_candidates.csv",
+      "primary_key": [
+        "native_block_id",
+        "resource_configuration_id",
+        "bid_candidate_id",
+        "asset_config_version"
+      ],
+      "note": "只能选完整内数已核验行；空集不是业务收益零的证据",
+      "fields": [
+        {
+          "name": "native_block_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "resource_configuration_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "bid_candidate_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "offered_s1_mw",
+          "type": "number",
+          "unit": "MW",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "offered_t1_mw",
+          "type": "number",
+          "unit": "MW",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "composite_max_mw",
+          "type": "number",
+          "unit": "MW",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "full_inner_quantity_validation_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "eligibility_domain_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "rule_vintage_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "quality_status",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "asset_config_version",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "required when device dependent"
+        }
+      ]
+    },
+    {
+      "logical_file": "bid_domains.csv",
+      "primary_key": [
+        "eligibility_domain_id",
+        "constraint_id",
+        "term_id",
+        "asset_config_version"
+      ],
+      "note": "同constraint的项组成线性域；必须约束实际能力状态，非仅可交付下界",
+      "fields": [
+        {
+          "name": "eligibility_domain_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "constraint_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "term_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "variable_reference",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "coefficient",
+          "type": "number",
+          "unit": "declared_constraint_unit",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "sense",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "rhs",
+          "type": "number",
+          "unit": "declared_constraint_unit",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "validation_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "quality_status",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "asset_config_version",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "required when device dependent"
+        }
+      ]
+    },
+    {
+      "logical_file": "activation_assumptions.csv",
+      "primary_key": [
+        "assumption_version",
+        "scenario_id",
+        "parameter",
+        "scope_id"
+      ],
+      "note": "不能由MILP优化假设；未定数值为空",
+      "fields": [
+        {
+          "name": "assumption_version",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "scenario_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "parameter",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "scope_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "value",
+          "type": "number",
+          "unit": "unit",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "unit",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "basis",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "valid_domain",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "evidence_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "quality_status",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        }
+      ]
+    },
+    {
+      "logical_file": "activation_states.csv",
+      "primary_key": [
+        "interval_start_jst",
+        "area_id",
+        "activation_scenario_id",
+        "state_id",
+        "asset_config_version"
+      ],
+      "note": "按一次/复合模式条件必填；状态不是有时间顺序的指令",
+      "fields": [
+        {
+          "name": "interval_start_jst",
+          "type": "datetime",
+          "unit": "Asia/Tokyo",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "area_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "activation_scenario_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "state_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "joint_weight",
+          "type": "number",
+          "unit": "time_fraction",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "gamma_up",
+          "type": "number",
+          "unit": "MW_per_MW",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "gamma_down",
+          "type": "number",
+          "unit": "MW_per_MW",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "lfc_centered",
+          "type": "number",
+          "unit": "MW_per_MW",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "lfc_mean",
+          "type": "number",
+          "unit": "MW_per_MW",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "edc_center",
+          "type": "number",
+          "unit": "MW_per_MW",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "edc_deviation",
+          "type": "number",
+          "unit": "MW_per_MW",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "theta",
+          "type": "number",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "coupling_method",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "direction_mapping_version",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "assumption_version",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "quality_status",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "asset_config_version",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "required when device dependent"
+        }
+      ]
+    },
+    {
+      "logical_file": "publication_vintages.csv",
+      "primary_key": [
+        "source_id",
+        "source_revision"
+      ],
+      "note": "首次发布时间未知则null；获取日期不能替代发布时间",
+      "fields": [
+        {
+          "name": "source_id",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "source_revision",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "local_path",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "sha256",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "period_start_jst",
+          "type": "datetime",
+          "unit": "Asia/Tokyo",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "period_end_jst",
+          "type": "datetime",
+          "unit": "Asia/Tokyo",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "obtained_at",
+          "type": "datetime",
+          "unit": "UTC",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "publication_time",
+          "type": "datetime",
+          "unit": "declared_timezone",
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        },
+        {
+          "name": "visibility_status",
+          "type": "string",
+          "unit": null,
+          "missing_policy": "null with quality_status; validate required fields per scenario, no silent zero"
+        }
+      ]
+    }
+  ],
+  "conditional_requirements": {
+    "LV_FCR": {
+      "physical_activation": "required",
+      "activation_price": "not_applicable_by_user_confirmation"
+    },
+    "HV_SPOT_FCR": {
+      "physical_activation": "required",
+      "activation_payment": "requires_applicable_mapping"
+    },
+    "HV_SPOT_S1_T1": {
+      "full_inner_bid_domains": "required",
+      "joint_states": "required",
+      "reference_capacity": "required",
+      "activation_payment": "required_if_payable"
+    }
+  },
+  "json_files": {
+    "run_manifest": "Run scope, scenario IDs, parameter versions, evidence status; not solver-ready assertion",
+    "quality_report": "Observed coverage and semantic issues; source_coverage.json is current audit",
+    "input_contract": "This schema, not populated production CSVs"
+  },
+  "constraints": [
+    "positive denominator only for applicable active direction",
+    "nonnegative weights sum to one",
+    "joint weights match marginals",
+    "theta fixed before solving",
+    "null not interpreted as zero",
+    "price units converted once",
+    "blank template rows do not become observations"
+  ],
+  "asset_parameter_policy": {
+    "supplied_at": "formal_run_initialization",
+    "hardcoded_defaults": false,
+    "optimizer_selects_asset_size_or_efficiency": false,
+    "missing_before_run": "deferred_runtime_input_not_research_gap",
+    "missing_at_run": "explicit_input_error",
+    "derived_tables_require": "asset_config_version",
+    "derived_bounds": "computed_from_validated_input_not_arbitrary_big_M"
+  }
+}

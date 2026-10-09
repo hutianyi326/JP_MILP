@@ -1,0 +1,91 @@
+{
+  "datasets": 7,
+  "structural_passes": 7,
+  "results": [
+    {
+      "file": "samples\\kyushu_jukyu_202606_259b239ae928.zip",
+      "member": "11120_TSO9_0_202606_20260812132500030.csv",
+      "sha256_ok": true,
+      "rows": 1440,
+      "columns": 24,
+      "expected_month_keys_ok": true,
+      "duplicate_keys": 0,
+      "wrong_width_rows": 0,
+      "blank_numeric_cells": 384,
+      "structural_pass": true
+    },
+    {
+      "file": "samples\\chubu_202606_1dd2bb48e097.csv",
+      "member": "chubu_202606_1dd2bb48e097.csv",
+      "sha256_ok": true,
+      "rows": 1440,
+      "columns": 28,
+      "expected_month_keys_ok": true,
+      "duplicate_keys": 0,
+      "wrong_width_rows": 0,
+      "blank_numeric_cells": 0,
+      "structural_pass": true
+    },
+    {
+      "file": "samples\\tohoku_202606_32acbd9ee395.csv",
+      "member": "tohoku_202606_32acbd9ee395.csv",
+      "sha256_ok": true,
+      "rows": 1440,
+      "columns": 28,
+      "expected_month_keys_ok": true,
+      "duplicate_keys": 0,
+      "wrong_width_rows": 0,
+      "blank_numeric_cells": 0,
+      "structural_pass": true
+    },
+    {
+      "file": "samples\\shikoku_202606_ab0c4180c7b5.csv",
+      "member": "shikoku_202606_ab0c4180c7b5.csv",
+      "sha256_ok": true,
+      "rows": 1440,
+      "columns": 28,
+      "expected_month_keys_ok": true,
+      "duplicate_keys": 0,
+      "wrong_width_rows": 0,
+      "blank_numeric_cells": 0,
+      "structural_pass": true
+    },
+    {
+      "file": "samples\\kansai_202606_66d7037097dd.zip",
+      "member": "jukyu_kansai_202606.csv",
+      "sha256_ok": true,
+      "rows": 1440,
+      "columns": 24,
+      "expected_month_keys_ok": true,
+      "duplicate_keys": 0,
+      "wrong_width_rows": 0,
+      "blank_numeric_cells": 0,
+      "structural_pass": true
+    },
+    {
+      "file": "samples\\kansai_202606_66d7037097dd.zip",
+      "member": "jukyu_LFC_kansai_202606.csv",
+      "sha256_ok": true,
+      "rows": 1440,
+      "columns": 28,
+      "expected_month_keys_ok": true,
+      "duplicate_keys": 0,
+      "wrong_width_rows": 0,
+      "blank_numeric_cells": 0,
+      "structural_pass": true
+    },
+    {
+      "file": "samples\\kyushu_lfc_202606_4c5f53588b32.csv",
+      "member": "kyushu_lfc_202606_4c5f53588b32.csv",
+      "sha256_ok": true,
+      "rows": 1440,
+      "columns": 28,
+      "expected_month_keys_ok": true,
+      "duplicate_keys": 0,
+      "wrong_width_rows": 0,
+      "blank_numeric_cells": 0,
+      "structural_pass": true
+    }
+  ],
+  "scope": "Original bytes, June 2026 date/slot coverage, duplicate keys, field widths and blank cells only; not validation of physical activation semantics or historical revision availability."
+}

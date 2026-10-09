@@ -1,0 +1,4 @@
+# Optional native solver interfaces used for this recorded revenue run.
+# Existing project NumPy/SciPy environment remains required.
+highspy==1.15.1
+pyscipopt==6.2.1

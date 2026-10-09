@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "classification": "HEURISTIC_START_ONLY_NOT_EXECUTED_OR_FINAL_OPTIMUM",
+  "adjusted_free_capacity_blocks": [
+    "SHIKOKU/F_OFFLINE/2026-08-27T01:30:00+09:00",
+    "SHIKOKU/F_OFFLINE/2026-08-27T03:30:00+09:00",
+    "SHIKOKU/F_OFFLINE/2026-08-27T16:00:00+09:00",
+    "SHIKOKU/F_OFFLINE/2026-08-27T16:30:00+09:00",
+    "SHIKOKU/F_OFFLINE/2026-08-27T17:00:00+09:00",
+    "SHIKOKU/F_OFFLINE/2026-08-27T18:00:00+09:00",
+    "SHIKOKU/F_OFFLINE/2026-08-27T21:00:00+09:00",
+    "SHIKOKU/F_OFFLINE/2026-08-27T22:00:00+09:00"
+  ],
+  "candidate_objective_jpy": 125007.89457129192,
+  "previous_infeasible_grid_objective_jpy": 125039.24944640641,
+  "physical_audit": {
+    "status": "PASS",
+    "numeric_recomputations": 1440,
+    "service_chains": 46,
+    "finite_service_scope": true,
+    "annual_efc": {
+      "2026": 0.14632681757567584
+    }
+  },
+  "continuation_audit": {
+    "status": "PASS",
+    "numeric_recomputations": 1440,
+    "service_chains": 24,
+    "finite_service_scope": true,
+    "annual_efc": {
+      "2026": 0.04766909298924669
+    }
+  },
+  "continuation_initial_soc_mwh": 4.0,
+  "continuation_used_efc": {
+    "2026": 31.061479812412873
+  },
+  "solver_seconds": 0.056554599897935987,
+  "evidence": "Only reduces starting guesses by one allowed grid unit; optimizer feasible set and previous frozen obligations unchanged"
+}

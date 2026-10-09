@@ -1,0 +1,2568 @@
+{
+  "date": "2026-06-01",
+  "timezone": "Asia/Tokyo",
+  "interval": "00:00–00:30",
+  "china_time": "2026-05-31 23:00–23:30 Asia/Shanghai",
+  "selection": "first common valid June interval; not representative sampling",
+  "sources": [
+    {
+      "path": "project/jp_activation_downloads_20261001/samples/kyushu_lfc_202606_4c5f53588b32.csv",
+      "member": null,
+      "sha256": "4c5f53588b3228fa25e69d33fd1598f0c50aa61343279d39ef7e02c96b8d1ee8",
+      "record_line": 2,
+      "kind": "lfc",
+      "area": "kyushu",
+      "date": "20260601",
+      "slot": 1,
+      "fields": [
+        {
+          "column_1based": 1,
+          "header": "日付",
+          "raw": "20260601"
+        },
+        {
+          "column_1based": 2,
+          "header": "時間コマ",
+          "raw": "1"
+        },
+        {
+          "column_1based": 3,
+          "header": "時間帯自",
+          "raw": "0:00"
+        },
+        {
+          "column_1based": 4,
+          "header": "時間帯至",
+          "raw": "0:30"
+        },
+        {
+          "column_1based": 5,
+          "header": "周波数偏差_30分平均値（Hz）",
+          "raw": "0.03"
+        },
+        {
+          "column_1based": 6,
+          "header": "周波数偏差_+2σ相当値（Hz）",
+          "raw": "0.08"
+        },
+        {
+          "column_1based": 7,
+          "header": "周波数偏差_-2σ相当値（Hz）",
+          "raw": "-0.03"
+        },
+        {
+          "column_1based": 8,
+          "header": "各エリア中給AR_30分平均値（MW）",
+          "raw": "43"
+        },
+        {
+          "column_1based": 9,
+          "header": "中給AR_+2σ相当値（MW）",
+          "raw": "169"
+        },
+        {
+          "column_1based": 10,
+          "header": "中給AR_-2σ相当値（MW）",
+          "raw": "-122"
+        },
+        {
+          "column_1based": 11,
+          "header": "ARに関する制御分担量_30分平均値（MW）",
+          "raw": "-24"
+        },
+        {
+          "column_1based": 12,
+          "header": "ARに関する制御分担量_+2σ相当値（MW）",
+          "raw": "15"
+        },
+        {
+          "column_1based": 13,
+          "header": "ARに関する制御分担量_-2σ相当値（MW）",
+          "raw": "-81"
+        },
+        {
+          "column_1based": 14,
+          "header": "補正量ZAR_30分平均値（MW）",
+          "raw": "-67"
+        },
+        {
+          "column_1based": 15,
+          "header": "補正量ZAR_+2σ相当値（MW）",
+          "raw": "59"
+        },
+        {
+          "column_1based": 16,
+          "header": "補正量ZAR_-2σ相当値（MW）",
+          "raw": "-182"
+        },
+        {
+          "column_1based": 17,
+          "header": "既LFC動作量_30分平均値（MW）",
+          "raw": "-11"
+        },
+        {
+          "column_1based": 18,
+          "header": "既LFC動作量_+2σ相当値（MW）",
+          "raw": "78"
+        },
+        {
+          "column_1based": 19,
+          "header": "既LFC動作量_-2σ相当値（MW）",
+          "raw": "-82"
+        },
+        {
+          "column_1based": 20,
+          "header": "既LFC動作量に関する制御分担量_30分平均値（MW）",
+          "raw": "-4"
+        },
+        {
+          "column_1based": 21,
+          "header": "既LFC動作量に関する制御分担量_+2σ相当値（MW）",
+          "raw": "56"
+        },
+        {
+          "column_1based": 22,
+          "header": "既LFC動作量に関する制御分担量_-2σ相当値（MW）",
+          "raw": "-73"
+        },
+        {
+          "column_1based": 23,
+          "header": "補正量Z既LFC_30分平均値（MW）",
+          "raw": "7"
+        },
+        {
+          "column_1based": 24,
+          "header": "補正量Z既LFC_+2σ相当値（MW）",
+          "raw": "81"
+        },
+        {
+          "column_1based": 25,
+          "header": "補正量Z既LFC_-2σ相当値（MW）",
+          "raw": "-68"
+        },
+        {
+          "column_1based": 26,
+          "header": "補正量Z_30分平均値（MW）",
+          "raw": "-60"
+        },
+        {
+          "column_1based": 27,
+          "header": "補正量Z_+2σ相当値（MW）",
+          "raw": "58"
+        },
+        {
+          "column_1based": 28,
+          "header": "補正量Z_-2σ相当値（MW）",
+          "raw": "-178"
+        }
+      ]
+    },
+    {
+      "path": "data/raw/JP/shikoku_20260930/jukyu_LFC_shikoku_202606.csv",
+      "member": null,
+      "sha256": "ab0c4180c7b5597fff1281ff42b313a5592d0d9a5fbf5d3a72131254bd695923",
+      "record_line": 2,
+      "kind": "lfc",
+      "area": "shikoku",
+      "date": "20260601",
+      "slot": 1,
+      "fields": [
+        {
+          "column_1based": 1,
+          "header": "日付",
+          "raw": "20260601"
+        },
+        {
+          "column_1based": 2,
+          "header": "時間コマ",
+          "raw": "1"
+        },
+        {
+          "column_1based": 3,
+          "header": "時間帯自",
+          "raw": "0:00"
+        },
+        {
+          "column_1based": 4,
+          "header": "時間帯至",
+          "raw": "0:30"
+        },
+        {
+          "column_1based": 5,
+          "header": "周波数偏差_30分平均値(Hz)",
+          "raw": "0.03"
+        },
+        {
+          "column_1based": 6,
+          "header": "周波数偏差_+2σ相当値(Hz)",
+          "raw": "0.08"
+        },
+        {
+          "column_1based": 7,
+          "header": "周波数偏差_－2σ相当値(Hz)",
+          "raw": "-0.03"
+        },
+        {
+          "column_1based": 8,
+          "header": "各エリア中給AR_30分平均値(MW)",
+          "raw": "66"
+        },
+        {
+          "column_1based": 9,
+          "header": "中給AR_+2σ相当値(MW)",
+          "raw": "105"
+        },
+        {
+          "column_1based": 10,
+          "header": "中給AR_－2σ相当値(MW)",
+          "raw": "30"
+        },
+        {
+          "column_1based": 11,
+          "header": "ARに関する制御分担量_30分平均値(MW)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 12,
+          "header": "ARに関する制御分担量_＋2σ相当値(MW)",
+          "raw": "1"
+        },
+        {
+          "column_1based": 13,
+          "header": "ARに関する制御分担量_－2σ相当値(MW)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 14,
+          "header": "補正量ZAR_30分平均値(MW)",
+          "raw": "-71"
+        },
+        {
+          "column_1based": 15,
+          "header": "補正量ZAR_＋2σ相当値(MW)",
+          "raw": "-37"
+        },
+        {
+          "column_1based": 16,
+          "header": "補正量ZAR_－2σ相当値(MW)",
+          "raw": "-109"
+        },
+        {
+          "column_1based": 17,
+          "header": "既LFC動作量_30分平均値(MW)",
+          "raw": "-23"
+        },
+        {
+          "column_1based": 18,
+          "header": "既LFC動作量_＋2σ相当値(MW)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 19,
+          "header": "既LFC動作量_－2σ相当値(MW)",
+          "raw": "-70"
+        },
+        {
+          "column_1based": 20,
+          "header": "既LFC動作量に関する制御分担量_30分平均値(MW)",
+          "raw": "-11"
+        },
+        {
+          "column_1based": 21,
+          "header": "既LFC動作量に関する制御分担量_＋2σ相当値(MW)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 22,
+          "header": "既LFC動作量に関する制御分担量_－2σ相当値(MW)",
+          "raw": "-43"
+        },
+        {
+          "column_1based": 23,
+          "header": "補正量Z既LFC_30分平均値(MW)",
+          "raw": "12"
+        },
+        {
+          "column_1based": 24,
+          "header": "補正量Z既LFC_＋2σ相当値(MW)",
+          "raw": "44"
+        },
+        {
+          "column_1based": 25,
+          "header": "補正量Z既LFC_－2σ相当値(MW)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 26,
+          "header": "補正量Z_30分平均値(MW)",
+          "raw": "-54"
+        },
+        {
+          "column_1based": 27,
+          "header": "補正量Z_＋2σ相当値(MW)",
+          "raw": "-17"
+        },
+        {
+          "column_1based": 28,
+          "header": "補正量Z_－2σ相当値(MW)",
+          "raw": "-92"
+        }
+      ]
+    },
+    {
+      "path": "project/jp_activation_downloads_20261001/samples/tohoku_202606_32acbd9ee395.csv",
+      "member": null,
+      "sha256": "32acbd9ee39534b30c75c210c0eabe6732c8f958fbd0dcd47a75fb5e6ae20865",
+      "record_line": 2,
+      "kind": "lfc",
+      "area": "tohoku",
+      "date": "20260601",
+      "slot": 1,
+      "fields": [
+        {
+          "column_1based": 1,
+          "header": "日付",
+          "raw": "20260601"
+        },
+        {
+          "column_1based": 2,
+          "header": "時間コマ",
+          "raw": "1"
+        },
+        {
+          "column_1based": 3,
+          "header": "時間帯自",
+          "raw": "0:00"
+        },
+        {
+          "column_1based": 4,
+          "header": "時間帯至",
+          "raw": "0:30"
+        },
+        {
+          "column_1based": 5,
+          "header": "周波数偏差_30分平均値（Hz）",
+          "raw": "0"
+        },
+        {
+          "column_1based": 6,
+          "header": "周波数偏差_+2σ相当値（Hz）",
+          "raw": "0.09"
+        },
+        {
+          "column_1based": 7,
+          "header": "周波数偏差_-2σ相当値（Hz）",
+          "raw": "-0.09"
+        },
+        {
+          "column_1based": 8,
+          "header": "各エリア中給AR_30分平均値（MW）",
+          "raw": "-8"
+        },
+        {
+          "column_1based": 9,
+          "header": "中給AR_+2σ相当値（MW）",
+          "raw": "108"
+        },
+        {
+          "column_1based": 10,
+          "header": "中給AR_-2σ相当値（MW）",
+          "raw": "-190"
+        },
+        {
+          "column_1based": 11,
+          "header": "ARに関する制御分担量_30分平均値（MW）",
+          "raw": "-9"
+        },
+        {
+          "column_1based": 12,
+          "header": "ARに関する制御分担量_+2σ相当値（MW）",
+          "raw": "67"
+        },
+        {
+          "column_1based": 13,
+          "header": "ARに関する制御分担量_-2σ相当値（MW）",
+          "raw": "-68"
+        },
+        {
+          "column_1based": 14,
+          "header": "補正量ZAR_30分平均値（MW）",
+          "raw": "-1"
+        },
+        {
+          "column_1based": 15,
+          "header": "補正量ZAR_+2σ相当値（MW）",
+          "raw": "215"
+        },
+        {
+          "column_1based": 16,
+          "header": "補正量ZAR_-2σ相当値（MW）",
+          "raw": "-154"
+        },
+        {
+          "column_1based": 17,
+          "header": "既LFC動作量_30分平均値（MW）",
+          "raw": "-17"
+        },
+        {
+          "column_1based": 18,
+          "header": "既LFC動作量_+2σ相当値（MW）",
+          "raw": "17"
+        },
+        {
+          "column_1based": 19,
+          "header": "既LFC動作量_-2σ相当値（MW）",
+          "raw": "-61"
+        },
+        {
+          "column_1based": 20,
+          "header": "既LFC動作量に関する制御分担量_30分平均値（MW）",
+          "raw": "-15"
+        },
+        {
+          "column_1based": 21,
+          "header": "既LFC動作量に関する制御分担量_+2σ相当値（MW）",
+          "raw": "31"
+        },
+        {
+          "column_1based": 22,
+          "header": "既LFC動作量に関する制御分担量_-2σ相当値（MW）",
+          "raw": "-62"
+        },
+        {
+          "column_1based": 23,
+          "header": "補正量Z既LFC_30分平均値（MW）",
+          "raw": "2"
+        },
+        {
+          "column_1based": 24,
+          "header": "補正量Z既LFC_+2σ相当値（MW）",
+          "raw": "33"
+        },
+        {
+          "column_1based": 25,
+          "header": "補正量Z既LFC_-2σ相当値（MW）",
+          "raw": "-11"
+        },
+        {
+          "column_1based": 26,
+          "header": "補正量Z_30分平均値（MW）",
+          "raw": "1"
+        },
+        {
+          "column_1based": 27,
+          "header": "補正量Z_+2σ相当値（MW）",
+          "raw": "209"
+        },
+        {
+          "column_1based": 28,
+          "header": "補正量Z_-2σ相当値（MW）",
+          "raw": "-154"
+        }
+      ]
+    },
+    {
+      "path": "project/jp_activation_downloads_20261001/samples/chubu_202606_1dd2bb48e097.csv",
+      "member": null,
+      "sha256": "1dd2bb48e097b004c7224e37bfe05cc7295700c9435088cf4064855999ce2996",
+      "record_line": 2,
+      "kind": "lfc",
+      "area": "chubu",
+      "date": "20260601",
+      "slot": 1,
+      "fields": [
+        {
+          "column_1based": 1,
+          "header": "日付",
+          "raw": "20260601"
+        },
+        {
+          "column_1based": 2,
+          "header": "時間コマ",
+          "raw": "1"
+        },
+        {
+          "column_1based": 3,
+          "header": "時間帯自",
+          "raw": "0:00"
+        },
+        {
+          "column_1based": 4,
+          "header": "時間帯至",
+          "raw": "0:30"
+        },
+        {
+          "column_1based": 5,
+          "header": "周波数偏差_30分平均値",
+          "raw": "0.03"
+        },
+        {
+          "column_1based": 6,
+          "header": "周波数偏差_+2σ相当値",
+          "raw": "0.08"
+        },
+        {
+          "column_1based": 7,
+          "header": "周波数偏差_－2σ相当値",
+          "raw": "-0.03"
+        },
+        {
+          "column_1based": 8,
+          "header": "各エリア中給AR_30分平均値",
+          "raw": "-142"
+        },
+        {
+          "column_1based": 9,
+          "header": "中給AR_+2σ相当値",
+          "raw": "48"
+        },
+        {
+          "column_1based": 10,
+          "header": "中給AR_－2σ相当値",
+          "raw": "-369"
+        },
+        {
+          "column_1based": 11,
+          "header": "ARに関する制御分担量_30分平均値",
+          "raw": "-33"
+        },
+        {
+          "column_1based": 12,
+          "header": "ARに関する制御分担量_＋2σ相当値",
+          "raw": "72"
+        },
+        {
+          "column_1based": 13,
+          "header": "ARに関する制御分担量_－2σ相当値",
+          "raw": "-143"
+        },
+        {
+          "column_1based": 14,
+          "header": "補正量ZAR_30分平均値",
+          "raw": "79"
+        },
+        {
+          "column_1based": 15,
+          "header": "補正量ZAR_＋2σ相当値",
+          "raw": "306"
+        },
+        {
+          "column_1based": 16,
+          "header": "補正量ZAR_－2σ相当値",
+          "raw": "-70"
+        },
+        {
+          "column_1based": 17,
+          "header": "既LFC動作量_30分平均値",
+          "raw": "14"
+        },
+        {
+          "column_1based": 18,
+          "header": "既LFC動作量_＋2σ相当値",
+          "raw": "377"
+        },
+        {
+          "column_1based": 19,
+          "header": "既LFC動作量_－2σ相当値",
+          "raw": "-296"
+        },
+        {
+          "column_1based": 20,
+          "header": "既LFC動作量に関する制御分担量_30分平均値",
+          "raw": "34"
+        },
+        {
+          "column_1based": 21,
+          "header": "既LFC動作量に関する制御分担量_＋2σ相当値",
+          "raw": "379"
+        },
+        {
+          "column_1based": 22,
+          "header": "既LFC動作量に関する制御分担量_－2σ相当値",
+          "raw": "-206"
+        },
+        {
+          "column_1based": 23,
+          "header": "補正量Z既LFC_30分平均値",
+          "raw": "20"
+        },
+        {
+          "column_1based": 24,
+          "header": "補正量Z既LFC_＋2σ相当値",
+          "raw": "157"
+        },
+        {
+          "column_1based": 25,
+          "header": "補正量Z既LFC_－2σ相当値",
+          "raw": "-96"
+        },
+        {
+          "column_1based": 26,
+          "header": "補正量Z_30分平均値",
+          "raw": "129"
+        },
+        {
+          "column_1based": 27,
+          "header": "補正量Z_＋2σ相当値",
+          "raw": "333"
+        },
+        {
+          "column_1based": 28,
+          "header": "補正量Z_－2σ相当値",
+          "raw": "-8"
+        }
+      ]
+    },
+    {
+      "path": "project/jp_activation_downloads_20261001/samples/kansai_202606_66d7037097dd.zip",
+      "member": "jukyu_kansai_202606.csv",
+      "sha256": "66d7037097dd64f29d5b8c7b03f15807992c999e19eb6a18e8aad09c582f1544",
+      "record_line": 2,
+      "kind": "regional",
+      "area": "kansai",
+      "date": "20260601",
+      "slot": 1,
+      "fields": [
+        {
+          "column_1based": 1,
+          "header": "日付",
+          "raw": "20260601"
+        },
+        {
+          "column_1based": 2,
+          "header": "時間コマ",
+          "raw": "1"
+        },
+        {
+          "column_1based": 3,
+          "header": "時間帯自",
+          "raw": "0:00"
+        },
+        {
+          "column_1based": 4,
+          "header": "時間帯至",
+          "raw": "0:30"
+        },
+        {
+          "column_1based": 5,
+          "header": "インバランス想定量(kWh)",
+          "raw": "-20226"
+        },
+        {
+          "column_1based": 6,
+          "header": "インバランスネッティング量(kWh)",
+          "raw": "-21562"
+        },
+        {
+          "column_1based": 7,
+          "header": "自エリア対応_他MO_エリア外送受電量(kWh)",
+          "raw": "9322"
+        },
+        {
+          "column_1based": 8,
+          "header": "自エリア対応_自MO_ エリア内稼働量(kWh)",
+          "raw": "32466"
+        },
+        {
+          "column_1based": 9,
+          "header": "他エリア対応_自MO_エリア外送受電量(kWh)",
+          "raw": "-2734"
+        },
+        {
+          "column_1based": 10,
+          "header": "広域運用後インバランス量(kWh)",
+          "raw": "55041"
+        },
+        {
+          "column_1based": 11,
+          "header": "想定誤差他エリア内稼働量(kWh)",
+          "raw": "-55041"
+        },
+        {
+          "column_1based": 12,
+          "header": "インバランス実績（参考）(kWh)",
+          "raw": "34815"
+        },
+        {
+          "column_1based": 13,
+          "header": "インバランスネッティングコスト(円)",
+          "raw": "-368109"
+        },
+        {
+          "column_1based": 14,
+          "header": "自エリア対応_他MO_エリア外送受電コスト(円)",
+          "raw": "149134"
+        },
+        {
+          "column_1based": 15,
+          "header": "自エリア対応_自MO_ エリア内稼働コスト(円)",
+          "raw": "617503"
+        },
+        {
+          "column_1based": 16,
+          "header": "他エリア対応_自MO_エリア外送受電コスト(円)",
+          "raw": "-43304"
+        },
+        {
+          "column_1based": 17,
+          "header": "想定誤差他エリア内稼働コスト(円)",
+          "raw": "-1046880"
+        },
+        {
+          "column_1based": 18,
+          "header": "インバランス実績対応コスト(円)（参考）",
+          "raw": "558433"
+        },
+        {
+          "column_1based": 19,
+          "header": "インバランスネッティング単価(円/kWh)",
+          "raw": "17.07"
+        },
+        {
+          "column_1based": 20,
+          "header": "自エリア対応_他MO_エリア外送受電単価(円/kWh)",
+          "raw": "16"
+        },
+        {
+          "column_1based": 21,
+          "header": "自エリア対応_自MO_ エリア内稼働単価(円/kWh)",
+          "raw": "19.02"
+        },
+        {
+          "column_1based": 22,
+          "header": "他エリア対応_自MO_エリア外送受電単価(円/kWh)",
+          "raw": "15.84"
+        },
+        {
+          "column_1based": 23,
+          "header": "想定誤差他エリア内稼働単価(円/kWh)",
+          "raw": "19.02"
+        },
+        {
+          "column_1based": 24,
+          "header": "インバランス実績対応単価(円/kWh)（参考）",
+          "raw": "16.04"
+        }
+      ]
+    },
+    {
+      "path": "project/jp_activation_downloads_20261001/samples/kansai_202606_66d7037097dd.zip",
+      "member": "jukyu_LFC_kansai_202606.csv",
+      "sha256": "66d7037097dd64f29d5b8c7b03f15807992c999e19eb6a18e8aad09c582f1544",
+      "record_line": 2,
+      "kind": "lfc",
+      "area": "kansai",
+      "date": "20260601",
+      "slot": 1,
+      "fields": [
+        {
+          "column_1based": 1,
+          "header": "日付",
+          "raw": "20260601"
+        },
+        {
+          "column_1based": 2,
+          "header": "時間コマ",
+          "raw": "1"
+        },
+        {
+          "column_1based": 3,
+          "header": "時間帯自",
+          "raw": "0:00"
+        },
+        {
+          "column_1based": 4,
+          "header": "時間帯至",
+          "raw": "0:30"
+        },
+        {
+          "column_1based": 5,
+          "header": "周波数偏差_30分平均値(Hz)",
+          "raw": "0.03"
+        },
+        {
+          "column_1based": 6,
+          "header": "周波数偏差_+2σ相当値(Hz)",
+          "raw": "0.08"
+        },
+        {
+          "column_1based": 7,
+          "header": "周波数偏差_－2σ相当値(Hz)",
+          "raw": "-0.03"
+        },
+        {
+          "column_1based": 8,
+          "header": "各エリア中給AR_30分平均値(MW)",
+          "raw": "-67"
+        },
+        {
+          "column_1based": 9,
+          "header": "中給AR_+2σ相当値(MW)",
+          "raw": "206"
+        },
+        {
+          "column_1based": 10,
+          "header": "中給AR_－2σ相当値(MW)",
+          "raw": "-320"
+        },
+        {
+          "column_1based": 11,
+          "header": "ARに関する制御分担量_30分平均値(MW)",
+          "raw": "-10"
+        },
+        {
+          "column_1based": 12,
+          "header": "ARに関する制御分担量_＋2σ相当値(MW)",
+          "raw": "22"
+        },
+        {
+          "column_1based": 13,
+          "header": "ARに関する制御分担量_－2σ相当値(MW)",
+          "raw": "-48"
+        },
+        {
+          "column_1based": 14,
+          "header": "補正量ZAR_30分平均値(MW)",
+          "raw": "62"
+        },
+        {
+          "column_1based": 15,
+          "header": "補正量ZAR_＋2σ相当値(MW)",
+          "raw": "296"
+        },
+        {
+          "column_1based": 16,
+          "header": "補正量ZAR_－2σ相当値(MW)",
+          "raw": "-202"
+        },
+        {
+          "column_1based": 17,
+          "header": "既LFC動作量_30分平均値(MW)",
+          "raw": "18"
+        },
+        {
+          "column_1based": 18,
+          "header": "既LFC動作量_＋2σ相当値(MW)",
+          "raw": "138"
+        },
+        {
+          "column_1based": 19,
+          "header": "既LFC動作量_－2σ相当値(MW)",
+          "raw": "-58"
+        },
+        {
+          "column_1based": 20,
+          "header": "既LFC動作量に関する制御分担量_30分平均値(MW)",
+          "raw": "9"
+        },
+        {
+          "column_1based": 21,
+          "header": "既LFC動作量に関する制御分担量_＋2σ相当値(MW)",
+          "raw": "90"
+        },
+        {
+          "column_1based": 22,
+          "header": "既LFC動作量に関する制御分担量_－2σ相当値(MW)",
+          "raw": "-53"
+        },
+        {
+          "column_1based": 23,
+          "header": "補正量Z既LFC_30分平均値(MW)",
+          "raw": "-9"
+        },
+        {
+          "column_1based": 24,
+          "header": "補正量Z既LFC_＋2σ相当値(MW)",
+          "raw": "21"
+        },
+        {
+          "column_1based": 25,
+          "header": "補正量Z既LFC_－2σ相当値(MW)",
+          "raw": "-56"
+        },
+        {
+          "column_1based": 26,
+          "header": "補正量Z_30分平均値(MW)",
+          "raw": "47"
+        },
+        {
+          "column_1based": 27,
+          "header": "補正量Z_＋2σ相当値(MW)",
+          "raw": "291"
+        },
+        {
+          "column_1based": 28,
+          "header": "補正量Z_－2σ相当値(MW)",
+          "raw": "-210"
+        }
+      ]
+    },
+    {
+      "path": "project/jp_activation_downloads_20261001/samples/kyushu_jukyu_202606_259b239ae928.zip",
+      "member": "11120_TSO9_0_202606_20260812132500030.csv",
+      "sha256": "259b239ae928a27aae0524b37a3240cb25d8b1375019110752fdd6d092cb99a1",
+      "record_line": 2,
+      "kind": "regional",
+      "area": "kyushu",
+      "date": "20260601",
+      "slot": 1,
+      "fields": [
+        {
+          "column_1based": 1,
+          "header": "日付",
+          "raw": "20260601"
+        },
+        {
+          "column_1based": 2,
+          "header": "時間コマ",
+          "raw": "1"
+        },
+        {
+          "column_1based": 3,
+          "header": "時間帯_自",
+          "raw": "0:00"
+        },
+        {
+          "column_1based": 4,
+          "header": "時間帯_至",
+          "raw": "0:30"
+        },
+        {
+          "column_1based": 5,
+          "header": "インバランス想定量(kWh)",
+          "raw": "30088"
+        },
+        {
+          "column_1based": 6,
+          "header": "インバランスネッティング量(kWh)",
+          "raw": "4324"
+        },
+        {
+          "column_1based": 7,
+          "header": "自エリア対応_他MO_エリア外送受電量(kWh)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 8,
+          "header": "自エリア対応_自MO_エリア内稼働量(kWh)",
+          "raw": "-34412"
+        },
+        {
+          "column_1based": 9,
+          "header": "他エリア対応_自MO_エリア外送受電量(kWh)",
+          "raw": "8127"
+        },
+        {
+          "column_1based": 10,
+          "header": "広域運用後インバランス量(kWh)",
+          "raw": "-398289"
+        },
+        {
+          "column_1based": 11,
+          "header": "想定誤差他エリア内稼働量(kWh)",
+          "raw": "398289"
+        },
+        {
+          "column_1based": 12,
+          "header": "インバランス実績(kWh)(参考)",
+          "raw": "-368201"
+        },
+        {
+          "column_1based": 13,
+          "header": "インバランスネッティングコスト(円)",
+          "raw": "21447"
+        },
+        {
+          "column_1based": 14,
+          "header": "自エリア対応_他MO_エリア外送受電コスト(円)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 15,
+          "header": "自エリア対応_自MO_エリア内稼働コスト(円)",
+          "raw": "-347905"
+        },
+        {
+          "column_1based": 16,
+          "header": "他エリア対応_自MO_エリア外送受電コスト(円)",
+          "raw": "35678"
+        },
+        {
+          "column_1based": 17,
+          "header": "想定誤差他エリア内稼働コスト(円)",
+          "raw": "4026702"
+        },
+        {
+          "column_1based": 18,
+          "header": "インバランス実績対応コスト(円)(参考)",
+          "raw": "-1863097"
+        },
+        {
+          "column_1based": 19,
+          "header": "インバランスネッティング単価(円/kWh)",
+          "raw": "4.96"
+        },
+        {
+          "column_1based": 20,
+          "header": "自エリア対応_他MO_エリア外送受電単価(円/kWh)",
+          "raw": "0.00"
+        },
+        {
+          "column_1based": 21,
+          "header": "自エリア対応_自MO_エリア内稼働単価(円/kWh)",
+          "raw": "10.11"
+        },
+        {
+          "column_1based": 22,
+          "header": "他エリア対応_自MO_エリア外送受電単価(円/kWh)",
+          "raw": "4.39"
+        },
+        {
+          "column_1based": 23,
+          "header": "想定誤差他エリア内稼働単価(円/kWh)",
+          "raw": "10.11"
+        },
+        {
+          "column_1based": 24,
+          "header": "インバランス実績対応単価(円/kWh)(参考)",
+          "raw": "5.06"
+        }
+      ]
+    },
+    {
+      "path": "data/raw/JP/shikoku_20260930/jukyu_shikoku_202606.csv",
+      "member": null,
+      "sha256": "9db1b895a0fe2176d511b9682958b9d3369671199e4310903b59f1449154ff31",
+      "record_line": 2,
+      "kind": "regional",
+      "area": "shikoku",
+      "date": "20260601",
+      "slot": 1,
+      "fields": [
+        {
+          "column_1based": 1,
+          "header": "日付",
+          "raw": "20260601"
+        },
+        {
+          "column_1based": 2,
+          "header": "時間コマ",
+          "raw": "1"
+        },
+        {
+          "column_1based": 3,
+          "header": "時間帯自",
+          "raw": "00:00"
+        },
+        {
+          "column_1based": 4,
+          "header": "時間帯至",
+          "raw": "0:30"
+        },
+        {
+          "column_1based": 5,
+          "header": "インバランス想定量(kWh)",
+          "raw": "131423"
+        },
+        {
+          "column_1based": 6,
+          "header": "インバランスネッティング量(kWh)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 7,
+          "header": "自エリア対応_他MO_エリア外送受電量(kWh)",
+          "raw": "-6000"
+        },
+        {
+          "column_1based": 8,
+          "header": "自エリア対応_自MO_エリア内稼働量(kWh)",
+          "raw": "-857"
+        },
+        {
+          "column_1based": 9,
+          "header": "他エリア対応_自MO_エリア外送受電量(kWh)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 10,
+          "header": "広域運用後インバランス量(kWh)",
+          "raw": "145967"
+        },
+        {
+          "column_1based": 11,
+          "header": "想定誤差他エリア内稼働量(kWh)",
+          "raw": "-145967"
+        },
+        {
+          "column_1based": 12,
+          "header": "インバランス実績(kWh)（参考）",
+          "raw": "152824"
+        },
+        {
+          "column_1based": 13,
+          "header": "インバランスネッティングコスト(円)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 14,
+          "header": "自エリア対応_他MO_エリア外送受電コスト(円)",
+          "raw": "-20820"
+        },
+        {
+          "column_1based": 15,
+          "header": "自エリア対応_自MO_エリア内稼働コスト(円)",
+          "raw": "-6350"
+        },
+        {
+          "column_1based": 16,
+          "header": "他エリア対応_自MO_エリア外送受電コスト(円)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 17,
+          "header": "想定誤差他エリア内稼働コスト(円)",
+          "raw": "1081615"
+        },
+        {
+          "column_1based": 18,
+          "header": "インバランス実績対応コスト(円)（参考）",
+          "raw": "-564892"
+        },
+        {
+          "column_1based": 19,
+          "header": "インバランスネッティング単価(円/kWh)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 20,
+          "header": "自エリア対応_他MO_エリア外送受電単価(円/kWh)",
+          "raw": "3.47"
+        },
+        {
+          "column_1based": 21,
+          "header": "自エリア対応_自MO_エリア内稼働単価(円/kWh)",
+          "raw": "7.41"
+        },
+        {
+          "column_1based": 22,
+          "header": "他エリア対応_自MO_エリア外送受電単価(円/kWh)",
+          "raw": "0"
+        },
+        {
+          "column_1based": 23,
+          "header": "想定誤差他エリア内稼働単価(円/kWh)",
+          "raw": "7.41"
+        },
+        {
+          "column_1based": 24,
+          "header": "インバランス実績対応単価(円/kWh)（参考）",
+          "raw": "3.87"
+        }
+      ]
+    }
+  ],
+  "ics": {
+    "path": "data\\raw\\JP\\activation_sources_20261001\\ics_basis_202606.csv",
+    "sha256": "474f609911d7595a41381e9257e6f633ef6903edce48ee93bec9f3f9d1cef3ef",
+    "record_line": 5,
+    "file_updated": [
+      "20260728",
+      "09:00:28"
+    ],
+    "values": [
+      {
+        "column_1based": 6,
+        "metric": "インバランス量（kWh）",
+        "area": "北海道",
+        "raw": "-28664",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 8,
+        "metric": "インバランス量（kWh）",
+        "area": "東北",
+        "raw": "-352838",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 10,
+        "metric": "インバランス量（kWh）",
+        "area": "東京",
+        "raw": "-352838",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 12,
+        "metric": "インバランス量（kWh）",
+        "area": "中部",
+        "raw": "-33258",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 14,
+        "metric": "インバランス量（kWh）",
+        "area": "北陸",
+        "raw": "-51563",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 16,
+        "metric": "インバランス量（kWh）",
+        "area": "関西",
+        "raw": "-51563",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 18,
+        "metric": "インバランス量（kWh）",
+        "area": "中国",
+        "raw": "111560",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 20,
+        "metric": "インバランス量（kWh）",
+        "area": "四国",
+        "raw": "131423",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 22,
+        "metric": "インバランス量（kWh）",
+        "area": "九州",
+        "raw": "111560",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 24,
+        "metric": "系統余剰・不足（0：不足、1：余剰、-：なし）",
+        "area": "北海道",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 26,
+        "metric": "系統余剰・不足（0：不足、1：余剰、-：なし）",
+        "area": "東北",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 28,
+        "metric": "系統余剰・不足（0：不足、1：余剰、-：なし）",
+        "area": "東京",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 30,
+        "metric": "系統余剰・不足（0：不足、1：余剰、-：なし）",
+        "area": "中部",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 32,
+        "metric": "系統余剰・不足（0：不足、1：余剰、-：なし）",
+        "area": "北陸",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 34,
+        "metric": "系統余剰・不足（0：不足、1：余剰、-：なし）",
+        "area": "関西",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 36,
+        "metric": "系統余剰・不足（0：不足、1：余剰、-：なし）",
+        "area": "中国",
+        "raw": "1",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 38,
+        "metric": "系統余剰・不足（0：不足、1：余剰、-：なし）",
+        "area": "四国",
+        "raw": "1",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 40,
+        "metric": "系統余剰・不足（0：不足、1：余剰、-：なし）",
+        "area": "九州",
+        "raw": "1",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 42,
+        "metric": "広域運用分断エリア区分（1-9）",
+        "area": "北海道",
+        "raw": "1",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 44,
+        "metric": "広域運用分断エリア区分（1-9）",
+        "area": "東北",
+        "raw": "2",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 46,
+        "metric": "広域運用分断エリア区分（1-9）",
+        "area": "東京",
+        "raw": "2",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 48,
+        "metric": "広域運用分断エリア区分（1-9）",
+        "area": "中部",
+        "raw": "3",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 50,
+        "metric": "広域運用分断エリア区分（1-9）",
+        "area": "北陸",
+        "raw": "4",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 52,
+        "metric": "広域運用分断エリア区分（1-9）",
+        "area": "関西",
+        "raw": "4",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 54,
+        "metric": "広域運用分断エリア区分（1-9）",
+        "area": "中国",
+        "raw": "5",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 56,
+        "metric": "広域運用分断エリア区分（1-9）",
+        "area": "四国",
+        "raw": "6",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 58,
+        "metric": "広域運用分断エリア区分（1-9）",
+        "area": "九州",
+        "raw": "5",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 60,
+        "metric": "補正料金算定インデックス（%）",
+        "area": "北海道",
+        "raw": "13.78",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 62,
+        "metric": "補正料金算定インデックス（%）",
+        "area": "東北",
+        "raw": "13.78",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 64,
+        "metric": "補正料金算定インデックス（%）",
+        "area": "東京",
+        "raw": "13.78",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 66,
+        "metric": "補正料金算定インデックス（%）",
+        "area": "中部",
+        "raw": "13.78",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 68,
+        "metric": "補正料金算定インデックス（%）",
+        "area": "北陸",
+        "raw": "13.78",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 70,
+        "metric": "補正料金算定インデックス（%）",
+        "area": "関西",
+        "raw": "13.78",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 72,
+        "metric": "補正料金算定インデックス（%）",
+        "area": "中国",
+        "raw": "13.78",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 74,
+        "metric": "補正料金算定インデックス（%）",
+        "area": "四国",
+        "raw": "36.87",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 76,
+        "metric": "補正料金算定インデックス（%）",
+        "area": "九州",
+        "raw": "13.78",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 78,
+        "metric": "調整力の限界的なkWh価格（円/kWh）",
+        "area": "北海道",
+        "raw": "21.87",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 80,
+        "metric": "調整力の限界的なkWh価格（円/kWh）",
+        "area": "東北",
+        "raw": "20.24",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 82,
+        "metric": "調整力の限界的なkWh価格（円/kWh）",
+        "area": "東京",
+        "raw": "20.24",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 84,
+        "metric": "調整力の限界的なkWh価格（円/kWh）",
+        "area": "中部",
+        "raw": "16.19",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 86,
+        "metric": "調整力の限界的なkWh価格（円/kWh）",
+        "area": "北陸",
+        "raw": "16.04",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 88,
+        "metric": "調整力の限界的なkWh価格（円/kWh）",
+        "area": "関西",
+        "raw": "16.04",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 90,
+        "metric": "調整力の限界的なkWh価格（円/kWh）",
+        "area": "中国",
+        "raw": "5.06",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 92,
+        "metric": "調整力の限界的なkWh価格（円/kWh）",
+        "area": "四国",
+        "raw": "3.87",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 94,
+        "metric": "調整力の限界的なkWh価格（円/kWh）",
+        "area": "九州",
+        "raw": "5.06",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 96,
+        "metric": "卸市場価格P（円/kWh）",
+        "area": "北海道",
+        "raw": "15.41",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 98,
+        "metric": "卸市場価格P（円/kWh）",
+        "area": "東北",
+        "raw": "16.24",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 100,
+        "metric": "卸市場価格P（円/kWh）",
+        "area": "東京",
+        "raw": "16.24",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 102,
+        "metric": "卸市場価格P（円/kWh）",
+        "area": "中部",
+        "raw": "16.08",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 104,
+        "metric": "卸市場価格P（円/kWh）",
+        "area": "北陸",
+        "raw": "14.16",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 106,
+        "metric": "卸市場価格P（円/kWh）",
+        "area": "関西",
+        "raw": "14.16",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 108,
+        "metric": "卸市場価格P（円/kWh）",
+        "area": "中国",
+        "raw": "9.98",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 110,
+        "metric": "卸市場価格P（円/kWh）",
+        "area": "四国",
+        "raw": "1.19",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 112,
+        "metric": "卸市場価格P（円/kWh）",
+        "area": "九州",
+        "raw": "9.98",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 114,
+        "metric": "需給ひっ迫時補正インバランス料金単価（円/kWh）",
+        "area": "北海道",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 116,
+        "metric": "需給ひっ迫時補正インバランス料金単価（円/kWh）",
+        "area": "東北",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 118,
+        "metric": "需給ひっ迫時補正インバランス料金単価（円/kWh）",
+        "area": "東京",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 120,
+        "metric": "需給ひっ迫時補正インバランス料金単価（円/kWh）",
+        "area": "中部",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 122,
+        "metric": "需給ひっ迫時補正インバランス料金単価（円/kWh）",
+        "area": "北陸",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 124,
+        "metric": "需給ひっ迫時補正インバランス料金単価（円/kWh）",
+        "area": "関西",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 126,
+        "metric": "需給ひっ迫時補正インバランス料金単価（円/kWh）",
+        "area": "中国",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 128,
+        "metric": "需給ひっ迫時補正インバランス料金単価（円/kWh）",
+        "area": "四国",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 130,
+        "metric": "需給ひっ迫時補正インバランス料金単価（円/kWh）",
+        "area": "九州",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 132,
+        "metric": "電源Ⅲ出力抑制の有無（0：無、1：有）",
+        "area": "北海道",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 134,
+        "metric": "電源Ⅲ出力抑制の有無（0：無、1：有）",
+        "area": "東北",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 136,
+        "metric": "電源Ⅲ出力抑制の有無（0：無、1：有）",
+        "area": "東京",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 138,
+        "metric": "電源Ⅲ出力抑制の有無（0：無、1：有）",
+        "area": "中部",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 140,
+        "metric": "電源Ⅲ出力抑制の有無（0：無、1：有）",
+        "area": "北陸",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 142,
+        "metric": "電源Ⅲ出力抑制の有無（0：無、1：有）",
+        "area": "関西",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 144,
+        "metric": "電源Ⅲ出力抑制の有無（0：無、1：有）",
+        "area": "中国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 146,
+        "metric": "電源Ⅲ出力抑制の有無（0：無、1：有）",
+        "area": "四国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 148,
+        "metric": "電源Ⅲ出力抑制の有無（0：無、1：有）",
+        "area": "九州",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 150,
+        "metric": "電源Ⅲ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "北海道",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 152,
+        "metric": "電源Ⅲ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "東北",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 154,
+        "metric": "電源Ⅲ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "東京",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 156,
+        "metric": "電源Ⅲ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "中部",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 158,
+        "metric": "電源Ⅲ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "北陸",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 160,
+        "metric": "電源Ⅲ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "関西",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 162,
+        "metric": "電源Ⅲ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "中国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 164,
+        "metric": "電源Ⅲ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "四国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 166,
+        "metric": "電源Ⅲ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "九州",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 168,
+        "metric": "電源Ⅲ出力抑制時単価（円/kWh）",
+        "area": "北海道",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 170,
+        "metric": "電源Ⅲ出力抑制時単価（円/kWh）",
+        "area": "東北",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 172,
+        "metric": "電源Ⅲ出力抑制時単価（円/kWh）",
+        "area": "東京",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 174,
+        "metric": "電源Ⅲ出力抑制時単価（円/kWh）",
+        "area": "中部",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 176,
+        "metric": "電源Ⅲ出力抑制時単価（円/kWh）",
+        "area": "北陸",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 178,
+        "metric": "電源Ⅲ出力抑制時単価（円/kWh）",
+        "area": "関西",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 180,
+        "metric": "電源Ⅲ出力抑制時単価（円/kWh）",
+        "area": "中国",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 182,
+        "metric": "電源Ⅲ出力抑制時単価（円/kWh）",
+        "area": "四国",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 184,
+        "metric": "電源Ⅲ出力抑制時単価（円/kWh）",
+        "area": "九州",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 186,
+        "metric": "再エネ出力抑制の有無（0：無、1：有）",
+        "area": "北海道",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 188,
+        "metric": "再エネ出力抑制の有無（0：無、1：有）",
+        "area": "東北",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 190,
+        "metric": "再エネ出力抑制の有無（0：無、1：有）",
+        "area": "東京",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 192,
+        "metric": "再エネ出力抑制の有無（0：無、1：有）",
+        "area": "中部",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 194,
+        "metric": "再エネ出力抑制の有無（0：無、1：有）",
+        "area": "北陸",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 196,
+        "metric": "再エネ出力抑制の有無（0：無、1：有）",
+        "area": "関西",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 198,
+        "metric": "再エネ出力抑制の有無（0：無、1：有）",
+        "area": "中国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 200,
+        "metric": "再エネ出力抑制の有無（0：無、1：有）",
+        "area": "四国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 202,
+        "metric": "再エネ出力抑制の有無（0：無、1：有）",
+        "area": "九州",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 204,
+        "metric": "再エネ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "北海道",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 206,
+        "metric": "再エネ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "東北",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 208,
+        "metric": "再エネ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "東京",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 210,
+        "metric": "再エネ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "中部",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 212,
+        "metric": "再エネ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "北陸",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 214,
+        "metric": "再エネ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "関西",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 216,
+        "metric": "再エネ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "中国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 218,
+        "metric": "再エネ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "四国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 220,
+        "metric": "再エネ出力抑制時単価の適用有無（0：無、1：適用）",
+        "area": "九州",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 222,
+        "metric": "電力使用制限有無（0：無、1：有）",
+        "area": "北海道",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 224,
+        "metric": "電力使用制限有無（0：無、1：有）",
+        "area": "東北",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 226,
+        "metric": "電力使用制限有無（0：無、1：有）",
+        "area": "東京",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 228,
+        "metric": "電力使用制限有無（0：無、1：有）",
+        "area": "中部",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 230,
+        "metric": "電力使用制限有無（0：無、1：有）",
+        "area": "北陸",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 232,
+        "metric": "電力使用制限有無（0：無、1：有）",
+        "area": "関西",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 234,
+        "metric": "電力使用制限有無（0：無、1：有）",
+        "area": "中国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 236,
+        "metric": "電力使用制限有無（0：無、1：有）",
+        "area": "四国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 238,
+        "metric": "電力使用制限有無（0：無、1：有）",
+        "area": "九州",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 240,
+        "metric": "電力使用制限時の限界的なkWh価格（円/kWh）",
+        "area": "北海道",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 242,
+        "metric": "電力使用制限時の限界的なkWh価格（円/kWh）",
+        "area": "東北",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 244,
+        "metric": "電力使用制限時の限界的なkWh価格（円/kWh）",
+        "area": "東京",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 246,
+        "metric": "電力使用制限時の限界的なkWh価格（円/kWh）",
+        "area": "中部",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 248,
+        "metric": "電力使用制限時の限界的なkWh価格（円/kWh）",
+        "area": "北陸",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 250,
+        "metric": "電力使用制限時の限界的なkWh価格（円/kWh）",
+        "area": "関西",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 252,
+        "metric": "電力使用制限時の限界的なkWh価格（円/kWh）",
+        "area": "中国",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 254,
+        "metric": "電力使用制限時の限界的なkWh価格（円/kWh）",
+        "area": "四国",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 256,
+        "metric": "電力使用制限時の限界的なkWh価格（円/kWh）",
+        "area": "九州",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 258,
+        "metric": "計画停電有無（0：無、1：有）",
+        "area": "北海道",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 260,
+        "metric": "計画停電有無（0：無、1：有）",
+        "area": "東北",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 262,
+        "metric": "計画停電有無（0：無、1：有）",
+        "area": "東京",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 264,
+        "metric": "計画停電有無（0：無、1：有）",
+        "area": "中部",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 266,
+        "metric": "計画停電有無（0：無、1：有）",
+        "area": "北陸",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 268,
+        "metric": "計画停電有無（0：無、1：有）",
+        "area": "関西",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 270,
+        "metric": "計画停電有無（0：無、1：有）",
+        "area": "中国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 272,
+        "metric": "計画停電有無（0：無、1：有）",
+        "area": "四国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 274,
+        "metric": "計画停電有無（0：無、1：有）",
+        "area": "九州",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 276,
+        "metric": "計画停電時の限界的なkWh価格（円/kWh）",
+        "area": "北海道",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 278,
+        "metric": "計画停電時の限界的なkWh価格（円/kWh）",
+        "area": "東北",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 280,
+        "metric": "計画停電時の限界的なkWh価格（円/kWh）",
+        "area": "東京",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 282,
+        "metric": "計画停電時の限界的なkWh価格（円/kWh）",
+        "area": "中部",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 284,
+        "metric": "計画停電時の限界的なkWh価格（円/kWh）",
+        "area": "北陸",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 286,
+        "metric": "計画停電時の限界的なkWh価格（円/kWh）",
+        "area": "関西",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 288,
+        "metric": "計画停電時の限界的なkWh価格（円/kWh）",
+        "area": "中国",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 290,
+        "metric": "計画停電時の限界的なkWh価格（円/kWh）",
+        "area": "四国",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 292,
+        "metric": "計画停電時の限界的なkWh価格（円/kWh）",
+        "area": "九州",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 294,
+        "metric": "ブラックアウト発生有無（0：無、1：有（当日）、2：有（翌日以降））",
+        "area": "北海道",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 296,
+        "metric": "ブラックアウト発生有無（0：無、1：有（当日）、2：有（翌日以降））",
+        "area": "東北",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 298,
+        "metric": "ブラックアウト発生有無（0：無、1：有（当日）、2：有（翌日以降））",
+        "area": "東京",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 300,
+        "metric": "ブラックアウト発生有無（0：無、1：有（当日）、2：有（翌日以降））",
+        "area": "中部",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 302,
+        "metric": "ブラックアウト発生有無（0：無、1：有（当日）、2：有（翌日以降））",
+        "area": "北陸",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 304,
+        "metric": "ブラックアウト発生有無（0：無、1：有（当日）、2：有（翌日以降））",
+        "area": "関西",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 306,
+        "metric": "ブラックアウト発生有無（0：無、1：有（当日）、2：有（翌日以降））",
+        "area": "中国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 308,
+        "metric": "ブラックアウト発生有無（0：無、1：有（当日）、2：有（翌日以降））",
+        "area": "四国",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 310,
+        "metric": "ブラックアウト発生有無（0：無、1：有（当日）、2：有（翌日以降））",
+        "area": "九州",
+        "raw": "0",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 312,
+        "metric": "ブラックアウト発生時のインバランス料金単価（円/kWh）",
+        "area": "北海道",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 314,
+        "metric": "ブラックアウト発生時のインバランス料金単価（円/kWh）",
+        "area": "東北",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 316,
+        "metric": "ブラックアウト発生時のインバランス料金単価（円/kWh）",
+        "area": "東京",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 318,
+        "metric": "ブラックアウト発生時のインバランス料金単価（円/kWh）",
+        "area": "中部",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 320,
+        "metric": "ブラックアウト発生時のインバランス料金単価（円/kWh）",
+        "area": "北陸",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 322,
+        "metric": "ブラックアウト発生時のインバランス料金単価（円/kWh）",
+        "area": "関西",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 324,
+        "metric": "ブラックアウト発生時のインバランス料金単価（円/kWh）",
+        "area": "中国",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 326,
+        "metric": "ブラックアウト発生時のインバランス料金単価（円/kWh）",
+        "area": "四国",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 328,
+        "metric": "ブラックアウト発生時のインバランス料金単価（円/kWh）",
+        "area": "九州",
+        "raw": "0.00",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 330,
+        "metric": "卸市場停止時等参照価格（円/kWh）",
+        "area": "北海道",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 332,
+        "metric": "卸市場停止時等参照価格（円/kWh）",
+        "area": "東北",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 334,
+        "metric": "卸市場停止時等参照価格（円/kWh）",
+        "area": "東京",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 336,
+        "metric": "卸市場停止時等参照価格（円/kWh）",
+        "area": "中部",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 338,
+        "metric": "卸市場停止時等参照価格（円/kWh）",
+        "area": "北陸",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 340,
+        "metric": "卸市場停止時等参照価格（円/kWh）",
+        "area": "関西",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 342,
+        "metric": "卸市場停止時等参照価格（円/kWh）",
+        "area": "中国",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 344,
+        "metric": "卸市場停止時等参照価格（円/kWh）",
+        "area": "四国",
+        "raw": "",
+        "change_count": "0"
+      },
+      {
+        "column_1based": 346,
+        "metric": "卸市場停止時等参照価格（円/kWh）",
+        "area": "九州",
+        "raw": "",
+        "change_count": "0"
+      }
+    ]
+  },
+  "imbalance_price": {
+    "path": "countries\\JP\\research\\evidence\\IB_202606_883cb0a543d2.csv",
+    "headers": [
+      [
+        "H",
+        "インバランス料金単価（円/kWh）"
+      ],
+      [
+        "H",
+        "ファイル更新日",
+        "ファイル更新時刻",
+        "対象年月"
+      ],
+      [
+        "H",
+        "20260728",
+        "09:00:28",
+        "202606",
+        "",
+        "余剰インバランス料金単価",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "不足インバランス料金単価",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "T",
+        "日付",
+        "時間帯コマ",
+        "時間帯_自",
+        "時間帯_至",
+        "北海道",
+        "変更S",
+        "東北",
+        "変更S",
+        "東京",
+        "変更S",
+        "中部",
+        "変更S",
+        "北陸",
+        "変更S",
+        "関西",
+        "変更S",
+        "中国",
+        "変更S",
+        "四国",
+        "変更S",
+        "九州",
+        "変更S",
+        "北海道",
+        "変更S",
+        "東北",
+        "変更S",
+        "東京",
+        "変更S",
+        "中部",
+        "変更S",
+        "北陸",
+        "変更S",
+        "関西",
+        "変更S",
+        "中国",
+        "変更S",
+        "四国",
+        "変更S",
+        "九州",
+        "変更S"
+      ]
+    ],
+    "row": [
+      "D",
+      "20260601",
+      "01",
+      "00:00",
+      "00:30",
+      "21.87",
+      "0",
+      "20.24",
+      "0",
+      "20.24",
+      "0",
+      "16.19",
+      "0",
+      "16.04",
+      "0",
+      "16.04",
+      "0",
+      "5.06",
+      "0",
+      "3.87",
+      "0",
+      "5.06",
+      "0",
+      "21.87",
+      "0",
+      "20.24",
+      "0",
+      "20.24",
+      "0",
+      "16.19",
+      "0",
+      "16.04",
+      "0",
+      "16.04",
+      "0",
+      "5.06",
+      "0",
+      "3.87",
+      "0",
+      "5.06",
+      "0"
+    ]
+  },
+  "checks": {
+    "one_row_per_key": true,
+    "all_time_windows_0000_0030": true,
+    "kyushu_forecast_plus_control_zero": true,
+    "kyushu_actual_equals_forecast_plus_residual": true,
+    "kyushu_residual_plus_response_zero": true,
+    "kyushu_lfc_mean_zar_identity": true,
+    "kyushu_lfc_mean_zexisting_identity": true,
+    "kyushu_lfc_mean_ztotal_identity": true,
+    "ics_original_hash_matches_prior": true
+  },
+  "caution": "Mean identities checked only for selected Kyushu row; not a general reconstruction of control algorithm or waveform.",
+  "interpretation_limits": [
+    "ICS field 9 is officially regional wide-area operation command quantity (imbalance quantity), not per-resource EDC target or metered response.",
+    "Regional MO and residual-response fields do not separate EDC/LFC/product/individual-resource contributions.",
+    "Kyushu ICS 111560 kWh differs from regional forecast 30088 kWh and reference actual -368201 kWh; reconciliation remains unresolved.",
+    "Two-sigma-equivalent values are not verified extrema, durations, or exact mean plus/minus two standard deviations.",
+    "Regional energy sign interpretation references TEPCO same-name field documentation; Kyushu-specific detailed calculation specification not obtained.",
+    "Only project JP data locations inventoried; this is not a whole-computer download audit."
+  ],
+  "official_sources": [
+    {
+      "title": "ICS利用マニュアル 第5版",
+      "date": "2024-04-01",
+      "location": "4.3 印刷pp42–43; merit order pp25,37",
+      "url": "https://www.imbalanceprices-cs.jp/show/footer/system_manual.pdf",
+      "access_date": "2026-10-02"
+    },
+    {
+      "title": "東京電力 調整力に関する情報等のダウンロード",
+      "date": "page date unspecified",
+      "location": "調整力に関する情報の説明; web lines 344–369",
+      "url": "https://www.tepco.co.jp/forecast/html/adjust-j.html",
+      "access_date": "2026-10-02"
+    },
+    {
+      "title": "EPRX 三次調整力①調達不足解消に向けたアンケート結果",
+      "date": "2023-06-27 filename date",
+      "location": "ⅳ その他頂戴したご意見・ご要望 3/4, printed p19",
+      "url": "https://www.eprx.or.jp/j_information/20230627_questionnaire.pdf",
+      "access_date": "2026-10-02",
+      "access_note": "Official indexed content retrieved; direct PDF open failed"
+    },
+    {
+      "title": "九州 2026年6月 広域LFC CSV",
+      "date": "2026-06 data month",
+      "location": "CSV line 2, columns 1–28",
+      "url": "https://www.kyuden.co.jp/td_power_usages/csv/lfc/jukyu_LFC_kyushu_202606.csv",
+      "access_date": "2026-10-01 source retained; read locally 2026-10-02"
+    }
+  ]
+}

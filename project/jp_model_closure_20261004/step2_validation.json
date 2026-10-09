@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-04",
+  "passed": true,
+  "checks": {
+    "section13_preserved": true,
+    "confirmed_step1_preserved": true,
+    "step2_A_present": true,
+    "no_free_inner_reduction": true,
+    "single_price_formula": true,
+    "not_production_certification": true,
+    "menu_max_and_no_bid": true,
+    "3_5_example_30000": true,
+    "already_MW_price_same_result": true,
+    "reject_missing_verification": true,
+    "reject_missing_domain": true,
+    "reject_missing_price": true,
+    "reject_single_product_row": true
+  },
+  "examples": [
+    {
+      "selection": -1,
+      "q_s": 0.0,
+      "q_t": 0.0,
+      "R": 0.0,
+      "fee_jpy_30min": 0.0,
+      "passed": true
+    },
+    {
+      "selection": 0,
+      "q_s": 3.0,
+      "q_t": 5.0,
+      "R": 5.0,
+      "fee_jpy_30min": 30000.0,
+      "passed": true
+    },
+    {
+      "selection": 1,
+      "q_s": 5.0,
+      "q_t": 3.0,
+      "R": 5.0,
+      "fee_jpy_30min": 30000.0,
+      "passed": true
+    },
+    {
+      "selection": 2,
+      "q_s": 4.0,
+      "q_t": 4.0,
+      "R": 4.0,
+      "fee_jpy_30min": 24000.0,
+      "passed": true
+    }
+  ],
+  "scope": "document preservation and illustrative algebra/input checks only; no actual capacity menu certification, no solver, no independent review",
+  "sha256": "1c51e2a6f970902924ff7f8b2b7d3db7a6a202740021ca2d8bf7cf76683fa9eb"
+}

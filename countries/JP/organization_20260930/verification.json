@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-30",
+  "checks": {
+    "all_676_files_present": true,
+    "no_original_files_left": true,
+    "immutable_hashes_unchanged": true,
+    "active_document_links_exist": true,
+    "active_python_syntax": true,
+    "source_inventory_paths_and_hashes": true,
+    "all_51_milp_formulas_unchanged": true,
+    "country_status_paths_exist": true
+  },
+  "moved_files": 676,
+  "immutable_files": 564,
+  "local_links_checked": 249,
+  "official_sources_checked": 336,
+  "missing_links": [],
+  "immutable_hash_errors": [],
+  "syntax_errors": [],
+  "source_errors": [],
+  "solver_or_backtest_run": false
+}

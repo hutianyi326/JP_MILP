@@ -1,0 +1,3 @@
+# Existing local .venv-es-milp environment; no global package changes required.
+numpy==2.4.6
+scipy==1.15.3

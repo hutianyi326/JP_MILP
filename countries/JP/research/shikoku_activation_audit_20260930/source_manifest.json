@@ -1,0 +1,86 @@
+[
+  {
+    "file": "jukyu_LFC_shikoku_202604.csv",
+    "bytes": 77102,
+    "sha256": "4151ee08320d1bc37ec544828c9447506afb12981249cf136075ac39c7a73758",
+    "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_LFC_shikoku_202604.csv",
+    "access_date": "2026-09-30"
+  },
+  {
+    "file": "jukyu_LFC_shikoku_202605.csv",
+    "bytes": 157656,
+    "sha256": "0d8187ef27f14e007e84b82970dc1d5a7ad47bc89216c87f8725b350a495a0c2",
+    "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_LFC_shikoku_202605.csv",
+    "access_date": "2026-09-30"
+  },
+  {
+    "file": "jukyu_LFC_shikoku_202606.csv",
+    "bytes": 154177,
+    "sha256": "ab0c4180c7b5597fff1281ff42b313a5592d0d9a5fbf5d3a72131254bd695923",
+    "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_LFC_shikoku_202606.csv",
+    "access_date": "2026-09-30"
+  },
+  {
+    "file": "jukyu_LFC_shikoku_202607.csv",
+    "bytes": 164765,
+    "sha256": "989b30052263f1b13f5694fa7ae135e400613a15cb3dfdda8adffdfe1d10ed04",
+    "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_LFC_shikoku_202607.csv",
+    "access_date": "2026-09-30"
+  },
+  {
+    "file": "jukyu_LFC_shikoku_202608.csv",
+    "bytes": 165102,
+    "sha256": "bf3ad62ad8001fb00d31e1f1eeba4a90c8236c7571c4e3536bd1c937edea4eee",
+    "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_LFC_shikoku_202608.csv",
+    "access_date": "2026-09-30"
+  },
+  {
+    "file": "jukyu_shikoku_2024.zip",
+    "bytes": 866781,
+    "sha256": "e0d313529286fcd7321d0027dafaa0d39803fa30ff369ea9143641eee49741fe",
+    "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2024/jukyu_shikoku_2024.zip",
+    "access_date": "2026-09-30"
+  },
+  {
+    "file": "jukyu_shikoku_2025.zip",
+    "bytes": 844198,
+    "sha256": "db05b68c17809adb73e88428eb834fc9f7ea7ad17e3fd74c7adc0dc0e99c7e50",
+    "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2025/jukyu_shikoku_2025.zip",
+    "access_date": "2026-09-30"
+  },
+  {
+    "file": "jukyu_shikoku_202604.csv",
+    "bytes": 180384,
+    "sha256": "f08b586ee840fae47eafafef9c2480172118c19c1133c01c552b4f00a91fc097",
+    "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_shikoku_202604.csv",
+    "access_date": "2026-09-30"
+  },
+  {
+    "file": "jukyu_shikoku_202605.csv",
+    "bytes": 181064,
+    "sha256": "a3aedf867b4ccbcc3986d342f500751b2e2296f9bbc807176ca1a082c3dd03a4",
+    "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_shikoku_202605.csv",
+    "access_date": "2026-09-30"
+  },
+  {
+    "file": "jukyu_shikoku_202606.csv",
+    "bytes": 182574,
+    "sha256": "9db1b895a0fe2176d511b9682958b9d3369671199e4310903b59f1449154ff31",
+    "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_shikoku_202606.csv",
+    "access_date": "2026-09-30"
+  },
+  {
+    "file": "jukyu_shikoku_202607.csv",
+    "bytes": 193886,
+    "sha256": "60a056d7eebeb147c5e0404d8c1ac9d3fe53369b0fda5fb265103a2512331032",
+    "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_shikoku_202607.csv",
+    "access_date": "2026-09-30"
+  },
+  {
+    "file": "jukyu_shikoku_202608.csv",
+    "bytes": 196195,
+    "sha256": "0ee77c59271cbf320a98971f713b58cae6f980741a9e7b560a5e848b815a9e20",
+    "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_shikoku_202608.csv",
+    "access_date": "2026-09-30"
+  }
+]

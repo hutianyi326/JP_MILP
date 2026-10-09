@@ -1,0 +1,84 @@
+{
+  "research_window": "[2025-01-01,2026-09-01) Asia/Tokyo",
+  "expected_intervals_per_area": 29184,
+  "spot_complete": true,
+  "supply_coverage": [
+    {
+      "area": "北海道",
+      "rows": 29184,
+      "expected": 29184,
+      "missing_timestamps": 0,
+      "missing_load": 0,
+      "island_scope": "未取得可逐项验证的离岛剔除证明；诊断数据，禁止模型输入"
+    },
+    {
+      "area": "東北",
+      "rows": 29184,
+      "expected": 29184,
+      "missing_timestamps": 0,
+      "missing_load": 0,
+      "island_scope": "未取得可逐项验证的离岛剔除证明；诊断数据，禁止模型输入"
+    },
+    {
+      "area": "東京",
+      "rows": 29184,
+      "expected": 29184,
+      "missing_timestamps": 0,
+      "missing_load": 0,
+      "island_scope": "未取得可逐项验证的离岛剔除证明；诊断数据，禁止模型输入"
+    },
+    {
+      "area": "中部",
+      "rows": 29184,
+      "expected": 29184,
+      "missing_timestamps": 0,
+      "missing_load": 0,
+      "island_scope": "未取得可逐项验证的离岛剔除证明；诊断数据，禁止模型输入"
+    },
+    {
+      "area": "北陸",
+      "rows": 29184,
+      "expected": 29184,
+      "missing_timestamps": 0,
+      "missing_load": 0,
+      "island_scope": "未取得可逐项验证的离岛剔除证明；诊断数据，禁止模型输入"
+    },
+    {
+      "area": "関西",
+      "rows": 29184,
+      "expected": 29184,
+      "missing_timestamps": 0,
+      "missing_load": 0,
+      "island_scope": "未取得可逐项验证的离岛剔除证明；诊断数据，禁止模型输入"
+    },
+    {
+      "area": "中国",
+      "rows": 29184,
+      "expected": 29184,
+      "missing_timestamps": 0,
+      "missing_load": 0,
+      "island_scope": "未取得可逐项验证的离岛剔除证明；诊断数据，禁止模型输入"
+    },
+    {
+      "area": "四国",
+      "rows": 29184,
+      "expected": 29184,
+      "missing_timestamps": 0,
+      "missing_load": 0,
+      "island_scope": "未取得可逐项验证的离岛剔除证明；诊断数据，禁止模型输入"
+    },
+    {
+      "area": "九州",
+      "rows": 29184,
+      "expected": 29184,
+      "missing_timestamps": 0,
+      "missing_load": 0,
+      "island_scope": "未取得可逐项验证的离岛剔除证明；诊断数据，禁止模型输入"
+    }
+  ],
+  "missing_policy": "no filling",
+  "day_type_definition": "National-holiday first (Cabinet Office H02, includes substitute holidays); otherwise Sat/Sun=Weekend; remaining=Workday; not actual business closure calendar",
+  "vintage": "retrieved 2026-09-28 UTC; latest available revisions; ex-post only",
+  "scope_gate": "fundamentals held for island boundary validation",
+  "not_a_backtest": true
+}

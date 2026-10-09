@@ -1,0 +1,230 @@
+"""One-time, hash-audited Japan package relocation; no overwrite or recursive delete."""
+from pathlib import Path
+import hashlib, json, os, re, ast, csv, io
+
+ROOT = Path(__file__).resolve().parents[1]
+JP = ROOT / 'countries/JP'
+AUDIT = JP / 'organization_20260930'
+assert not AUDIT.exists(), 'Migration already started; inspect the existing audit first.'
+
+def sha(data):
+    return hashlib.sha256(data).hexdigest()
+
+def rel(p):
+    return p.relative_to(ROOT).as_posix()
+
+def safe(p):
+    p = p.resolve()
+    assert p.is_relative_to(ROOT), str(p)
+    return p
+
+mapping = {}
+for src, dst in [('project/japan_research', 'countries/JP/research'),
+                 ('data/raw/JP', 'countries/JP/data/raw')]:
+    for p in (ROOT/src).rglob('*'):
+        if p.is_file():
+            mapping[rel(p)] = (Path(dst)/p.relative_to(ROOT/src)).as_posix()
+for p in list(JP.glob('*.md')):
+    mapping[rel(p)] = 'countries/JP/topics/' + p.name
+mapping['model/JP_milp_formulation.md'] = 'countries/JP/model/JP_milp_formulation.md'
+mapping['project/japan_research_scope_draft_20260928.md'] = 'countries/JP/research_scope_draft_20260928.md'
+
+def immutable(old):
+    return (old.startswith('data/raw/JP/') or any(old.startswith('project/japan_research/'+s+'/')
+            for s in ['evidence','extracted','review_initial','review_round1','milp_review_initial'])
+            or (old.startswith('project/japan_research/') and old.endswith('.json')))
+
+for old, new in mapping.items():
+    assert safe(ROOT/old).is_file(), old
+    assert not safe(ROOT/new).exists(), new
+assert len(set(mapping.values())) == len(mapping)
+AUDIT.mkdir(parents=True)
+records = []
+for old, new in sorted(mapping.items()):
+    p = ROOT/old
+    data = p.read_bytes()
+    records.append(dict(old_path=old, new_path=new, bytes_before=len(data), sha256_before=sha(data), immutable=immutable(old)))
+(AUDIT/'migration_manifest.json').write_text(json.dumps({'status':'planned','files':records},ensure_ascii=False,indent=2),encoding='utf-8')
+
+# Each source/destination was resolved and checked under this workspace before moving.
+for old, new in mapping.items():
+    dst = safe(ROOT/new)
+    dst.parent.mkdir(parents=True,exist_ok=True)
+    safe(ROOT/old).rename(dst)
+for src in ['project/japan_research','data/raw/JP']:
+    base = safe(ROOT/src)
+    for d in sorted((p for p in base.rglob('*') if p.is_dir()),key=lambda p:len(p.parts),reverse=True):
+        safe(d).rmdir()  # only succeeds for empty directories
+    base.rmdir()
+
+prefixes = [('project/japan_research','countries/JP/research'),
+            ('data/raw/JP','countries/JP/data/raw')]
+def map_path(old):
+    if old in mapping:
+        return mapping[old]
+    for a,b in prefixes:
+        if old == a or old.startswith(a+'/'):
+            return b+old[len(a):]
+    return old
+
+def replace_root_paths(text):
+    # Exact file replacements first, then directory references. Use placeholders
+    # so a newly written destination cannot be replaced a second time.
+    changes = []
+    pairs = [(a,b) for a,b in mapping.items() if not a.startswith(('project/japan_research/','data/raw/JP/'))]
+    pairs += prefixes
+    for i,(a,b) in enumerate(sorted(pairs,key=lambda x:-len(x[0]))):
+        for aa,bb in [(a,b),(a.replace('/','\\'),b.replace('/','\\'))]:
+            token = f'__JP_MOVE_{len(changes)}__'
+            if aa in text:
+                text=text.replace(aa,token)
+                changes.append((token,bb))
+    for token,b in changes:
+        text=text.replace(token,b)
+    return text
+
+def resolve_old_link(old, target):
+    target=target.replace('\\','/')
+    p=safe(ROOT/old).parent/target
+    normalized=os.path.normpath(str(p))
+    try:
+        result=Path(normalized).relative_to(ROOT).as_posix()
+    except ValueError:
+        return None
+    if result in mapping or (ROOT/result).exists():
+        return result
+    # Repair pre-existing links which incorrectly used repository-root paths
+    # from a nested country folder.
+    for marker in ['project/japan_research','data/raw/JP','countries/JP','model/','src/','project/']:
+        pos=target.find(marker)
+        if pos>=0:
+            candidate=target[pos:]
+            if candidate in mapping or (ROOT/candidate).exists():
+                return candidate
+    return result
+
+link_re = re.compile(r'(!?\[[^\]\n]*\]\()([^\n]*?)(\))')
+def update_text(old,new,text):
+    held=[]
+    if old.endswith('.md'):
+        def link(m):
+            target=m[2]
+            if re.match(r'^(?:[a-zA-Z]+:|#)',target):
+                return m[0]
+            bare=target.strip('<>')
+            path,sep,fragment=bare.partition('#')
+            if not path:
+                return m[0]
+            resolved=resolve_old_link(old,path)
+            if resolved is None:
+                return m[0]
+            relocated=map_path(resolved)
+            dest=ROOT/relocated
+            out=os.path.relpath(dest,(ROOT/new).parent).replace('\\','/')
+            out += (sep+fragment)
+            token=f'__JP_LINK_{len(held)}__'
+            held.append((token,m[1]+out+m[3]))
+            return token
+        text=link_re.sub(link,text)
+    # Within the relocated research directory, these references have a new depth.
+    if old.startswith('project/japan_research/'):
+        text=text.replace('../../data/raw/JP','../data/raw')
+        text=text.replace('../../countries/JP/','../topics/')
+        text=text.replace('../../model/JP_milp_formulation.md','../model/JP_milp_formulation.md')
+    text=replace_root_paths(text)
+    for token,value in held:
+        text=text.replace(token,value)
+    return text
+
+changed=[]
+for r in records:
+    old,new=r['old_path'],r['new_path']
+    if r['immutable'] or Path(old).suffix not in {'.md','.py','.csv','.jsonl'}:
+        continue
+    p=ROOT/new
+    original=p.read_bytes()
+    try:
+        text=original.decode('utf-8-sig')
+    except UnicodeDecodeError:
+        continue
+    updated=update_text(old,new,text)
+    if updated != text:
+        snapshot=AUDIT/'before_path_edits'/old
+        snapshot.parent.mkdir(parents=True,exist_ok=True)
+        snapshot.write_bytes(original)
+        bom=b'\xef\xbb\xbf' if original.startswith(b'\xef\xbb\xbf') else b''
+        p.write_bytes(bom+updated.encode('utf-8'))
+        changed.append(new)
+
+external=[]
+for old in ['project/country_status.yaml','project/scope.md','README.md']:
+    p=ROOT/old
+    original=p.read_bytes()
+    text=original.decode('utf-8-sig')
+    updated=replace_root_paths(text)
+    if old=='README.md':
+        updated+='\n\n## 日本研究资料\n\n日本研究、MILP、审核记录与原始证据已集中到 [countries/JP](countries/JP/README.md)。\n'
+    if updated!=text:
+        snap=AUDIT/'before_path_edits'/old
+        snap.parent.mkdir(parents=True,exist_ok=True)
+        snap.write_bytes(original)
+        p.write_text(updated,encoding='utf-8',newline='')
+        external.append(old)
+
+readme='''# 日本市场研究与MILP总目录
+
+整理日期：2026-09-30。日本相关研究文件已集中到本目录；本次仅整理路径，不改变研究规则、建模假设或审核结论。
+
+## 优先阅读
+
+|文件|内容与状态|
+|---|---|
+|[市场研究主报告](research/research_report.md)|研究基线V2，2025-01-01至2026-08-31，九区域，排除冲绳及离岛；第四轮研究审核PASS|
+|[MILP数学模型](model/JP_milp_formulation.md)|M3-R1，完美信息毛收益；LV一次离线、EHV其余合格产品；数学与排版复核通过|
+|[研究基线及范围](research_scope_draft_20260928.md)|原始范围讨论与V2基线，以最新用户修订及MILP基线为准|
+|[M3模型用户基线](research/milp_M3_user_baseline_20260929.md)|目标、参与范围与西班牙复用口径|
+|[官方证据登记](research/evidence_register.md)|来源机构、文件版本、定位、URL与访问记录|
+|[日本与西班牙模型比较](research/JP_ES_model_comparison_20260929.md)|保留历史比较；M3已更新目标口径，注意文件开头说明|
+
+## 文件布局
+
+|目录|内容|
+|---|---|
+|[research](research/README.md)|综合研究、专题修订、建模交接及分析脚本|
+|model|当前日本MILP数学文档|
+|topics|九区边界、装机、历史结算、容量、储能费用等专题附件|
+|research/analysis|处理后的时序与统计结果；DIAGNOSTIC标签保留|
+|research/figures|研究图表与证据页图像|
+|research/evidence、research/extracted|官方原始快照及提取文本|
+|data/raw|原data/raw/JP的补充原始数据与证据；内容未改写|
+|research/review_initial、review_round1、milp_review_initial|历次冻结稿；原内容及原哈希保留|
+|organization_20260930|迁移清单、旧新路径映射、检查记录及路径修改前备份|
+
+## 审核与使用边界
+
+- [研究第四轮审核](research/review_round4_result.md)：PASS；历次NOT_PASS文件属于历史记录。
+- [M3数学审核](research/milp_M3_review_final.md)及[M3-R1排版复核](research/JP_M3_readability_change_notes.md)：PASS。
+- 当前未批准生产代码和真实收益回测；项目资格、工程参数、调用与结算输入门禁保持。
+- 无法拆分离岛的装机/供需代理仍仅限DIAGNOSTIC，不因迁移而转为正式模型输入。
+- 原审核清单、冻结稿及原始数据中的旧路径按[迁移清单](organization_20260930/migration_manifest.json)映射；不重写历史哈希或冒称旧审核覆盖新路径字节。
+- 本目录链接到西班牙共用代码及设计文件，这些共用资产仍保留在项目原位置。
+
+本次未新增官方来源；EPRX、JEPX、OCCTO、METI及各区域TSO证据均沿用既有登记。
+'''
+(JP/'README.md').write_text(readme,encoding='utf-8')
+# Keep the historical research index, with a clear current entry point.
+p=JP/'research/README.md'
+original=p.read_bytes()
+backup=AUDIT/'before_index_banner/README.md'
+backup.parent.mkdir(parents=True,exist_ok=True)
+backup.write_bytes(original)
+p.write_text('> 2026-09-30整理：请先阅读[日本资料总目录](../README.md)。当前MILP为[M3-R1](../model/JP_milp_formulation.md)；下文M2及更早进度属于历史记录。\n\n'+original.decode('utf-8'),encoding='utf-8')
+for r in records:
+    data=(ROOT/r['new_path']).read_bytes()
+    r['bytes_after']=len(data)
+    r['sha256_after']=sha(data)
+    r['content_unchanged']=r['sha256_before']==r['sha256_after']
+    assert not r['immutable'] or r['content_unchanged'],r['old_path']
+manifest={'status':'moved_and_paths_updated','date':'2026-09-30','files':records,'path_edited_files':changed,'external_updated_files':external}
+(AUDIT/'migration_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
+print(json.dumps({'moved_files':len(records),'immutable_files':sum(r['immutable'] for r in records),'path_edited_files':len(changed),'external_updated_files':external},ensure_ascii=False))

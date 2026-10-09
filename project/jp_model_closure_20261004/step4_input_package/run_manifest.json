@@ -1,0 +1,37 @@
+{
+  "version": "2026-10-04",
+  "scope": "input_preparation_only",
+  "sample": {
+    "area": "九州",
+    "area_id": "kyushu",
+    "timezone": "Asia/Tokyo",
+    "start": "2026-06-01T00:00:00+09:00",
+    "end_exclusive": "2026-07-01T00:00:00+09:00",
+    "expected_intervals": 1440
+  },
+  "final_scope": {
+    "areas": 9,
+    "exclude": "Okinawa_and_islands",
+    "start": "2025-01-01",
+    "end_exclusive": "2026-09-01"
+  },
+  "scenarios": [
+    "LV_FCR",
+    "HV_SPOT_FCR",
+    "HV_SPOT_S1_T1"
+  ],
+  "four_method_decisions_confirmed": true,
+  "independent_review_of_current_revision": false,
+  "production_implementation": false,
+  "solver_run": false,
+  "expost_data": true,
+  "predictive_visibility_verified": false,
+  "full_profit_ready": false,
+  "reason": "Formal run requires user-supplied station configuration; remaining research/data gaps are listed separately.",
+  "coverage": "source_coverage.json",
+  "contract": "input_contract.json",
+  "parameters": "parameter_register.json",
+  "observation_day": "2026-07-01_activation_inputs_missing_in_selected_sources",
+  "asset_parameters_deferred_until_formal_run": true,
+  "missing_station_values_block_model_design": false
+}

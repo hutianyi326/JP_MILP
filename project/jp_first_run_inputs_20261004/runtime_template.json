@@ -1,0 +1,35 @@
+{
+  "profile_classification": "PROJECT_RUNTIME",
+  "asset": {
+    "version": null,
+    "charge_mw": null,
+    "discharge_mw": null,
+    "nominal_mwh": null,
+    "minimum_mwh": null,
+    "maximum_mwh": null,
+    "initial_mwh": null,
+    "target_mwh": null,
+    "eta_charge": null,
+    "eta_discharge": null,
+    "auxiliary_ac_mw": null,
+    "auxiliary_dc_mw": null,
+    "import_mw": null,
+    "export_mw": null,
+    "service_scale": null,
+    "service_offset_mw": null,
+    "poi_scale": null,
+    "poi_offset_mw": null,
+    "port_domain_min_mw": null,
+    "port_domain_max_mw": null
+  },
+  "fcr_control": {
+    "response_model": "BID_SCALED_NORMALIZED_CURVE",
+    "deadband_up_hz": null,
+    "deadband_down_hz": null,
+    "span_up_hz": null,
+    "span_down_hz": null,
+    "basis": null
+  },
+  "composite_offer": null,
+  "initial_frozen": {}
+}

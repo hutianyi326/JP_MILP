@@ -1,0 +1,10 @@
+{
+  "formal_intervals": 11616,
+  "maximum_merged_probability": 1.762785653763349e-08,
+  "sum_merged_probability": 9.143382936813942e-06,
+  "affected_intervals": 9064,
+  "charge_plus_discharge_energy_error_upper_bound_mwh_HV_100MW": 0.0018286765873627884,
+  "charge_plus_discharge_energy_error_upper_bound_mwh_LV_2MW": 3.657353174725577e-05,
+  "directional_activation_means_preserved": true,
+  "lfc_k_unchanged": 1
+}

@@ -1,0 +1,3384 @@
+{
+  "profile_classification": "PROJECT_RUNTIME",
+  "asset": {
+    "version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+    "charge_mw": 100.0,
+    "discharge_mw": 100.0,
+    "nominal_mwh": 200.0,
+    "minimum_mwh": 10.0,
+    "maximum_mwh": 200.0,
+    "initial_mwh": 100.0,
+    "target_mwh": 100.0,
+    "eta_charge": 0.92,
+    "eta_discharge": 0.92,
+    "auxiliary_ac_mw": 0.0,
+    "auxiliary_dc_mw": 0.0,
+    "import_mw": 100.0,
+    "export_mw": 100.0,
+    "service_scale": 1.0,
+    "service_offset_mw": 0.0,
+    "poi_scale": 1.0,
+    "poi_offset_mw": 0.0,
+    "port_domain_min_mw": -100.0,
+    "port_domain_max_mw": 100.0
+  },
+  "fcr_control": {
+    "response_model": "BID_SCALED_NORMALIZED_CURVE",
+    "deadband_up_hz": 0.01,
+    "deadband_down_hz": 0.01,
+    "span_up_hz": 0.19,
+    "span_down_hz": 0.19,
+    "basis": "USER_CONFIRMED_MODEL_ASSUMPTION_DEADBAND_0.01HZ_FULL_RESPONSE_0.20HZ_SYMMETRIC_BID_SCALED_NOT_OFFICIAL_OR_VERIFIED_STATION_SETTING"
+  },
+  "composite_offer": {
+    "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+    "evidence": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+    "full_inner_scope": "FULL_CAPABILITY_NOT_MERELY_DELIVERABLE",
+    "bid_rules": {
+      "s": {
+        "grid_mw": 1.0,
+        "minimum_mw": 0.0,
+        "maximum_mw": 100.0
+      },
+      "t": {
+        "grid_mw": 1.0,
+        "minimum_mw": 0.0,
+        "maximum_mw": 100.0
+      },
+      "common": {
+        "grid_mw": 1.0,
+        "minimum_mw": 1.0,
+        "maximum_mw": 100.0
+      }
+    },
+    "candidates": [
+      {
+        "id": "equal_001mw",
+        "s": 1.0,
+        "t": 1.0,
+        "common": 1.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 99.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -99.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_002mw",
+        "s": 2.0,
+        "t": 2.0,
+        "common": 2.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 98.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -98.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_003mw",
+        "s": 3.0,
+        "t": 3.0,
+        "common": 3.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 97.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -97.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_004mw",
+        "s": 4.0,
+        "t": 4.0,
+        "common": 4.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 96.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -96.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_005mw",
+        "s": 5.0,
+        "t": 5.0,
+        "common": 5.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 95.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -95.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_006mw",
+        "s": 6.0,
+        "t": 6.0,
+        "common": 6.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 94.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -94.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_007mw",
+        "s": 7.0,
+        "t": 7.0,
+        "common": 7.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 93.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -93.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_008mw",
+        "s": 8.0,
+        "t": 8.0,
+        "common": 8.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 92.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -92.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_009mw",
+        "s": 9.0,
+        "t": 9.0,
+        "common": 9.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 91.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -91.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_010mw",
+        "s": 10.0,
+        "t": 10.0,
+        "common": 10.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 90.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -90.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_011mw",
+        "s": 11.0,
+        "t": 11.0,
+        "common": 11.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 89.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -89.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_012mw",
+        "s": 12.0,
+        "t": 12.0,
+        "common": 12.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 88.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -88.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_013mw",
+        "s": 13.0,
+        "t": 13.0,
+        "common": 13.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 87.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -87.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_014mw",
+        "s": 14.0,
+        "t": 14.0,
+        "common": 14.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 86.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -86.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_015mw",
+        "s": 15.0,
+        "t": 15.0,
+        "common": 15.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 85.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -85.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_016mw",
+        "s": 16.0,
+        "t": 16.0,
+        "common": 16.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 84.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -84.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_017mw",
+        "s": 17.0,
+        "t": 17.0,
+        "common": 17.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 83.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -83.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_018mw",
+        "s": 18.0,
+        "t": 18.0,
+        "common": 18.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 82.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -82.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_019mw",
+        "s": 19.0,
+        "t": 19.0,
+        "common": 19.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 81.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -81.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_020mw",
+        "s": 20.0,
+        "t": 20.0,
+        "common": 20.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 80.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -80.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_021mw",
+        "s": 21.0,
+        "t": 21.0,
+        "common": 21.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 79.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -79.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_022mw",
+        "s": 22.0,
+        "t": 22.0,
+        "common": 22.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 78.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -78.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_023mw",
+        "s": 23.0,
+        "t": 23.0,
+        "common": 23.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 77.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -77.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_024mw",
+        "s": 24.0,
+        "t": 24.0,
+        "common": 24.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 76.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -76.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_025mw",
+        "s": 25.0,
+        "t": 25.0,
+        "common": 25.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 75.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -75.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_026mw",
+        "s": 26.0,
+        "t": 26.0,
+        "common": 26.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 74.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -74.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_027mw",
+        "s": 27.0,
+        "t": 27.0,
+        "common": 27.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 73.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -73.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_028mw",
+        "s": 28.0,
+        "t": 28.0,
+        "common": 28.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 72.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -72.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_029mw",
+        "s": 29.0,
+        "t": 29.0,
+        "common": 29.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 71.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -71.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_030mw",
+        "s": 30.0,
+        "t": 30.0,
+        "common": 30.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 70.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -70.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_031mw",
+        "s": 31.0,
+        "t": 31.0,
+        "common": 31.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 69.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -69.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_032mw",
+        "s": 32.0,
+        "t": 32.0,
+        "common": 32.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 68.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -68.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_033mw",
+        "s": 33.0,
+        "t": 33.0,
+        "common": 33.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 67.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -67.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_034mw",
+        "s": 34.0,
+        "t": 34.0,
+        "common": 34.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 66.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -66.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_035mw",
+        "s": 35.0,
+        "t": 35.0,
+        "common": 35.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 65.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -65.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_036mw",
+        "s": 36.0,
+        "t": 36.0,
+        "common": 36.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 64.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -64.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_037mw",
+        "s": 37.0,
+        "t": 37.0,
+        "common": 37.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 63.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -63.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_038mw",
+        "s": 38.0,
+        "t": 38.0,
+        "common": 38.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 62.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -62.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_039mw",
+        "s": 39.0,
+        "t": 39.0,
+        "common": 39.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 61.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -61.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_040mw",
+        "s": 40.0,
+        "t": 40.0,
+        "common": 40.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 60.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -60.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_041mw",
+        "s": 41.0,
+        "t": 41.0,
+        "common": 41.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 59.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -59.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_042mw",
+        "s": 42.0,
+        "t": 42.0,
+        "common": 42.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 58.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -58.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_043mw",
+        "s": 43.0,
+        "t": 43.0,
+        "common": 43.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 57.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -57.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_044mw",
+        "s": 44.0,
+        "t": 44.0,
+        "common": 44.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 56.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -56.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_045mw",
+        "s": 45.0,
+        "t": 45.0,
+        "common": 45.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 55.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -55.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_046mw",
+        "s": 46.0,
+        "t": 46.0,
+        "common": 46.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 54.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -54.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_047mw",
+        "s": 47.0,
+        "t": 47.0,
+        "common": 47.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 53.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -53.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_048mw",
+        "s": 48.0,
+        "t": 48.0,
+        "common": 48.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 52.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -52.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_049mw",
+        "s": 49.0,
+        "t": 49.0,
+        "common": 49.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 51.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -51.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_050mw",
+        "s": 50.0,
+        "t": 50.0,
+        "common": 50.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 50.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -50.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_051mw",
+        "s": 51.0,
+        "t": 51.0,
+        "common": 51.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 49.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -49.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_052mw",
+        "s": 52.0,
+        "t": 52.0,
+        "common": 52.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 48.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -48.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_053mw",
+        "s": 53.0,
+        "t": 53.0,
+        "common": 53.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 47.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -47.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_054mw",
+        "s": 54.0,
+        "t": 54.0,
+        "common": 54.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 46.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -46.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_055mw",
+        "s": 55.0,
+        "t": 55.0,
+        "common": 55.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 45.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -45.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_056mw",
+        "s": 56.0,
+        "t": 56.0,
+        "common": 56.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 44.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -44.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_057mw",
+        "s": 57.0,
+        "t": 57.0,
+        "common": 57.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 43.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -43.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_058mw",
+        "s": 58.0,
+        "t": 58.0,
+        "common": 58.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 42.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -42.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_059mw",
+        "s": 59.0,
+        "t": 59.0,
+        "common": 59.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 41.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -41.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_060mw",
+        "s": 60.0,
+        "t": 60.0,
+        "common": 60.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 40.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -40.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_061mw",
+        "s": 61.0,
+        "t": 61.0,
+        "common": 61.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 39.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -39.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_062mw",
+        "s": 62.0,
+        "t": 62.0,
+        "common": 62.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 38.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -38.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_063mw",
+        "s": 63.0,
+        "t": 63.0,
+        "common": 63.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 37.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -37.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_064mw",
+        "s": 64.0,
+        "t": 64.0,
+        "common": 64.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 36.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -36.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_065mw",
+        "s": 65.0,
+        "t": 65.0,
+        "common": 65.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 35.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -35.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_066mw",
+        "s": 66.0,
+        "t": 66.0,
+        "common": 66.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 34.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -34.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_067mw",
+        "s": 67.0,
+        "t": 67.0,
+        "common": 67.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 33.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -33.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_068mw",
+        "s": 68.0,
+        "t": 68.0,
+        "common": 68.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 32.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -32.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_069mw",
+        "s": 69.0,
+        "t": 69.0,
+        "common": 69.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 31.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -31.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_070mw",
+        "s": 70.0,
+        "t": 70.0,
+        "common": 70.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 30.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -30.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_071mw",
+        "s": 71.0,
+        "t": 71.0,
+        "common": 71.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 29.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -29.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_072mw",
+        "s": 72.0,
+        "t": 72.0,
+        "common": 72.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 28.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -28.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_073mw",
+        "s": 73.0,
+        "t": 73.0,
+        "common": 73.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 27.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -27.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_074mw",
+        "s": 74.0,
+        "t": 74.0,
+        "common": 74.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 26.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -26.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_075mw",
+        "s": 75.0,
+        "t": 75.0,
+        "common": 75.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 25.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -25.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_076mw",
+        "s": 76.0,
+        "t": 76.0,
+        "common": 76.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 24.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -24.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_077mw",
+        "s": 77.0,
+        "t": 77.0,
+        "common": 77.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 23.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -23.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_078mw",
+        "s": 78.0,
+        "t": 78.0,
+        "common": 78.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 22.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -22.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_079mw",
+        "s": 79.0,
+        "t": 79.0,
+        "common": 79.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 21.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -21.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_080mw",
+        "s": 80.0,
+        "t": 80.0,
+        "common": 80.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 20.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -20.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_081mw",
+        "s": 81.0,
+        "t": 81.0,
+        "common": 81.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 19.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -19.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_082mw",
+        "s": 82.0,
+        "t": 82.0,
+        "common": 82.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 18.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -18.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_083mw",
+        "s": 83.0,
+        "t": 83.0,
+        "common": 83.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 17.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -17.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_084mw",
+        "s": 84.0,
+        "t": 84.0,
+        "common": 84.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 16.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -16.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_085mw",
+        "s": 85.0,
+        "t": 85.0,
+        "common": 85.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 15.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -15.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_086mw",
+        "s": 86.0,
+        "t": 86.0,
+        "common": 86.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 14.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -14.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_087mw",
+        "s": 87.0,
+        "t": 87.0,
+        "common": 87.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 13.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -13.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_088mw",
+        "s": 88.0,
+        "t": 88.0,
+        "common": 88.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 12.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -12.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_089mw",
+        "s": 89.0,
+        "t": 89.0,
+        "common": 89.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 11.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -11.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_090mw",
+        "s": 90.0,
+        "t": 90.0,
+        "common": 90.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 10.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -10.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_091mw",
+        "s": 91.0,
+        "t": 91.0,
+        "common": 91.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 9.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -9.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_092mw",
+        "s": 92.0,
+        "t": 92.0,
+        "common": 92.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 8.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -8.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_093mw",
+        "s": 93.0,
+        "t": 93.0,
+        "common": 93.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 7.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -7.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_094mw",
+        "s": 94.0,
+        "t": 94.0,
+        "common": 94.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 6.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -6.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_095mw",
+        "s": 95.0,
+        "t": 95.0,
+        "common": 95.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 5.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -5.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_096mw",
+        "s": 96.0,
+        "t": 96.0,
+        "common": 96.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 4.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -4.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_097mw",
+        "s": 97.0,
+        "t": 97.0,
+        "common": 97.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 3.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -3.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_098mw",
+        "s": 98.0,
+        "t": 98.0,
+        "common": 98.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 2.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -2.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_099mw",
+        "s": 99.0,
+        "t": 99.0,
+        "common": 99.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 1.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": -1.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "equal_100mw",
+        "s": 100.0,
+        "t": 100.0,
+        "common": 100.0,
+        "asset_version": "USER_100MW_200MWH_DOD95_ETA92_V1",
+        "full_inner_validation_id": "USER_CONFIRMED_EQUAL_CAPABILITY_ENGINEERING_ASSUMPTION_20261005",
+        "domain_validation_id": "CONDITIONAL_EQUAL_CAPABILITY_PLUS_CORE_POWER_SOC_AND_SERVICE_WITNESSES",
+        "domain": [
+          {
+            "sense": "<=",
+            "rhs": 0.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          },
+          {
+            "sense": ">=",
+            "rhs": 0.0,
+            "terms": [
+              {
+                "interval": "*",
+                "variable": "baseline",
+                "coefficient": 1.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "initial_frozen": {},
+  "user_confirmed_scope": {
+    "imbalance_settlement": "EXCLUDED_BY_USER",
+    "lfc_k": 1.0,
+    "dod": 0.95,
+    "usable_energy_mwh": 190.0,
+    "round_trip_efficiency": 0.8464,
+    "power_interpretation": "100 MW applies to both charging and discharging; model equipment AC limits",
+    "energy_interpretation": "200 MWh nominal stored energy; 190 MWh usable before discharge efficiency",
+    "status": "RUNTIME_PARAMETERS_CONFIRMED_CONDITIONAL_MODEL_VALIDATION_REQUIRED",
+    "source": "Direct user instruction in this conversation, 2026-10-05",
+    "remaining": [],
+    "grid_limit_basis": "USER_CONFIRMED_100MW_IMPORT_100MW_EXPORT_CONSTANT_NO_TIME_VARYING_LIMITS",
+    "auxiliary_power_basis": "USER_CONFIRMED_FIRST_RUN_SIMPLIFICATION_ZERO_AC_AND_DC_AUXILIARY_NOT_ACTUAL_ZERO_CONSUMPTION",
+    "port_mapping_basis": "USER_CONFIRMED_EQUAL_EQUIPMENT_AC_SERVICE_AND_POI_POWER_NO_ADDITIONAL_TRANSFORMER_OR_LINE_LOSS_OR_FIXED_OFFSET",
+    "composite_technical_capability": {
+      "s1_maximum_mw": 100.0,
+      "t1_maximum_mw": 100.0,
+      "shared_physical_power_mw": 100.0,
+      "basis": "USER_CONFIRMED_ENGINEERING_ASSUMPTION_NOT_VERIFIED_EQUIPMENT_OR_MARKET_QUALIFICATION",
+      "does_not_define_full_inner_menu": true
+    },
+    "composite_optimization_grid_mw": 1.0,
+    "composite_grid_basis": "USER_CONFIRMED_NUMERICAL_DISCRETIZATION_NOT_OFFICIAL_MINIMUM_BID; unequal capacities permitted only where full-inner capability and physical constraints support them",
+    "composite_equal_capacity_basis": "USER_CONFIRMED_FIRST_RUN_EQUAL_FULL_CAPABILITY_WITHIN_SELECTED_SHARED_BID_REGION; both products equal R on 1 MW grid; unequal candidates deferred; not verified station certification",
+    "composite_menu_interpretation": "No bid represented by selecting no candidate; equal full capability is assumed only within selected R MW region, not proof of actual station qualification. Core constraints must remain active."
+  }
+}

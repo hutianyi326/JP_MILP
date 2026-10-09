@@ -1,0 +1,9 @@
+[
+ {"id":"F13","url":"https://nw.tohoku-epco.co.jp/consignment/pdf/8-1_067.pdf"},
+ {"id":"E51","url":"https://www.eprx.or.jp/information/update/202607_single_contract.csv"},
+ {"id":"E52","url":"https://www.eprx.or.jp/information/update/202604_single_contract.csv"},
+ {"id":"E53","url":"https://www.eprx.or.jp/information/update/202605_single_contract.csv"},
+ {"id":"M06","url":"https://www.egc.meti.go.jp/activity/emsc_systemsurveillance/023_haifu.html","transport":"curl"},
+ {"id":"M05","url":"https://www.egc.meti.go.jp/activity/emsc_systemsurveillance/pdf/018_03_00.pdf","transport":"curl"},
+ {"id":"F11","url":"https://www.tepco.co.jp/pg/consignment/retailservice/pdf/20251014_moushikomi.pdf","transport":"curl"}
+]

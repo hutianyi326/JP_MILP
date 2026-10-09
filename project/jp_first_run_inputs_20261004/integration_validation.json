@@ -1,0 +1,80 @@
+{
+  "HV_SPOT_FCR": {
+    "classification": "SYNTHETIC_PIPELINE_TEST_NOT_FORMAL_REVENUE",
+    "metrics": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "variables": 2446,
+      "integers": 799,
+      "rows": 4334,
+      "nnz": 16812,
+      "seconds": 8.74130200012587,
+      "objective_jpy": 631614.6032310058,
+      "bound_jpy": 631615.3963763416,
+      "gap": 1.2557425551717059e-06,
+      "attempts": [
+        {
+          "presolve": true,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+        }
+      ],
+      "continuous_polish": {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "accepted": true
+      },
+      "backend": "scipy",
+      "mip_start_supplied": false
+    },
+    "audit": {
+      "status": "PASS",
+      "numeric_recomputations": 1440,
+      "service_chains": 18,
+      "finite_service_scope": true,
+      "annual_efc": {
+        "2026": 1.1352459663292476
+      }
+    },
+    "nonzero_capacity_orders": 9
+  },
+  "HV_SPOT_S1_T1": {
+    "classification": "SYNTHETIC_PIPELINE_TEST_NOT_FORMAL_REVENUE",
+    "metrics": {
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "variables": 2689,
+      "integers": 816,
+      "rows": 6243,
+      "nnz": 22034,
+      "seconds": 1.2268298000562936,
+      "objective_jpy": 618330.2535649445,
+      "bound_jpy": 618330.2535649445,
+      "gap": 0.0,
+      "attempts": [
+        {
+          "presolve": true,
+          "status": 0,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+        }
+      ],
+      "continuous_polish": {
+        "status": 0,
+        "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "accepted": true
+      },
+      "backend": "scipy",
+      "mip_start_supplied": false
+    },
+    "audit": {
+      "status": "PASS",
+      "numeric_recomputations": 1440,
+      "service_chains": 16,
+      "finite_service_scope": true,
+      "annual_efc": {
+        "2026": 1.2570791498682177
+      }
+    },
+    "nonzero_capacity_orders": 4
+  }
+}

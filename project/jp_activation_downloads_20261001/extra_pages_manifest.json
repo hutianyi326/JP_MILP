@@ -1,0 +1,288 @@
+[
+  {
+    "id": "shikoku",
+    "url": "https://www.yonden.co.jp/nw/adjusting_power_supply/supply_demand.html",
+    "final_url": "https://www.yonden.co.jp/nw/adjusting_power_supply/supply_demand.html",
+    "path": "samples\\shikoku_9704f747bc16.html",
+    "sha256": "9704f747bc166271cc3b7088e74a60162d0218663e8631ae3a05ceb54ab50ed1",
+    "bytes": 31394,
+    "access_utc": "2026-10-01T14:37:40.093883+00:00",
+    "download_links": [
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_shikoku_202608.csv",
+        "label": "8月_広域運用調整力(csv)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_LFC_shikoku_202608.csv",
+        "label": "8月_広域LFC(csv)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_shikoku_202607.csv",
+        "label": "7月_広域運用調整力(csv)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_LFC_shikoku_202607.csv",
+        "label": "7月_広域LFC(csv)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_shikoku_202606.csv",
+        "label": "6月_広域運用調整力(csv)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_LFC_shikoku_202606.csv",
+        "label": "6月_広域LFC(csv)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_shikoku_202605.csv",
+        "label": "5月_広域運用調整力(csv)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_LFC_shikoku_202605.csv",
+        "label": "5月_広域LFC(csv)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_shikoku_202604.csv",
+        "label": "4月_広域運用調整力(csv)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2026/jukyu_LFC_shikoku_202604.csv",
+        "label": "4月_広域LFC(csv)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2025/jukyu_shikoku_2025.zip",
+        "label": "2025年度(zip)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2024/jukyu_shikoku_2024.zip",
+        "label": "2024年度(zip)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2023/jukyu_shikoku_2023.zip",
+        "label": "2023年度(zip)"
+      },
+      {
+        "url": "https://www.yonden.co.jp/nw/assets/adjusting_power_supply/2022/jukyu_shikoku_2022.zip",
+        "label": "2022年度(zip)"
+      }
+    ]
+  },
+  {
+    "id": "kansai",
+    "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/past.html",
+    "final_url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/past.html",
+    "path": "samples\\kansai_1a958418a05b.html",
+    "sha256": "1a958418a05b5875cff6803e28400d33b9bd0de914d25b677dc9769cc9dd7b5e",
+    "bytes": 65057,
+    "access_utc": "2026-10-01T14:37:40.463345+00:00",
+    "download_links": [
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/zip/jukyu_kansai_202606.zip",
+        "label": "需給調整情報［zip 139,386B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/zip/jukyu_kansai_202605.zip",
+        "label": "需給調整情報［zip 140,390B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/zip/jukyu_kansai_202604.zip",
+        "label": "需給調整情報［zip 88,746B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202603.csv",
+        "label": "需給調整情報［207,222B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202602.csv",
+        "label": "需給調整情報［192,218B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202601.csv",
+        "label": "需給調整情報［216,906B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202512.csv",
+        "label": "需給調整情報［217,334B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202511.csv",
+        "label": "需給調整情報［208,539B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202510.csv",
+        "label": "需給調整情報［216,434B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202509.csv",
+        "label": "需給調整情報［210,893B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202508.csv",
+        "label": "需給調整情報［217,751B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202507.csv",
+        "label": "需給調整情報［222,489B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202506.csv",
+        "label": "需給調整情報［206,012B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202505.csv",
+        "label": "需給調整情報［210,232B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202504.csv",
+        "label": "需給調整情報［206,847B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202503.csv",
+        "label": "需給調整情報［215,587B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202502.csv",
+        "label": "需給調整情報［198,488B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202501.csv",
+        "label": "需給調整情報［213,388B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202412.csv",
+        "label": "需給調整情報［214,151B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202411.csv",
+        "label": "需給調整情報［211,398B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202410.csv",
+        "label": "需給調整情報［216,674B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202409.csv",
+        "label": "需給調整情報［210,654B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202408.csv",
+        "label": "需給調整情報［221,123B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202407.csv",
+        "label": "需給調整情報［217,659B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202406.csv",
+        "label": "需給調整情報［208,814B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202405.csv",
+        "label": "需給調整情報［211,251B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202404.csv",
+        "label": "需給調整情報［200,694B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202403.csv",
+        "label": "需給調整情報［202,691B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202402.csv",
+        "label": "需給調整情報［193,143B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202401.csv",
+        "label": "需給調整情報［208,824B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202312.csv",
+        "label": "需給調整情報［215,247B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202311.csv",
+        "label": "需給調整情報［207,867B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202310.csv",
+        "label": "需給調整情報［212,089B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202309.csv",
+        "label": "需給調整情報［212,332B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202308.csv",
+        "label": "需給調整情報［215,501B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202307.csv",
+        "label": "需給調整情報［213,454B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202306.csv",
+        "label": "需給調整情報［198,632B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202305.csv",
+        "label": "需給調整情報［194,679B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202304.csv",
+        "label": "需給調整情報［188,510B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202303.csv",
+        "label": "需給調整情報［198,764B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202302.csv",
+        "label": "需給調整情報［188,187B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202301.csv",
+        "label": "需給調整情報［203,262B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202212.csv",
+        "label": "需給調整情報［202,742B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202211.csv",
+        "label": "需給調整情報［196,385B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202210.csv",
+        "label": "需給調整情報［207,823B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202209.csv",
+        "label": "需給調整情報［203,469B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/zip/202209_dengen1dashkw.zip",
+        "label": "電源Ⅰ’発動情報［zip 1,792B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202208.csv",
+        "label": "需給調整情報［211,481B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202207.csv",
+        "label": "需給調整情報［213,162B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202206.csv",
+        "label": "需給調整情報［204,401B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202205.csv",
+        "label": "需給調整情報［204,855B］"
+      },
+      {
+        "url": "https://www.kansai-td.co.jp/denkiyoho/implementation-status/csv/jukyu_kansai_202204.csv",
+        "label": "需給調整情報［198,892B］"
+      }
+    ]
+  }
+]

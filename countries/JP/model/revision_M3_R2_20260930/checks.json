@@ -1,0 +1,53 @@
+{
+  "REV01": {
+    "pass": true,
+    "unclosed_profit": 10000.0,
+    "closed_profit": 5000.0,
+    "closed_first_discharge_MWh": 0.5,
+    "method": "reduced LP with feasible mutually exclusive optimum, no JP markets"
+  },
+  "REV02": {
+    "pass": true,
+    "single_end_MWh": 0.8473684210526315,
+    "chained_end_MWh": -0.20526315789473681
+  },
+  "REV03": {
+    "pass": true,
+    "dynamic_baselines_MW": [
+      -1,
+      1
+    ],
+    "witness_states_MWh": [
+      2,
+      2.0,
+      1.0
+    ],
+    "fixed_baseline_rejects_same_schedule": true,
+    "not_an_optimal_profit_benchmark": true
+  },
+  "P6": {
+    "pass": true,
+    "cases": 1080,
+    "mismatches": 0
+  },
+  "REV07": {
+    "pass": true,
+    "zero_throughput_trading_JPY": 5000
+  },
+  "document_checks": {
+    "pass": true,
+    "display_delimiters_balanced": true,
+    "local_links_exist": true
+  },
+  "not_executed": [
+    "full JP solver",
+    "historical backtest",
+    "market rule eligibility tests",
+    "control hardware tests",
+    "window performance benchmark"
+  ],
+  "sha256": {
+    "JP_milp_formulation.md": "2e0c500270a6ef545be685b9929af62d39bcee4af9fb593bdfc2f26ecf8ac187",
+    "JP_M3_R2_closure.md": "f14b986ec55db1071d54f1969790cb20804331439eb204c959ff1715eb8c9990"
+  }
+}

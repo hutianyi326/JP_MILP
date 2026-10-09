@@ -1,0 +1,20 @@
+[
+  {
+    "id": "E02",
+    "source": "countries\\JP\\research\\evidence\\E02_1c1881b3a21a.pdf",
+    "sha256": "1c1881b3a21a044b9e530438a695a3c145d81c0d62c389884be8f87054333368",
+    "pdf_pages": 366
+  },
+  {
+    "id": "E03",
+    "source": "countries\\JP\\research\\evidence\\E03_1b34e85ca8f2.pdf",
+    "sha256": "1b34e85ca8f296eec92d816c06eae707d0b059b7d3b9f3676a750287c54cce5c",
+    "pdf_pages": 704
+  },
+  {
+    "id": "E04",
+    "source": "countries\\JP\\research\\evidence\\E04_188e7ef84dd0.pdf",
+    "sha256": "188e7ef84dd0e3fb6a190d717bb40a4cfc5acb22a283292a1c9be989ae91ea4d",
+    "pdf_pages": 59
+  }
+]

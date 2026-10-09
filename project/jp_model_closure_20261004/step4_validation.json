@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-04",
+  "passed": true,
+  "checks": {
+    "section13_unchanged": true,
+    "steps1_3_display_equations_preserved": true,
+    "step4_confirmed": true,
+    "no_stale_step3_pending": true,
+    "no_stale_step4_pending": true,
+    "math_delimiters_even": true,
+    "coverage_expected_1440": true,
+    "lfc_full_numeric": true,
+    "edc_full_numeric": true,
+    "ics_strict_numeric_1424": true,
+    "ics_missing_distinguished_from_marker": true,
+    "blank_padding_not_observations": true,
+    "input_hashes_unchanged": true,
+    "missing_parameter_values_null": true,
+    "LV_zero_cash_explicit": true,
+    "all_table_primary_keys_defined": true,
+    "all_tables_unique": true,
+    "not_falsely_solver_ready": true,
+    "local_link_targets_exist": true
+  },
+  "broken_links": [],
+  "scope": "document/input-contract and local CSV coverage validation only; identified source gaps retained; no solver or independent review",
+  "main_sha256": "7b42b3d685238754f7dc44d4956b7e4f8f14fedfc8622773e2f6dfb034fd7641"
+}

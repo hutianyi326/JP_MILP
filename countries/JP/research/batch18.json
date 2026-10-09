@@ -1,0 +1,11 @@
+[
+ {"id":"J16","url":"https://www.jepx.jp/market/excel/im_trade_summary_2024.csv"},
+ {"id":"J17","url":"https://www.jepx.jp/market/excel/im_trade_summary_2025.csv"},
+ {"id":"J18","url":"https://www.jepx.jp/market/excel/im_trade_summary_2026.csv"},
+ {"id":"E41","url":"https://www.eprx.or.jp/information/2024_Requirement_archive.zip"},
+ {"id":"E42","url":"https://www.eprx.or.jp/information/2025_Requirement_archive.zip"},
+ {"id":"E43","url":"https://www.eprx.or.jp/information/2026_Requirement_archive.zip"},
+ {"id":"E44","url":"https://www.eprx.or.jp/outline/docs/calculation_data_01_Ver.2.0.xlsx"},
+ {"id":"E45","url":"https://www.eprx.or.jp/outline/docs/calculation_data_02_Ver.1.6.xlsx"},
+ {"id":"E46","url":"https://www.eprx.or.jp/outline/docs/calculation_data_02_Ver.1.4.xlsx"}
+]

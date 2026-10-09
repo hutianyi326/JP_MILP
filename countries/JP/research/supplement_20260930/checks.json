@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-30",
+  "checks": {
+    "active_relative_links": true,
+    "formula_delimiters_and_braces": true,
+    "M3_file_byte_identical": true,
+    "JP02_data_and_statistics_unchanged": true,
+    "all_eight_source_hashes": true,
+    "capacity_units_example": true,
+    "four_MW_cross_zero_power": true,
+    "half_hour_energy_example": true,
+    "two_hour_energy_example": true,
+    "five_minute_energy_example": true,
+    "composite_units_not_global_max": true,
+    "gross_threshold_unit_conversion": true,
+    "original_336_sources_preserved": true
+  },
+  "passed": 13,
+  "total": 13,
+  "display_formulas_checked": 12,
+  "missing_links": [],
+  "source_errors": [],
+  "solver_run": false,
+  "backtest_run": false,
+  "visual_render_verified": false
+}

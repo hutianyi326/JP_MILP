@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- 【画面共通】metaの定義 -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <meta property="og:image" content="/imgs/top.png" />
+  <meta property="og:site_name" content="インバランス料金情報公表ウェブサイト" />
+  <meta property="og:locale" content="ja_JP" />
+  <!-- 【画面固有】metaの定義 -->
+  <meta property="og:type" content="article" /><meta property="og:url" content="/imbalance-price-list" />
+  <title>インバランス料金単価ファイル一覧 | インバランス料金情報公表ウェブサイト</title>
+  <link rel="icon" type="image/png" href="/imgs/favicon.ico">
+  <!-- 【画面共通】スタイルシートの定義 -->
+  <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/webjars/codebase/skins/smoothness/jquery-ui.css" />
+  <link rel="stylesheet" type="text/css" href="/css/header.css" />
+  <link rel="stylesheet" type="text/css" href="/css/footer.css" />
+  <!-- 【画面固有】スタイルシートの定義 -->
+  <link rel="stylesheet" type="text/css" href="/css/imbalance-price-list.css">
+  <!-- 【画面共通】スタイルシートの定義 -->
+  <link rel="stylesheet" type="text/css" href="/css/scroll.css" />
+  <!-- 【画面共通】スクリプトの定義 -->
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script src="/webjars/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <script src="/webjars/codebase/dhtmlxcommon.js"></script>
+  <script src="/webjars/codebase/blender/blendercommon.js"></script>
+  <script src="/webjars/codebase/blender/blenderinit.js"></script>
+  
+    <script src="/js/header.js"></script>
+  
+  <!-- 【画面固有】スクリプトの定義 -->
+  <script src="/js/imbalance-price-list.js"></script>
+</head>
+
+<head>
+  
+    <meta name="description" content="インバランス料金単価ファイル一覧のページです。月別のインバランス料金単価ファイルをダウンロードできます。" />
+    <meta property="og:description" content="インバランス料金単価ファイル一覧のページです。月別のインバランス料金単価ファイルをダウンロードできます。" />
+    <meta property="og:title" content="インバランス料金単価ファイル一覧" />
+  
+  
+  
+</head>
+
+<body>
+  <!--- ヘッダ部 -->
+  <div>
+    <div class="container">
+      <div class="header">
+        <div class="top-image">
+          <a href="/"><img src="/imgs/top.png"></a>
+        </div>
+        <div class="head-link-area">
+          <div class="head-link">
+            <a href="https://www.okiden.co.jp/business-support/service/unit-price" target="_blank"
+              rel="noopener noreferrer" class="headerLinkButton">
+              沖縄エリアの情報<br>（外部リンク）
+            </a>
+          </div>
+        </div>
+        <div class="head-pdf-area">
+          <div class="head-pdf">
+            <a href="/show/header/planned_power_outage_imbalance_price.pdf" target="_blank"
+              class="headerLinkButton">計画停電発生時等の<br>インバランス料金単価</a>
+          </div>
+        </div>
+        <div class="mt-2"></div>
+
+        <!--- メニューバー 表示内容 -->
+        <nav class="navbar navbar-expand navbar-dark">
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#bs-navi"
+            aria-controls="bs-navi" aria-expanded="false" aria-label="Toggle navigation"><span
+              class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="bs-navi">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle home" id="menuDropdown"
+                  href="/">HOME</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle public-flie" id="menuDropdown">公表ファイル</a>
+                <div class="dropdown-menu" id="dropDownMenu1">
+                  <a class="dropdown-item" href="/imbalance-price-list">インバランス料金単価</a>
+                  <a class="dropdown-item" href="/imbalance-basis-list">インバランス料金単価算定根拠</a>
+                  <a class="dropdown-item" href="/meritorderlist">調整力の詳細</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle news-updInfo" id="menuDropdown">お知らせ・更新情報</a>
+                <div class="dropdown-menu" id="dropDownMenu2">
+                  <a class="dropdown-item" href="/info-list">お知らせ一覧</a>
+                  <a class="dropdown-item" href="/update-list">更新情報一覧</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle faq-inquiry" id="menuDropdown"
+                  href="/faq-inquiry">よくあるご質問・お問い合わせ</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div id="bodyPanel" class="blender-operation-panel">
+    <div id="imbaranceBody" class="imbaranceBody">
+      <!--- BODY部 -->
+      <div class="title">
+        <span class="pagetitle">インバランス料金単価</span>
+      </div>
+      <div class="mt-4"></div>
+      <!-- インバランス料金単価一覧 -->
+      <table id="tsukibun" class="tsukibun">
+        <thead class="tsukibun">
+          <tr class="trTitle">
+            <th id="titleMonth" class="titleMonth">対象年月</th>
+            <th id="titleLstUdtDt" class="titleLstUdtDt">最終更新日時</th>
+          </tr>
+          </thead>
+        <tbody id="tsukibunTbody" class="tsukibun">
+        </tbody>
+      </table>
+      <div class="mt-4"></div>
+      <div class="divAnnotation">
+        <span>■ ここには、最新版のデータを掲載しています。<br/>　 訂正前のデータを確認される場合は、<a href="update-list" class="imbarancelink">更新情報一覧画面</a>でご確認いただけます。</span>
+      </div>
+    </div>
+    <div class="mt-2 spaceBg">&nbsp;</div>
+  </div>
+   <!-- フッタ部 -->
+   <div>
+    <div class="container">
+      <div class="footer">
+        <div class="footer-menu">
+			<span class="footer-item">▶<a href="/show/footer/terms_of_use.pdf" target="_blank">利用規約</a></span>
+			<span class="footer-item">▶<a href="/privacy_policy" >個人情報の取扱い</a></span>
+			<span class="footer-item">▶<a href="/show/footer/system_manual.pdf" target="_blank">システムマニュアル</a></span>
+			<span class="footer-item">▶<a href="/show/footer/webapi_manual.pdf" target="_blank">WebAPI利用マニュアル</a></span>
+			<span class="footer-item">▶<a href="/link">リンク</a></span>
+		</div>
+        <div class="copyright">©2022 KANSAI TRANSMISSION AND DISTRIBUTION, INC. / Chubu Electric Power Grid Co.,Inc. <br>
+								/ KYUSHU ELECTRIC POWER TRANSMISSION AND DISTRIBUTION CO.,INC. </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

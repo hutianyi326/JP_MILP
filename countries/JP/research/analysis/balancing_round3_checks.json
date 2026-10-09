@@ -1,0 +1,17 @@
+{
+  "rrfit_rows": 262656,
+  "rrfit_missing_by_field": {
+    "requirement_MW": 0,
+    "FIT_forecast_error_MW": 23,
+    "published_usage_pct": 0
+  },
+  "rrfit_area_months": 180,
+  "single_area_product_blocks": 158976,
+  "single_total_equals_nine_areas": true,
+  "time_zone": "Asia/Tokyo",
+  "rrfit_units": "MW; published percent",
+  "single_units": "original CSV does not state unit; not converted or used for revenue",
+  "missing_values_filled": false,
+  "usage_is_measured_activation": false,
+  "availability": "downloaded vintage; ex-post only; publication timestamps not reconstructed"
+}

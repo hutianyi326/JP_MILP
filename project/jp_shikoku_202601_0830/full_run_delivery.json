@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "classification": "ASSET_FREE_CONDITIONAL_INPUT_NOT_PROJECT_REVENUE",
+  "lfc_k": 1.0,
+  "files": {
+    "data/processed/JP/shikoku_full_run_k1_v5/assumptions.json": "c0c7c086eb0447a52e3de392ca826da99937f1e384b7f958e054156bb56c4548",
+    "data/processed/JP/shikoku_full_run_k1_v5/historical_events_by_scenario.json": "38f304b0e96d38fbbbe2818e61906d70b94ab8e54a032d44f1d802e5b52a41af",
+    "data/processed/JP/shikoku_full_run_k1_v5/readiness.json": "2a508eb6d887f272a959bf1cc0a273a739a5b7f420acd5872f571f5a53de81b4",
+    "data/processed/JP/shikoku_full_run_k1_v5/regional_prepared.json": "dfd192b5893a0c7e7a6a7e144001e6cd69e2425db6b5e5e012b8e738017b5ddb",
+    "data/processed/JP/shikoku_full_run_k1_v5/activation_coefficients_k1.csv": "36c8e3836034d520e696a576648b6d7f3eb1a8326508869251f2ac995662fb99",
+    "project/jp_shikoku_202601_0830/full_run_k1.md": "23eea6c61584dbf423099c15d5ac76c9046061a1e09da2a59ef604e7831a6587",
+    "project/jp_shikoku_202601_0830/full_period_validation.json": "440259178e73b0d3d2b5ce4a2de8b0566ec760043e39ca0c5b35f6db034a3009",
+    "project/jp_shikoku_202601_0830/assemble_full_period.py": "00f1c5806fa06c2c755ad69854b4bdd0815059a8b9da35fa4be4bc4926a2b2ca",
+    "project/jp_shikoku_202601_0830/validate_full_period.py": "13607b7aee3ea51b94ec2cccf2483fa481b5bed491d27841e87348f79316abca",
+    "project/jp_first_run_inputs_20261004/runtime_template.json": "1083da179d4e47ebc1ada71e6a27181709395fe5369dc8c68c999fab5658063e"
+  },
+  "archive": "outputs\\JP\\shikoku_full_run_k1_v5.zip",
+  "archive_sha256": "bddefd09f8c22e0b383c0e572670fa1705498d507e56f9876cf104c33bb17788",
+  "archive_bytes": 5267452
+}

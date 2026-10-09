@@ -1,0 +1,23 @@
+{
+  "finalized_at_UTC": "2026-09-28T18:31:03.382180+00:00",
+  "reviewed_math_sha256": "3a29450cf13fb87cb01b1850549ea56a8fe670542c18fe467905a1edebd60bc6",
+  "status_only_change_verified": true,
+  "files": [
+    {
+      "path": "model/JP_milp_formulation.md",
+      "sha256": "2cfe53bc9284d44239a633a24d4fdb210d1f6ddffb513f92e6672426cdc5373f"
+    },
+    {
+      "path": "project/japan_research/milp_review_final.md",
+      "sha256": "563e30569f5cb9e26a0c5e720425545b19d18eb177196bdd5d0c84cc24716939"
+    },
+    {
+      "path": "project/japan_research/review_round4_result.md",
+      "sha256": "caac8d71714c7bae210e20b9bc6928da0d893efd3821d58d9bff95bbc3f8834c"
+    },
+    {
+      "path": "project/japan_research/README.md",
+      "sha256": "6c46d7e3f3ba584795dc1a44b85daf958ceeac3b3e20bab40ffb9261a433a1df"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[
+ {"id":"H01","url":"https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html"},
+ {"id":"H02","url":"https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv"},
+ {"id":"O17","url":"https://www.occto.or.jp/various/capacity-market/jitsujukyukanren/yakkan_long.html"},
+ {"id":"O18","url":"https://www.occto.or.jp/assets/soukaihoka/rijikai/2025/files/rijikai_528_gian2.pdf"},
+ {"id":"M02","url":"https://www.enecho.meti.go.jp/statistics/electric_power/ep002/results.html","transport":"curl"},
+ {"id":"F01","url":"https://www.egc.meti.go.jp/info/public/pdf/20250121002.pdf","transport":"curl"},
+ {"id":"F02","url":"https://www.tepco.co.jp/pg/consignment/access/generation_side_billing.html","transport":"curl"}
+]

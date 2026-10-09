@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "period": "2026-01-01 through 2026-08-30 JST",
+  "scenarios": 3,
+  "total_windows": 726,
+  "total_executed_intervals": 34848,
+  "source_snapshot": "source_snapshot_manifest_v2.json",
+  "report_revision_sha256": "ddd66d458aeeea83f8c8ddf8cca73eb8a6a854336dfc1a214092ea6a347e012f",
+  "report_sha256": "398c91ba7357cb23bcad01e09470b39d025662eddb574f340df9c128d94b283f",
+  "official_sources": "Reuse archived EPRX rules/market data, Shikoku TSO LFC/EDC and JEPX snapshots, linked in full_run_k1.md",
+  "classification": "EX_POST_PERFECT_INFORMATION_ROLLING_SCENARIO_NOT_STRICT_FULL_PERIOD_BOUND",
+  "review": "PASS_FINAL_IMPLEMENTATION_AND_LEDGER",
+  "remaining_limitations": [
+    "Activation and missing early frequency/LFC proxies",
+    "Composite activation price uses DA proxy",
+    "Ideal full acceptance and no market impact",
+    "Imbalance and investment/O&M/degradation costs excluded",
+    "Historic helper hashes not fully reconstructed"
+  ],
+  "recorded_at_utc": "2026-10-05T11:02:23.001597+00:00"
+}

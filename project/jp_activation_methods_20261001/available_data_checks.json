@@ -1,0 +1,139 @@
+{
+  "access_date": "2026-10-01",
+  "timezone": "Asia/Tokyo",
+  "interval_minutes": 30,
+  "source_hashes": {
+    "countries\\JP\\research\\analysis\\rrfit_forecast_usage_30min_JST_expost.csv": "56b67e005f60afd34f7494f4bc39548cbef9d878a542b34ceddb6561f44b9354",
+    "data\\raw\\JP\\activation_sources_20261001\\ics_basis_202606.csv": "474f609911d7595a41381e9257e6f633ef6903edce48ee93bec9f3f9d1cef3ef"
+  },
+  "fit_rows": 262656,
+  "areas": 9,
+  "expected_slots_per_area": 29184,
+  "fit_missing_error_total": 23,
+  "shikoku_fit": [
+    {
+      "area": "四国",
+      "period": "all",
+      "rows": 29184,
+      "requirement_zero": 8345,
+      "error_missing": 0,
+      "qualified_rows": 20839,
+      "published_zero": 8485,
+      "published_hundred": 6075,
+      "published_interior": 6279,
+      "qualified_usage_mean": 0.4288583905177792,
+      "lag1_adjacent_pairs": 19740,
+      "lag1_usage_correlation": 0.8377739012703668
+    },
+    {
+      "area": "四国",
+      "period": "before_2025-03-14",
+      "rows": 3456,
+      "requirement_zero": 410,
+      "error_missing": 0,
+      "qualified_rows": 3046,
+      "published_zero": 1631,
+      "published_hundred": 506,
+      "published_interior": 909,
+      "qualified_usage_mean": 0.2836375574523966,
+      "lag1_adjacent_pairs": 2986,
+      "lag1_usage_correlation": 0.8448894207888504
+    },
+    {
+      "area": "四国",
+      "period": "2025-03-14_to_2026-03-13",
+      "rows": 17520,
+      "requirement_zero": 5934,
+      "error_missing": 0,
+      "qualified_rows": 11586,
+      "published_zero": 4708,
+      "published_hundred": 3291,
+      "published_interior": 3587,
+      "qualified_usage_mean": 0.4227196616606249,
+      "lag1_adjacent_pairs": 10889,
+      "lag1_usage_correlation": 0.8276745815080689
+    },
+    {
+      "area": "四国",
+      "period": "from_2026-03-14",
+      "rows": 8208,
+      "requirement_zero": 2001,
+      "error_missing": 0,
+      "qualified_rows": 6207,
+      "published_zero": 2146,
+      "published_hundred": 2278,
+      "published_interior": 1783,
+      "qualified_usage_mean": 0.511582084743032,
+      "lag1_adjacent_pairs": 5863,
+      "lag1_usage_correlation": 0.8389818108857565
+    },
+    {
+      "area": "四国",
+      "period": "2026-06",
+      "rows": 1440,
+      "requirement_zero": 327,
+      "error_missing": 0,
+      "qualified_rows": 1113,
+      "published_zero": 374,
+      "published_hundred": 443,
+      "published_interior": 296,
+      "qualified_usage_mean": 0.5355256064690027,
+      "lag1_adjacent_pairs": 1053,
+      "lag1_usage_correlation": 0.8342630031111296
+    }
+  ],
+  "ics_shikoku": {
+    "counts": {
+      "1": 901,
+      "0": 504,
+      "-": 16,
+      "": 19
+    },
+    "transitions": [
+      {
+        "from_state": "0",
+        "eligible_pairs": 503,
+        "counts": {
+          "0": 390,
+          "1": 106,
+          "-": 7
+        },
+        "probabilities": {
+          "0": 0.7753479125248509,
+          "1": 0.21073558648111332,
+          "-": 0.013916500994035786
+        }
+      },
+      {
+        "from_state": "1",
+        "eligible_pairs": 899,
+        "counts": {
+          "0": 108,
+          "1": 788,
+          "-": 3
+        },
+        "probabilities": {
+          "0": 0.12013348164627363,
+          "1": 0.8765294771968855,
+          "-": 0.0033370411568409346
+        }
+      },
+      {
+        "from_state": "-",
+        "eligible_pairs": 16,
+        "counts": {
+          "0": 5,
+          "1": 5,
+          "-": 6
+        },
+        "probabilities": {
+          "0": 0.3125,
+          "1": 0.3125,
+          "-": 0.375
+        }
+      }
+    ]
+  },
+  "checks": "PASS: source keys, complete timestamp grids, FIT ranges, ICS terminal record, ICS sign/flag agreement",
+  "scope": "Descriptive proxy diagnostics only. No fitted product activation, forecast accuracy claim, revenue or production model change."
+}

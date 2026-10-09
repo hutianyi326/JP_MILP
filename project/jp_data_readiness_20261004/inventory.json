@@ -1,0 +1,296 @@
+{
+  "date": "2026-10-04",
+  "scope": "local files only; no new download; no source edits",
+  "timezone": "Asia/Tokyo",
+  "spot": {
+    "first": "2025-01-01T00:00:00+09:00",
+    "last": "2026-08-31T23:30:00+09:00",
+    "rows": 29184,
+    "unique": 29184,
+    "missing_formal": 0,
+    "observation_20260901": 0,
+    "missing_by_area": {
+      "北海道": 0,
+      "東北": 0,
+      "東京": 0,
+      "中部": 0,
+      "北陸": 0,
+      "関西": 0,
+      "中国": 0,
+      "四国": 0,
+      "九州": 0
+    }
+  },
+  "intraday_30min_JST_expost.csv": {
+    "first": "2025-01-01T00:00:00+09:00",
+    "last": "2026-08-31T23:30:00+09:00",
+    "rows": 29184,
+    "unique": 29184,
+    "missing_formal": 0,
+    "observation_20260901": 0
+  },
+  "imbalance_30min_JST_expost.csv": {
+    "first": "2025-01-01T00:00:00+09:00",
+    "last": "2026-08-31T23:30:00+09:00",
+    "rows": 29184,
+    "unique": 29184,
+    "missing_formal": 0,
+    "observation_20260901": 0
+  },
+  "shikoku_capacity": {
+    "F": {
+      "first": "2025-01-01T00:00:00+09:00",
+      "last": "2026-08-31T23:30:00+09:00",
+      "rows": 29184,
+      "unique": 29184,
+      "missing_formal": 0,
+      "observation_20260901": 0,
+      "quality": {
+        "final": 10216,
+        "prompt": 1488
+      },
+      "missing_price": 0,
+      "zero_source_award": 1,
+      "zero_tso_award": 1,
+      "native_rows": 11704,
+      "durations": {
+        "3.0": 3496,
+        "0.5": 8208
+      }
+    },
+    "S1": {
+      "first": "2025-01-01T00:00:00+09:00",
+      "last": "2026-08-31T23:30:00+09:00",
+      "rows": 29184,
+      "unique": 29184,
+      "missing_formal": 0,
+      "observation_20260901": 0,
+      "quality": {
+        "final": 10216,
+        "prompt": 1488
+      },
+      "missing_price": 0,
+      "zero_source_award": 5,
+      "zero_tso_award": 5,
+      "native_rows": 11704,
+      "durations": {
+        "3.0": 3496,
+        "0.5": 8208
+      }
+    },
+    "S2": {
+      "first": "2025-01-01T00:00:00+09:00",
+      "last": "2026-08-31T23:30:00+09:00",
+      "rows": 29184,
+      "unique": 29184,
+      "missing_formal": 0,
+      "observation_20260901": 0,
+      "quality": {
+        "final": 10216,
+        "prompt": 1488
+      },
+      "missing_price": 0,
+      "zero_source_award": 0,
+      "zero_tso_award": 0,
+      "native_rows": 11704,
+      "durations": {
+        "3.0": 3496,
+        "0.5": 8208
+      }
+    },
+    "T1": {
+      "first": "2025-01-01T00:00:00+09:00",
+      "last": "2026-08-31T23:30:00+09:00",
+      "rows": 29184,
+      "unique": 29184,
+      "missing_formal": 0,
+      "observation_20260901": 0,
+      "quality": {
+        "final": 10216,
+        "prompt": 1488
+      },
+      "missing_price": 0,
+      "zero_source_award": 0,
+      "zero_tso_award": 0,
+      "native_rows": 11704,
+      "durations": {
+        "3.0": 3496,
+        "0.5": 8208
+      }
+    },
+    "R": {
+      "first": "2025-01-01T00:00:00+09:00",
+      "last": "2026-08-31T23:30:00+09:00",
+      "rows": 29184,
+      "unique": 29184,
+      "missing_formal": 0,
+      "observation_20260901": 0,
+      "quality": {
+        "final": 24816,
+        "prompt": 1488
+      },
+      "missing_price": 0,
+      "zero_source_award": 9595,
+      "zero_tso_award": 8242,
+      "native_rows": 26304,
+      "durations": {
+        "3.0": 576,
+        "0.5": 25728
+      }
+    },
+    "C": {
+      "first": "2025-01-01T00:00:00+09:00",
+      "last": "2026-08-31T23:30:00+09:00",
+      "rows": 29184,
+      "unique": 29184,
+      "missing_formal": 0,
+      "observation_20260901": 0,
+      "quality": {
+        "final": 10216,
+        "prompt": 1488
+      },
+      "missing_price": 0,
+      "zero_source_award": 0,
+      "zero_tso_award": 0,
+      "native_rows": 11704,
+      "durations": {
+        "3.0": 3496,
+        "0.5": 8208
+      }
+    }
+  },
+  "shikoku_lfc": {
+    "first": "2026-04-01T00:00:00+09:00",
+    "last": "2026-08-31T23:30:00+09:00",
+    "rows": 7344,
+    "unique": 7344,
+    "missing_formal": 21840,
+    "observation_20260901": 0,
+    "numeric_frequency_lfc": 6020,
+    "first_numeric": "2026-04-28T13:00:00+09:00",
+    "all_numeric_columns_blank": 1324,
+    "missing_numeric_by_day": {
+      "20260401": 48,
+      "20260402": 48,
+      "20260403": 48,
+      "20260404": 48,
+      "20260405": 48,
+      "20260406": 48,
+      "20260407": 48,
+      "20260408": 48,
+      "20260409": 48,
+      "20260410": 48,
+      "20260411": 48,
+      "20260412": 48,
+      "20260413": 48,
+      "20260414": 48,
+      "20260415": 48,
+      "20260416": 48,
+      "20260417": 48,
+      "20260418": 48,
+      "20260419": 48,
+      "20260420": 48,
+      "20260421": 48,
+      "20260422": 48,
+      "20260423": 48,
+      "20260424": 48,
+      "20260425": 48,
+      "20260426": 48,
+      "20260427": 48,
+      "20260428": 26,
+      "20260831": 2
+    },
+    "frequency_abs_mean_gt1_by_day": {
+      "20260731": 42,
+      "20260831": 43
+    }
+  },
+  "shikoku_edc_related": {
+    "all_downloaded": {
+      "first": "2024-04-01T00:00:00+09:00",
+      "last": "2026-08-31T23:30:00+09:00",
+      "rows": 42384,
+      "unique": 42384,
+      "missing_formal": 0,
+      "observation_20260901": 0
+    },
+    "formal": {
+      "first": "2025-01-01T00:00:00+09:00",
+      "last": "2026-08-31T23:30:00+09:00",
+      "rows": 29184,
+      "unique": 29184,
+      "missing_formal": 0,
+      "observation_20260901": 0
+    },
+    "formal_blank_cells": 4,
+    "pure_product_activation": false
+  },
+  "ics_shikoku": {
+    "rows": 1440,
+    "first": [
+      "20260601",
+      "01"
+    ],
+    "last": [
+      "20260630",
+      "48"
+    ],
+    "imbalance_missing": 19,
+    "surplus_status": {
+      "1": 901,
+      "0": 504,
+      "-": 16,
+      "": 19
+    }
+  },
+  "sources": [
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_LFC_shikoku_202604.csv",
+      "sha256": "4151ee08320d1bc37ec544828c9447506afb12981249cf136075ac39c7a73758"
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_LFC_shikoku_202605.csv",
+      "sha256": "0d8187ef27f14e007e84b82970dc1d5a7ad47bc89216c87f8725b350a495a0c2"
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_LFC_shikoku_202606.csv",
+      "sha256": "ab0c4180c7b5597fff1281ff42b313a5592d0d9a5fbf5d3a72131254bd695923"
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_LFC_shikoku_202607.csv",
+      "sha256": "989b30052263f1b13f5694fa7ae135e400613a15cb3dfdda8adffdfe1d10ed04"
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_LFC_shikoku_202608.csv",
+      "sha256": "bf3ad62ad8001fb00d31e1f1eeba4a90c8236c7571c4e3536bd1c937edea4eee"
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_2024.zip",
+      "sha256": "e0d313529286fcd7321d0027dafaa0d39803fa30ff369ea9143641eee49741fe"
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_2025.zip",
+      "sha256": "db05b68c17809adb73e88428eb834fc9f7ea7ad17e3fd74c7adc0dc0e99c7e50"
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_202604.csv",
+      "sha256": "f08b586ee840fae47eafafef9c2480172118c19c1133c01c552b4f00a91fc097"
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_202605.csv",
+      "sha256": "a3aedf867b4ccbcc3986d342f500751b2e2296f9bbc807176ca1a082c3dd03a4"
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_202606.csv",
+      "sha256": "9db1b895a0fe2176d511b9682958b9d3369671199e4310903b59f1449154ff31"
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_202607.csv",
+      "sha256": "60a056d7eebeb147c5e0404d8c1ac9d3fe53369b0fda5fb265103a2512331032"
+    },
+    {
+      "path": "data\\raw\\JP\\shikoku_20260930\\jukyu_shikoku_202608.csv",
+      "sha256": "0ee77c59271cbf320a98971f713b58cae6f980741a9e7b560a5e848b815a9e20"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "kyushu_jukyu_202606": "https://www.kyuden.co.jp/td_power_usages/csv/kouhyo/jukyu/11120_TSO9_0_202606.zip?a=20261001232632",
+  "chubu_202606": "https://powergrid.chuden.co.jp/resource/goannai/hatsuden_kouri/takuso_kyokyu/rule/jukyu/jukyu_LFC_chubu_202606.csv",
+  "tohoku_202606": "https://nw.tohoku-epco.co.jp/consignment/retailservice/supplyanddemand/lfc/jukyu_LFC_tohoku_202606.csv",
+  "hokuriku_202606": "https://www.rikuden.co.jp/nw_jyukyudata/attach/jukyu_LFC_hokuriku_202606.csv"
+}

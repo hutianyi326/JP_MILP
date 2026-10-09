@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "scope": "Offline full-input binding and Aug2-3 short physics solve with positive new capacity; not formal revenue",
+  "solver_code_sha256": "17a108754b12f05128b096818d97177459df3be9d11db25ba1ed3efd78b1a1ce",
+  "verification_code_sha256": "e0257230373a80d9e048e1c00cf48972bb9919496fd9ea2acbda1ecfaf8aafdf",
+  "formal_halfhours": 11616,
+  "observation_halfhours": 48,
+  "native_blocks": 8784,
+  "unavailable_native_blocks": 6423,
+  "changed_ev_price_halfhours": 11660,
+  "ordinary_hv_input_unchanged": true,
+  "composite_hv_input_unchanged": true,
+  "missing_coverage_rejected": true,
+  "old_ev_resume_identity_changed": true,
+  "full_preflight": {
+    "intervals": 11664,
+    "blocks": 8784,
+    "spot_orders": 11664,
+    "asset_sha256": "5aeead13ebff847fb47732758f5c1954a43bcefe52e2ce0a9f9fdf01ceebfa58",
+    "input_sha256": "ec93d6fb2af85962b69918f550cd371e3b4f3bc04c7cc5adedbfeafa2ba03755",
+    "status": "READY_FOR_CONDITIONAL_SOLVE"
+  },
+  "preflight": {
+    "intervals": 96,
+    "blocks": 96,
+    "spot_orders": 96,
+    "asset_sha256": "5aeead13ebff847fb47732758f5c1954a43bcefe52e2ce0a9f9fdf01ceebfa58",
+    "input_sha256": "3d71625f984dd3b9c61cc2eeed565641035e8c04c9c695c0a2ff1b7b00e7349b",
+    "status": "READY_FOR_CONDITIONAL_SOLVE"
+  },
+  "short_solve_audit": {
+    "status": "PASS",
+    "numeric_recomputations": 1440,
+    "service_chains": 6,
+    "finite_service_scope": true,
+    "annual_efc": {
+      "2026": 0.02186307193901801
+    }
+  },
+  "short_solve_seconds": 0.12591429986059666,
+  "short_solve_capacity_cash_jpy": 10718.52,
+  "short_solve_efc": 0.021863071939018,
+  "august_first_quote": {
+    "start": "2026-08-01T00:00:00+09:00",
+    "native_block_id": "SHIKOKU/F_OFFLINE/2026-08-01T00:00:00+09:00",
+    "raw_block": "20260801B01",
+    "native_halfhours": 1,
+    "source_product_label": "一次オフライン",
+    "archive_family": "1-1",
+    "market_product": "F_OFFLINE",
+    "quality": "確報値",
+    "procurement_category": "合計（確報値）",
+    "price_side": "電源属地別",
+    "source_average_raw_jpy_kw_30min": 1.79,
+    "source_award_mw": 1.998,
+    "source_offer_mw": 5.858,
+    "tso_requirement_mw": 7.0,
+    "tso_award_mw": 0.0,
+    "tso_average_raw_jpy_kw_30min": 0.0,
+    "price_jpy_mw_30min": 1790.0,
+    "price_observation_valid": true,
+    "market_enabled": true,
+    "disabled_reason": "",
+    "gate_nominal_jst": "2026-07-31T14:00:00+09:00",
+    "result_deadline_nominal_jst": "2026-07-31T15:00:00+09:00",
+    "source_id": "FY2026_FINAL",
+    "url": "https://www.eprx.or.jp/information/2026_1-1_result.zip",
+    "archive_sha256": "698bf97e2189ef4b782c3255ccbdffa55227f4495aae41d91deda80085309d97",
+    "member": "2026_1-1_result/202608_1-1_result.csv",
+    "member_sha256": "6c4d5e74e8c90a16f34101907a30d10cc8f3aef6d28307f854b5794b4bcaf0ce",
+    "accessed_utc": "2026-10-05T12:18:32.722012+00:00",
+    "timestamp_jst": "2026-08-01T00:00:00+09:00",
+    "period_role": "formal"
+  },
+  "current_binding_metadata": {
+    "package_manifest": {
+      "version": "EV_OFFLINE_1_1_SOURCE_FINAL_PRIORITY_V1",
+      "market_product": "F_OFFLINE",
+      "area": "四国",
+      "timezone": "Asia/Tokyo",
+      "formal_start": "2026-01-01T00:00:00+09:00",
+      "formal_end_exclusive": "2026-08-31T00:00:00+09:00",
+      "observation_halfhours": 48,
+      "no_trade_policy": "DISABLE_NEW_OFFER_WITHOUT_OBSERVED_SOURCE_OFFLINE_PRICE; NOT_PROOF_OF_NO_MARKET_OPPORTUNITY",
+      "missing_policy": "Positive source award without valid price or absent timestamp: NOT_READY; no ordinary F fallback",
+      "price_policy": "Final total source-region average first, prompt source-region average only if final absent; aggregate historical proxy",
+      "source_manifest": "data\\raw\\JP\\ev_offline_20261005\\source_manifest_20261005T121855565892Z.json",
+      "source_manifest_sha256": "88fb40d2a41edd9e9166d89601cac23a60cbe0e2ba958f002260194a07102259",
+      "build_code_sha256": "3b41838dcfc4b726688eeb5b158f8ddf92ba32800043b9adf940997884d8a144",
+      "files": {
+        "coverage_and_monthly_prices.json": "4760d8233f6788a830caae3c3e4b369f45c6e3aa91da44ea90c40634f7d02009",
+        "offline_30min.csv": "733aa8024903410e068f727df1acb3bf330c313d8cb9346357808eec8819901e",
+        "offline_30min.json": "278ea42d5c1581e283d863b92b00d8aaaf696187d382952e669bea0f198f0613",
+        "offline_native_blocks.csv": "da0178ac06596f81c30e8b73b4440136da8748206c730e57466d9f625610a335",
+        "offline_native_blocks.json": "e8acebd5739a0bd0974f872ad951c73b328e1f609d49b80f885a6fb71c5c8e82"
+      }
+    },
+    "package_manifest_sha256": "af1ed0b9444a987a43a9e4beffddf7cf6e7d5cd76bd619744fbb5d56048b677b",
+    "binding_code_sha256": "ad009d95186715c04ebad34771942d8f6e8818a364299f552d1e9a730eda084b"
+  }
+}

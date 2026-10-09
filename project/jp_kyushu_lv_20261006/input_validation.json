@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "raw_files": 22,
+  "native_blocks": 9080,
+  "halfhours": 13200,
+  "observed_frequency_halfhours": 6020,
+  "proxy_halfhours": 7180,
+  "proxy_outside_donor_load_range_halfhours": 964,
+  "leave_day_out_errors_hz": {
+    "mean": {
+      "mae": 0.01641362126245847,
+      "rmse": 0.020945412361739798
+    },
+    "scale": {
+      "mae": 0.006599252491694352,
+      "rmse": 0.008691154761960317
+    }
+  },
+  "validation_limit": "Observed-season diagnostics do not validate winter transfer or measured station activation",
+  "code_sha256": "f471cfc9a7f6b71ee722e80850191c0eaea108bc3808dc354273c32abacb3558"
+}

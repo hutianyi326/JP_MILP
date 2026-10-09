@@ -1,0 +1,51 @@
+{
+  "recorded_at_UTC": "2026-09-28T16:17:40.330173+00:00",
+  "reviewer": "/root/japan_review",
+  "configuration": "gpt-6-astra/high (existing agent unchanged)",
+  "files": [
+    {
+      "path": "research_report.md",
+      "sha256": "922016865af2e3a7ad78c251b5f1ca43d9cae4eb4abd8a2f48b8dce6b9fe7f2c"
+    },
+    {
+      "path": "model_handoff.md",
+      "sha256": "0aa274682a6cbc0f047f5e6b363840ba420bbf4cdd387d7d5fe26086b97a4576"
+    },
+    {
+      "path": "settlement_branches.md",
+      "sha256": "8e317555df5250a633a346d423d5ff945ca290bad3e8a937da133cbc283e7d26"
+    },
+    {
+      "path": "capacity_mechanisms_revision.md",
+      "sha256": "482b87dee3849e6a2ea95b72b2c715fe67f4e1e2e8bab9396001c10eed2ab8d7"
+    },
+    {
+      "path": "regional_cost_revision.md",
+      "sha256": "c9378eab2483b845e44fca9fdbd2a2212f7822f4e2a720fa365941ca66dc110d"
+    },
+    {
+      "path": "revision_round2.md",
+      "sha256": "2a227e761585e2a9071581c9894f70b2f7031f007621ea4b31cc923770512a1e"
+    },
+    {
+      "path": "evidence_register.md",
+      "sha256": "f9f3d2328334c1db5c8abcc33598c33ddd8004960df3bbf7f6357090816105df"
+    },
+    {
+      "path": "source_inventory.csv",
+      "sha256": "7ba0148493f77c91f4216c126b2f4110677d321ce1c287722e246a40fc067065"
+    },
+    {
+      "path": "validation_report.md",
+      "sha256": "6fed9a612c382489bf4a82c31cb5d6100fa4f11589d5b00f308496dc4e31a32d"
+    },
+    {
+      "path": "../../countries/JP/boundary_revision_20260928.md",
+      "sha256": "d37e06eb57a1dd8734fc47797d6a1ed8f49eb3f07fd8ac66bae865ddf9c9f249"
+    },
+    {
+      "path": "../../countries/JP/history_settlement_revision_20260928.md",
+      "sha256": "cbd7e0fd3e48011365b01f9b52d050d2e60d7cbef5d1fb5e6f6fd1c00e7377b8"
+    }
+  ]
+}

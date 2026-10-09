@@ -1,0 +1,16 @@
+"""Resume path editing after all files moved; old empty OneDrive folders are harmless."""
+from pathlib import Path
+import json
+source=Path(__file__).with_name('organize_jp_20260930.py').read_text(encoding='utf-8')
+header=source[:source.index('assert not AUDIT.exists()')]
+helpers=source[source.index('def sha('):source.index('mapping = {}')]
+state='''
+manifest=json.loads((AUDIT/'migration_manifest.json').read_text(encoding='utf-8'))
+assert manifest['status']=='planned'
+records=manifest['files']
+mapping={r['old_path']:r['new_path'] for r in records}
+for r in records:
+    assert not (ROOT/r['old_path']).exists(),r['old_path']
+    assert sha((ROOT/r['new_path']).read_bytes())==r['sha256_before'],r['new_path']
+'''
+exec(compile(header+helpers+state+source[source.index('prefixes = '):],str(__file__),'exec'))

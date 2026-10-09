@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-30",
+  "review": "PASS",
+  "issues": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0
+  },
+  "reviewer_role_configuration": "gpt-6-astra / medium",
+  "implementation_approved": false,
+  "historical_backtest_approved": false,
+  "files": {
+    "countries/JP/research/research_report.md": "8caa9ccc1ca0b5b6b7b5b74e26805f2a7d3663fa7f80754337cc4e7d60a70345",
+    "countries/JP/research/spot_eprx_coupling_supplement_20260930.md": "0b7a6225730476c14453c77a269794ab6fb527033c6fdb3a9e5197030c062001",
+    "countries/JP/research/model_handoff.md": "5d2c7c1fe08b4407bddf3c73deb8a64cd7e2c9032b3ba2f89cd2492fc60df0bc",
+    "countries/JP/research/evidence_register.md": "168e9e782af220db5069048077838dea00aa773706c50b1f13a9a2789c45e966",
+    "countries/JP/research/README.md": "031fcce8e7968399f3b501ea3e5b48977a54bc81e38eaff2ce1348845987a3c8",
+    "countries/JP/README.md": "6a36b5a48d6dc84c9f47c6962c17ac90bb532f818e230ba7d842115ef86a6e15",
+    "project/country_status.yaml": "e100eda8ab540620830275358346195b88871eda3b5c8b4fd888256193cba8c9",
+    "countries/JP/model/JP_milp_formulation.md": "a37754cbe057bc25b5c0dd72adc080e96e29428926f975f0a8bbf078abab54b6",
+    "countries/JP/research/supplement_20260930/review_final.md": "8fb4adaebbd0e27c25a64d76cca97f617b772b54e7d407ec1dc2e48be163884f",
+    "countries/JP/research/supplement_20260930/source_manifest.json": "580ac66e593bac92c4c86b9b046b9b941cbc5ed06fb2a82c9749d3496422ae64",
+    "countries/JP/research/supplement_20260930/change_log.md": "044c708599de361ef269cfb6d38c5039e29f7ae245a33f7bbe89413c7ecb0360"
+  }
+}

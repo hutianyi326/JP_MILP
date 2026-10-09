@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-02",
+  "scope": "Documentation consolidation; no MILP execution or independent review",
+  "checks": [
+    {
+      "check": "local_markdown_targets",
+      "passed": true,
+      "detail": {
+        "checked": 250,
+        "missing": []
+      }
+    },
+    {
+      "check": "eight_confirmed_sections",
+      "passed": true,
+      "detail": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "check": "sixteen_evidence_entries",
+      "passed": true,
+      "detail": [
+        "ACT26-R1",
+        "ACT26-R2",
+        "ACT26-R3",
+        "ACT26-R4",
+        "ACT26-R5",
+        "ACT26-R6",
+        "ACT26-D1",
+        "ACT26-D2",
+        "ACT26-D3",
+        "ACT26-D4",
+        "ACT26-D5",
+        "ACT26-D6",
+        "ACT26-D7",
+        "ACT26-D8",
+        "ACT26-D9",
+        "ACT26-D10"
+      ]
+    },
+    {
+      "check": "eleven_composite_combinations",
+      "passed": true,
+      "detail": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        11,
+        12,
+        14,
+        17,
+        21
+      ]
+    },
+    {
+      "check": "appendix_3_all_26_includes_t2",
+      "passed": true,
+      "detail": "Cross-checked saved E02 PDF page 363 text"
+    },
+    {
+      "check": "case_arithmetic",
+      "passed": true,
+      "detail": {
+        "activation_relative_mwh": 0.20277777777777778,
+        "activation_baseline_2_mwh": 0.10277777777777777,
+        "combined_4_mw_mwh": 0.2,
+        "capacity_fee_jpy": 24000,
+        "binaries_5min": 576,
+        "binaries_1sec": 172800
+      }
+    },
+    {
+      "check": "existing_sample_hashes",
+      "passed": true,
+      "detail": [
+        {
+          "path": "samples\\kyushu_jukyu_202606_259b239ae928.zip",
+          "matches": true
+        },
+        {
+          "path": "samples\\chubu_202606_1dd2bb48e097.csv",
+          "matches": true
+        },
+        {
+          "path": "samples\\tohoku_202606_32acbd9ee395.csv",
+          "matches": true
+        },
+        {
+          "path": "samples\\shikoku_202606_ab0c4180c7b5.csv",
+          "matches": true
+        },
+        {
+          "path": "samples\\kansai_202606_66d7037097dd.zip",
+          "matches": true
+        },
+        {
+          "path": "samples\\kyushu_lfc_202606_4c5f53588b32.csv",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "check": "prior_structure_result_consistency",
+      "passed": true,
+      "detail": {
+        "datasets": 7,
+        "passes": 7,
+        "scope": "Saved prior structure results; not a new parsing of monthly files"
+      }
+    },
+    {
+      "check": "unreviewed_status_explicit",
+      "passed": true,
+      "detail": "All modified prose identifies this batch as not independently reviewed"
+    },
+    {
+      "check": "utf8_and_math_fence",
+      "passed": true,
+      "detail": "UTF-8 and display math delimiter check"
+    }
+  ],
+  "passed": 10,
+  "total": 10,
+  "files": [
+    {
+      "path": "countries\\JP\\research\\research_report.md",
+      "sha256": "e2d7bacf618a5a8ded96b9da6c6f6c09e239213d746fe9e49686e06e91ff032f"
+    },
+    {
+      "path": "countries\\JP\\research\\evidence_register.md",
+      "sha256": "c6e86fb11dd391b7862a390659b7296873fcf6180ac5bbde19fa4a2546155d74"
+    },
+    {
+      "path": "countries\\JP\\research\\README.md",
+      "sha256": "275323f7a7b01f3a5b79e43c672099dac2bef934fd92ab07efadb62b14fcf30e"
+    },
+    {
+      "path": "countries\\JP\\research\\model_handoff.md",
+      "sha256": "8e00f896d739ad66e29a9d02d03f900544dbbe44b4a9daa51714ae331cadd0fa"
+    },
+    {
+      "path": "project\\jp_research_consolidation_20261002\\补充记录.md",
+      "sha256": "8bd4323f5a8e4ad4a23ba32186b9fd29cb4ef5e0abd35342ab1c7846fe4c282b"
+    }
+  ]
+}

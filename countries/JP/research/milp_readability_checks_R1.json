@@ -1,0 +1,16 @@
+{
+  "version": "M2-R1",
+  "display_blocks": 46,
+  "display_delimiters_on_own_lines": true,
+  "equation_tags": 46,
+  "unique_tags": true,
+  "tag_order_matches_M2": true,
+  "adjacent_chinese_titles": 46,
+  "missing_local_links": [],
+  "replacement_characters": 0,
+  "visual_render_verified": false,
+  "solver_or_backtest_run": false,
+  "sha256": "90c8fdb308a84aa90562aba11cdc4452b16bec441c606572cdeb4b6f3eba1c14",
+  "reviewed_sha256": "6af27d3238b7dd1a15025975e32789d4b4fcd4d3c5a2b7c810e9dff61ffff2d8",
+  "post_review_change": "R1 status line only"
+}

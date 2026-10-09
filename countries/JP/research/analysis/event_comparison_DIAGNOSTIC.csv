@@ -1,0 +1,6 @@
+﻿date,area,official_case_source,planned_curtailment_MW_at_reference_slot,load_mean_MW,load_min_MW,solar_actual_energy_MWh,solar_curtailment_energy_MWh,net_import_mean_MW,spot_mean_JPY_kWh,spot_floor_halfhours,scope_status
+2025-04-13,九州,"EV01 pp3,12-14;EV02 p1",4866,7506.541666666667,6498,42029.0,23085.5,-942.0,6.644791666666667,15,TS09_diagnostic_island_boundary_unresolved
+2025-04-17,九州,"EV01 pp3,12-14;EV02 p1",2690,8605.416666666666,7418,53474.5,5781.5,-775.3333333333334,7.468541666666667,11,TS09_diagnostic_island_boundary_unresolved
+2025-05-04,九州,"EV01 pp3,12-14;EV02 p1",4941,6819.541666666667,6024,44928.0,31891.5,-804.6666666666666,6.202708333333335,18,TS09_diagnostic_island_boundary_unresolved
+2025-05-25,九州,"EV01 pp3,12-14;EV02 p1",4393,7386.375,6696,36925.5,4457.5,-807.9166666666666,3.9637499999999997,18,TS09_diagnostic_island_boundary_unresolved
+2025-06-01,九州,"EV01 pp3,12-14;EV02 p1",4278,7393.333333333333,6528,46920.0,24205.5,-973.4166666666666,4.716875,19,TS09_diagnostic_island_boundary_unresolved

@@ -1,0 +1,89 @@
+{
+  "version": "M3",
+  "checks": [
+    {
+      "check": "user_product_masks",
+      "result": "PASS",
+      "detail": "LV FCR offline only; EHV excludes offline"
+    },
+    {
+      "check": "upward_headroom",
+      "result": "PASS",
+      "detail": "-2 -> +2 gives 4 MW change; +2 -> +2 gives 0"
+    },
+    {
+      "check": "port_limit",
+      "result": "PASS",
+      "detail": "2 MW PCS * 0.98 = 1.96 MW service-end from zero baseline"
+    },
+    {
+      "check": "capacity_units",
+      "result": "PASS",
+      "detail": "4 MW at 5 JPY/kW/30min = 20000 JPY; no extra 0.5"
+    },
+    {
+      "check": "cross_zero_energy",
+      "result": "PASS",
+      "detail": "1 MWh actual discharge vs 2 MWh upward deviation"
+    },
+    {
+      "check": "negative_price_purchase",
+      "result": "PASS",
+      "detail": "Negative-price purchase may yield positive cash"
+    },
+    {
+      "check": "separate_event_cash",
+      "result": "PASS",
+      "detail": "DA sell + ID buy can leave zero position and 1000 JPY cash"
+    },
+    {
+      "check": "bg_not_double_subtracted",
+      "result": "PASS",
+      "detail": "actual 1.1-plan 1-full correction .1=0"
+    },
+    {
+      "check": "dc_efc",
+      "result": "PASS",
+      "detail": "1 MWh AC charge and discharge; efficiencies .95/.9; usable 8 MWh"
+    },
+    {
+      "check": "gct_freezes_tomorrow_delivery",
+      "result": "PASS",
+      "detail": "today gate=12, tomorrow delivery=30: freeze today"
+    },
+    {
+      "check": "frozen_occupancy",
+      "result": "PASS",
+      "detail": "nonzero old capacity fixes y=1 and excludes another active mode"
+    },
+    {
+      "check": "service_tail_availability",
+      "result": "PASS",
+      "detail": "2 MW continuing service fails next-step availability=0"
+    },
+    {
+      "check": "P6_endpoint_equivalence",
+      "result": "PASS",
+      "detail": "20000 seeded cases agree with exact constant-power SOC endpoint, eta in (0,1], DC auxiliary >=0"
+    },
+    {
+      "check": "markdown_structure",
+      "result": "PASS",
+      "detail": "unique tags and standalone paired display fences"
+    },
+    {
+      "check": "local_links",
+      "result": "PASS",
+      "detail": "[]"
+    }
+  ],
+  "passed": 15,
+  "display_formulas": 20,
+  "sha256": "fb1be0f7eedc40fd8251de84148785a30aecff391677b5892d7af74ec166f546",
+  "visual_render_verified": false,
+  "solver_run": false,
+  "historical_backtest_run": false,
+  "performance_benchmark_run": false,
+  "reviewed_sha256": "d4cf955d132530c5aeb41f502cca2879d3bfa5d32c7014c03feff487f11fd67e",
+  "post_review_change": "opening approval status and review link only"
+}

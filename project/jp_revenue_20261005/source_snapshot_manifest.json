@@ -1,0 +1,91 @@
+{
+  "captured_at_utc": "2026-10-05T08:54:41.132959+00:00",
+  "files": [
+    {
+      "path": "src/jp_milp/activation.py",
+      "sha256": "d79d2b82754a945a41f7882d66e61329e3c3ad092bb068a1bc258f5c2c42af2a"
+    },
+    {
+      "path": "src/jp_milp/audit.py",
+      "sha256": "e16868a40a1505c408d71995745c715bd53506559b2bdf0101bf1267d51f564c"
+    },
+    {
+      "path": "src/jp_milp/budget.py",
+      "sha256": "dbd1fb727d1af5181f056bce7cd321f46c87349d3b501e60d5aa9b21257c1e9c"
+    },
+    {
+      "path": "src/jp_milp/cli.py",
+      "sha256": "4a50ce901479d286ba011ba1904c97d83a0ac2c73afb73afdbdd8dfb0f369d37"
+    },
+    {
+      "path": "src/jp_milp/config.py",
+      "sha256": "4bb4b4bd4ff163ae21caa20499469675545f41e84f36511f83da314bd08ebe7b"
+    },
+    {
+      "path": "src/jp_milp/core.py",
+      "sha256": "9fa35934813203171b87d2a4d0f99568adb22cab9ef97303214b3ef071e6c096"
+    },
+    {
+      "path": "src/jp_milp/highs_backend.py",
+      "sha256": "fc18d02f1f49b240d1a1049fd3f3aba857259b0507d32de5c2fbe2faff7a7966"
+    },
+    {
+      "path": "src/jp_milp/inputs.py",
+      "sha256": "2af29b369b79b137170d34514093d7dfafc33e9fb896b6db401cde896d57c0b8"
+    },
+    {
+      "path": "src/jp_milp/linear.py",
+      "sha256": "0349ebe4165e7455f17dde799c0094209e9708c5e2c070719eb33c2b8bab146b"
+    },
+    {
+      "path": "src/jp_milp/rolling.py",
+      "sha256": "839490492313103ad601c693ae1e4b127bd718cc0ce4bae9c2a9d6955c004a1c"
+    },
+    {
+      "path": "src/jp_milp/scheduling.py",
+      "sha256": "bfb06ac7c220d457a65d4f831052be150bdb3d7e8141bb0f10d5d1a3a659270d"
+    },
+    {
+      "path": "src/jp_milp/scip_backend.py",
+      "sha256": "991d39719af0d721ffed38b585cd54248ecd312aebc4fa06d3a6a4377a7e8339"
+    },
+    {
+      "path": "src/jp_milp/sensitivity.py",
+      "sha256": "93236743eb35c302c68efd1e8ae04ccaf58ff834abb194fd87b3214483f892c4"
+    },
+    {
+      "path": "src/jp_milp/sources.py",
+      "sha256": "38802c0e27871a073c5f26ee6cad714fb6ab64de128315e474f451a81cedc158"
+    },
+    {
+      "path": "src/jp_milp/__init__.py",
+      "sha256": "18ef671203c9fa8e587bf7e4f662431fcb5981e948bbe50d4cfacf5b580d8def"
+    },
+    {
+      "path": "project/jp_revenue_20261005/numeric_states.py",
+      "sha256": "b682d76010788618e3171e5a1a79a1baca41db519e55f4f395377334876e1b08"
+    },
+    {
+      "path": "project/jp_revenue_20261005/report_results.py",
+      "sha256": "81206438d92d4feb2764da3ea1dcbe5a54589e588a12d2e1b02f7cb55a6a7148"
+    },
+    {
+      "path": "project/jp_revenue_20261005/run_scenarios.py",
+      "sha256": "dd5be70f5ae3f60f43917d25539a846dd06dbeccda0c4bc0694c617936af3a2e"
+    },
+    {
+      "path": "project/jp_first_run_inputs_20261004/assemble.py",
+      "sha256": "ec4f8a8079074e8f0d902029b2c9d3c21639873389e12ea3c97a789e1e30e3b3"
+    },
+    {
+      "path": "project/jp_shikoku_202601_0830/assemble_full_period.py",
+      "sha256": "00f1c5806fa06c2c755ad69854b4bdd0815059a8b9da35fa4be4bc4926a2b2ca"
+    }
+  ],
+  "coverage_note": "Snapshot records current sources, not a retroactive claim that historic window identity included helper hashes. Original transactions remain unchanged.",
+  "numeric_states_history": {
+    "tail_merge": "Used by accepted FCR/EV runs, current formula unchanged after v6 started",
+    "daily_bounds": "Added before v8 SCIP continuation; LV v8 sequences 0-39 retain prior transactions without these redundant bounds; sequences >=40 use current bounds. Bounds do not apply to HV scenarios."
+  },
+  "solver_stop_history": "Composite continuation initially 1e-6, then 1e-4, then 1e-3; actual per-window result bounds retained. Runner fingerprint changes do not change physical input assumptions."
+}

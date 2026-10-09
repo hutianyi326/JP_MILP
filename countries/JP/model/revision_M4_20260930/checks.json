@@ -1,0 +1,175 @@
+{
+  "scope": "synthetic arithmetic, time-axis and document checks; no JP solver/backtest or production validator",
+  "checks": {
+    "01_native_block": {
+      "pass": true,
+      "details": {
+        "one_capacity_id": "b1",
+        "six_MW_values": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "gct": "2025-01-06T14:00:00",
+        "capacity_cash_at_5000_per_halfhour": 600000
+      }
+    },
+    "02_alpha_phases": {
+      "pass": true,
+      "details": {
+        "alpha_up": 0.2,
+        "alpha_down": 0.1,
+        "phase_minutes": [
+          3.0,
+          6.0,
+          21.000000000000004
+        ]
+      }
+    },
+    "03_energy_no_double_alpha": {
+      "pass": true,
+      "details": {
+        "up_MWh": 2.0,
+        "down_MWh": 1.0
+      }
+    },
+    "04_net_not_gross": {
+      "pass": true,
+      "details": {
+        "net_5_can_be": [
+          [
+            10,
+            5
+          ],
+          [
+            5,
+            0
+          ]
+        ]
+      }
+    },
+    "05_unpaid_physics": {
+      "pass": true,
+      "details": {
+        "chi": 0,
+        "activation_cash": 0,
+        "end_SOC_MWh": 98.74608695652174,
+        "EFC": 0.008594202898550726
+      }
+    },
+    "06_utilization_label": {
+      "pass": true,
+      "details": {
+        "required_label": "fit_forecast_error_utilization_proxy"
+      }
+    },
+    "07_invalid_alpha": {
+      "pass": true,
+      "details": {
+        "alpha_sum": 1.2,
+        "rejected": true
+      }
+    },
+    "08_common_axis": {
+      "pass": true,
+      "details": {
+        "segments": [
+          [
+            0.05,
+            -30
+          ],
+          [
+            0.05,
+            10
+          ],
+          [
+            0.05000000000000002,
+            30
+          ],
+          [
+            0.09999999999999998,
+            10
+          ],
+          [
+            0.25,
+            0
+          ]
+        ],
+        "one_SOC_axis": true,
+        "duration_h": 0.5,
+        "net_MWh": 1.5000000000000002
+      }
+    },
+    "09_cash_ledger": {
+      "pass": true,
+      "details": {
+        "formal_JPY": 5000.0,
+        "planning_JPY": 15000.0,
+        "unique_ids": 3
+      }
+    },
+    "10_flags": {
+      "pass": true,
+      "details": [
+        "weekly_gct_enforced: false",
+        "imbalance_cash_in_objective: false",
+        "historical_execution_claim: false",
+        "activation_alpha_endogenous: false"
+      ]
+    },
+    "11_ES_budget": {
+      "pass": true,
+      "details": {
+        "8day_EFC": 13.150684931506849,
+        "reserve_EFC": 0.5434782608695652,
+        "window_available": 10.607205670637285,
+        "observation_extra_same_year": 0
+      }
+    },
+    "12_down_signed_once": {
+      "pass": true,
+      "details": {
+        "down_cash_JPY": -1000
+      }
+    },
+    "14_frozen_occupancy": {
+      "pass": true,
+      "details": {
+        "fixed_y": 1,
+        "feasible_new_y": [
+          0
+        ]
+      }
+    },
+    "15_gct_future_freeze": {
+      "pass": true,
+      "details": {
+        "delivery_day": "2025-01-07T00:00:00",
+        "freeze_in_current_execution_day": true
+      }
+    },
+    "16_formal_terminal_vs_observation": {
+      "pass": true,
+      "details": {
+        "formal_terminal": 10.0,
+        "observation_end": 10.46,
+        "observation_cash_reported": false
+      }
+    },
+    "13_documents": {
+      "pass": true,
+      "details": {
+        "displays": 40,
+        "local_links": "pass",
+        "source_unchanged": true
+      }
+    }
+  },
+  "sha256": {
+    "JP_milp_formulation.md": "0dac00a9c7fd891c642787f9638a1cd2860de3edce53ae744761469382beb612",
+    "JP_activation_data_spec_M4.md": "4e961aab538b0fe6bb7c6a8393153ed14b699e64f99c71eb7da436a8920618fa"
+  }
+}

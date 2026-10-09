@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-04",
+  "passed": true,
+  "checks": {
+    "section13_preserved": true,
+    "step1_preserved": true,
+    "step2_preserved": true,
+    "step3_confirmed": true,
+    "lfc_centered_zero": true,
+    "edc_deviation_zero": true,
+    "marginals_independent": true,
+    "marginals_same_rank": true,
+    "marginals_opposite_rank": true,
+    "joint_net_and_gross_identities": true,
+    "teaching_example": true,
+    "physics_not_payment": true
+  },
+  "examples": [
+    {
+      "coupling": "independent",
+      "theta": 0,
+      "net_mwh": 0.1,
+      "up_mwh": 0.1275,
+      "down_mwh": 0.027500000000000004,
+      "passed": true
+    },
+    {
+      "coupling": "independent",
+      "theta": 0.5,
+      "net_mwh": 0.115,
+      "up_mwh": 0.13875,
+      "down_mwh": 0.02375,
+      "passed": true
+    },
+    {
+      "coupling": "independent",
+      "theta": 1,
+      "net_mwh": 0.13,
+      "up_mwh": 0.15000000000000002,
+      "down_mwh": 0.020000000000000004,
+      "passed": true
+    },
+    {
+      "coupling": "same_rank",
+      "theta": 0,
+      "net_mwh": 0.1,
+      "up_mwh": 0.14625,
+      "down_mwh": 0.046250000000000006,
+      "passed": true
+    },
+    {
+      "coupling": "same_rank",
+      "theta": 0.5,
+      "net_mwh": 0.115,
+      "up_mwh": 0.1575,
+      "down_mwh": 0.0425,
+      "passed": true
+    },
+    {
+      "coupling": "same_rank",
+      "theta": 1,
+      "net_mwh": 0.13,
+      "up_mwh": 0.16875,
+      "down_mwh": 0.03875000000000001,
+      "passed": true
+    },
+    {
+      "coupling": "opposite_rank",
+      "theta": 0,
+      "net_mwh": 0.1,
+      "up_mwh": 0.10875000000000001,
+      "down_mwh": 0.00875,
+      "passed": true
+    },
+    {
+      "coupling": "opposite_rank",
+      "theta": 0.5,
+      "net_mwh": 0.11500000000000002,
+      "up_mwh": 0.12000000000000002,
+      "down_mwh": 0.0049999999999999975,
+      "passed": true
+    },
+    {
+      "coupling": "opposite_rank",
+      "theta": 1,
+      "net_mwh": 0.13,
+      "up_mwh": 0.13125000000000003,
+      "down_mwh": 0.0012500000000000011,
+      "passed": true
+    }
+  ],
+  "scope": "illustrative algebra only; no empirical overlap identification, calibration, solver, or independent review",
+  "sha256": "e73cd6fa7a7c9428ead1283c7d89651e694a16fb88d4fcd5821330b66e07d8c5"
+}
